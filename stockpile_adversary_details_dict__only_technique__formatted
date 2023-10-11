@@ -1,0 +1,1919 @@
+{
+    "564ae20d-778d-4965-93dc-b523be2e2ab4": {
+        "adversary_name": "Super Spy",
+        "adversary_description": "Monitor the active user and navigate through their digital belongings",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "316251ed-6a28-4013-812b-ddf5b5b007f8",
+                    "None",
+                    "host.screenshot.png"
+                ],
+                "possible_subsequent_abilities": []
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "6469befa-748a-4b9c-a96d-f191fde47d89",
+                    "None",
+                    "host.dir.staged"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "a201bec2-a193-4b58-bf0e-57fa621da474",
+                        "host.dir.staged",
+                        "None"
+                    ],
+                    [
+                        "5c5b0392-1daa-45e1-967c-2f361ce78849",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ],
+                    [
+                        "300157e5-f4ad-4569-b533-9d1fa0e74d74",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ],
+                    [
+                        "30a8cf10-73dc-497c-8261-a64cc9e91505",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "90c2efaa-8205-480d-8bb6-61d90dbaf81b",
+                    "None",
+                    "host.file.path"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "4e97e699-93d7-4040-b5a3-2e906a58199e",
+                        "host.file.path",
+                        "None"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "300157e5-f4ad-4569-b533-9d1fa0e74d74",
+                    "host.dir.staged",
+                    "host.dir.compress"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "e7bf5dc7-62e4-48b2-acf8-abaf8734c19c",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "4a1120a5-971c-457f-bb07-60641b4723fd",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "0582dc26-e0cf-4645-88cf-f37a02279976",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "ea713bc4-63f0-491c-9a6f-0b01d560b87e",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "3ce95a28-25fc-4a7e-a0cd-0fdb190e2081",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "ba0deadb-97ac-4a4c-aa81-21912fc90980",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "d754878c-17dd-46dc-891c-a993f8a10336",
+                        "host.dir.compress",
+                        "None"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "90c2efaa-8205-480d-8bb6-61d90dbaf81b",
+                    "None",
+                    "host.file.path"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "4e97e699-93d7-4040-b5a3-2e906a58199e",
+                        "host.file.path",
+                        "None"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "2dece965-37a0-4f70-a391-0f30e3331aba",
+                    "None",
+                    "host.installed.av"
+                ],
+                "possible_subsequent_abilities": []
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "a0676fe1-cd52-482e-8dde-349b73f9aa69",
+                    "None",
+                    "wifi.network.ssid"
+                ],
+                "possible_subsequent_abilities": []
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "dbd49a4a-ba2d-40d0-9348-2db24fc4b0b6": {
+        "adversary_name": "Service Creation Lateral Movement",
+        "adversary_description": "Lateral movement via SMB copy and execution via creation of Windows service \"sandsvc\"",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "deeac480-5c2a-42b5-90bb-41675ee53c7e",
+                    "None",
+                    "remote.host.fqdn"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "921055f4-5970-4707-909e-62f594234d91",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "2afae782-6d0a-4fbd-a6b6-d1ce90090eac",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "95727b87-175c-4a69-8c7a-a5d82746a753",
+                        "remote.host.fqdn",
+                        "None"
+                    ],
+                    [
+                        "aa6ec4dd-db09-4925-b9b9-43adeb154686",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "65048ec1-f7ca-49d3-9410-10813e472b30",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "65048ec1-f7ca-49d3-9410-10813e472b30",
+                    "remote.host.fqdn",
+                    "remote.host.fqdn"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "921055f4-5970-4707-909e-62f594234d91",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "2afae782-6d0a-4fbd-a6b6-d1ce90090eac",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "95727b87-175c-4a69-8c7a-a5d82746a753",
+                        "remote.host.fqdn",
+                        "None"
+                    ],
+                    [
+                        "aa6ec4dd-db09-4925-b9b9-43adeb154686",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "d6ea4c1e-7959-4eb1-a292-b6fd2b06c73e": {
+        "adversary_name": "Enumerator",
+        "adversary_description": "Enumerate Processes in all the ways",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "e89a10d3-004f-4c15-b0eb-d1ba76a4b67f": {
+        "adversary_name": "Advanced Thief via GitHub Gist",
+        "adversary_description": "Exfil a compressed archive to a GitHub Gist (Base64 Encoded)",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "10fad81e-3f68-47be-83b6-fbee7711c6a9",
+                    "None",
+                    "host.dir.staged"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "a201bec2-a193-4b58-bf0e-57fa621da474",
+                        "host.dir.staged",
+                        "None"
+                    ],
+                    [
+                        "5c5b0392-1daa-45e1-967c-2f361ce78849",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ],
+                    [
+                        "300157e5-f4ad-4569-b533-9d1fa0e74d74",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ],
+                    [
+                        "30a8cf10-73dc-497c-8261-a64cc9e91505",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "30a8cf10-73dc-497c-8261-a64cc9e91505",
+                    "host.dir.staged",
+                    "host.dir.compress"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "e7bf5dc7-62e4-48b2-acf8-abaf8734c19c",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "4a1120a5-971c-457f-bb07-60641b4723fd",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "0582dc26-e0cf-4645-88cf-f37a02279976",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "ea713bc4-63f0-491c-9a6f-0b01d560b87e",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "3ce95a28-25fc-4a7e-a0cd-0fdb190e2081",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "ba0deadb-97ac-4a4c-aa81-21912fc90980",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "d754878c-17dd-46dc-891c-a993f8a10336",
+                        "host.dir.compress",
+                        "None"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "50855e29-3b4e-4562-aa55-b3d7f93c26b8": {
+        "adversary_name": "Alice 2.0",
+        "adversary_description": "Adversary used for demoing restricted lateral movement",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "13379ae1-d20e-4162-91f8-320d78a35e7f",
+                    "None",
+                    "remote.host.fqdn"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "921055f4-5970-4707-909e-62f594234d91",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "2afae782-6d0a-4fbd-a6b6-d1ce90090eac",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "95727b87-175c-4a69-8c7a-a5d82746a753",
+                        "remote.host.fqdn",
+                        "None"
+                    ],
+                    [
+                        "aa6ec4dd-db09-4925-b9b9-43adeb154686",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "65048ec1-f7ca-49d3-9410-10813e472b30",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "14a21534-350f-4d83-9dd7-3c56b93a0c17",
+                    "None",
+                    "network.domain.name"
+                ],
+                "possible_subsequent_abilities": []
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "6d90e6fa-9324-4eb5-93be-9f737245bd7z",
+                    "None",
+                    "remote.host.fqdn"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "921055f4-5970-4707-909e-62f594234d91",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "2afae782-6d0a-4fbd-a6b6-d1ce90090eac",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "95727b87-175c-4a69-8c7a-a5d82746a753",
+                        "remote.host.fqdn",
+                        "None"
+                    ],
+                    [
+                        "aa6ec4dd-db09-4925-b9b9-43adeb154686",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "65048ec1-f7ca-49d3-9410-10813e472b30",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "2afae782-6d0a-4fbd-a6b6-d1ce90090eac",
+                    "remote.host.fqdn",
+                    "remote.host.fqdn"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "921055f4-5970-4707-909e-62f594234d91",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "95727b87-175c-4a69-8c7a-a5d82746a753",
+                        "remote.host.fqdn",
+                        "None"
+                    ],
+                    [
+                        "aa6ec4dd-db09-4925-b9b9-43adeb154686",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "65048ec1-f7ca-49d3-9410-10813e472b30",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "921055f4-5970-4707-909e-62f594234d91",
+                    "remote.host.fqdn",
+                    "remote.host.fqdn"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "2afae782-6d0a-4fbd-a6b6-d1ce90090eac",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "95727b87-175c-4a69-8c7a-a5d82746a753",
+                        "remote.host.fqdn",
+                        "None"
+                    ],
+                    [
+                        "aa6ec4dd-db09-4925-b9b9-43adeb154686",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "65048ec1-f7ca-49d3-9410-10813e472b30",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "aa6ec4dd-db09-4925-b9b9-43adeb154686",
+                    "remote.host.fqdn",
+                    "remote.host.fqdn"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "921055f4-5970-4707-909e-62f594234d91",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "2afae782-6d0a-4fbd-a6b6-d1ce90090eac",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "95727b87-175c-4a69-8c7a-a5d82746a753",
+                        "remote.host.fqdn",
+                        "None"
+                    ],
+                    [
+                        "65048ec1-f7ca-49d3-9410-10813e472b30",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "65048ec1-f7ca-49d3-9410-10813e472b30",
+                    "remote.host.fqdn",
+                    "remote.host.fqdn"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "921055f4-5970-4707-909e-62f594234d91",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "2afae782-6d0a-4fbd-a6b6-d1ce90090eac",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "95727b87-175c-4a69-8c7a-a5d82746a753",
+                        "remote.host.fqdn",
+                        "None"
+                    ],
+                    [
+                        "aa6ec4dd-db09-4925-b9b9-43adeb154686",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "78e7504d-968f-477d-8806-4d6c04b94431": {
+        "adversary_name": "Worm",
+        "adversary_description": "Move laterally any way possible",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "530e47c6-8592-42bf-91df-c59ffbd8541b",
+                    "None",
+                    "domain.smb.share"
+                ],
+                "possible_subsequent_abilities": []
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "85341c8c-4ecb-4579-8f53-43e3e91d7617",
+                    "None",
+                    "remote.host.ip"
+                ],
+                "possible_subsequent_abilities": []
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "baac2c6d-4652-4b7e-ab0a-f1bf246edd12",
+                    "None",
+                    "domain.user.name"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "ece5dde3-d370-4c20-b213-a1f424aa8d03",
+                        "domain.user.name",
+                        "None"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "fa4ed735-7006-4451-a578-b516f80e559f",
+                    "None",
+                    "remote.host.fqdn"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "921055f4-5970-4707-909e-62f594234d91",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "2afae782-6d0a-4fbd-a6b6-d1ce90090eac",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "95727b87-175c-4a69-8c7a-a5d82746a753",
+                        "remote.host.fqdn",
+                        "None"
+                    ],
+                    [
+                        "aa6ec4dd-db09-4925-b9b9-43adeb154686",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "65048ec1-f7ca-49d3-9410-10813e472b30",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "65048ec1-f7ca-49d3-9410-10813e472b30",
+                    "remote.host.fqdn",
+                    "remote.host.fqdn"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "921055f4-5970-4707-909e-62f594234d91",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "2afae782-6d0a-4fbd-a6b6-d1ce90090eac",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "95727b87-175c-4a69-8c7a-a5d82746a753",
+                        "remote.host.fqdn",
+                        "None"
+                    ],
+                    [
+                        "aa6ec4dd-db09-4925-b9b9-43adeb154686",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "01d77744-2515-401a-a497-d9f7241aac3c": {
+        "adversary_name": "Check",
+        "adversary_description": "Profile to check proper platform configuration. Observe outputs to verify.",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "0b73bf34-fc5b-48f7-9194-dce993b915b1": {
+        "adversary_name": "Nosy Neighbor",
+        "adversary_description": "Find preferred WIFI networks & disrupt the current connection",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "c0da588f-79f0-4263-8998-7496b1a40596",
+                    "None",
+                    "host.user.name"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "3b5db901-2cb8-4df7-8043-c4628a6a5d5a",
+                        "host.user.name",
+                        "None"
+                    ],
+                    [
+                        "3796a00b-b11d-4731-b4ca-275a07d83299",
+                        "host.user.name",
+                        "None"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "85341c8c-4ecb-4579-8f53-43e3e91d7617",
+                    "None",
+                    "remote.host.ip"
+                ],
+                "possible_subsequent_abilities": []
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "a0676fe1-cd52-482e-8dde-349b73f9aa69",
+                    "None",
+                    "wifi.network.ssid"
+                ],
+                "possible_subsequent_abilities": []
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "fbc41624-1052-490c-b5ec-4fd718e2501d": {
+        "adversary_name": "Advanced Thief via FTP",
+        "adversary_description": "Find, stage, and exfiltrate sensitive files over FTP",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "10fad81e-3f68-47be-83b6-fbee7711c6a9",
+                    "None",
+                    "host.dir.staged"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "a201bec2-a193-4b58-bf0e-57fa621da474",
+                        "host.dir.staged",
+                        "None"
+                    ],
+                    [
+                        "5c5b0392-1daa-45e1-967c-2f361ce78849",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ],
+                    [
+                        "300157e5-f4ad-4569-b533-9d1fa0e74d74",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ],
+                    [
+                        "30a8cf10-73dc-497c-8261-a64cc9e91505",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "30a8cf10-73dc-497c-8261-a64cc9e91505",
+                    "host.dir.staged",
+                    "host.dir.compress"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "e7bf5dc7-62e4-48b2-acf8-abaf8734c19c",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "4a1120a5-971c-457f-bb07-60641b4723fd",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "0582dc26-e0cf-4645-88cf-f37a02279976",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "ea713bc4-63f0-491c-9a6f-0b01d560b87e",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "3ce95a28-25fc-4a7e-a0cd-0fdb190e2081",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "ba0deadb-97ac-4a4c-aa81-21912fc90980",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "d754878c-17dd-46dc-891c-a993f8a10336",
+                        "host.dir.compress",
+                        "None"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "bcdbf6b9-14c5-495c-be84-37bce32c312b": {
+        "adversary_name": "Signed Binary Proxy Execution",
+        "adversary_description": "Perform Signed Binary Proxy Execution",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "de07f52d-9928-4071-9142-cb1d3bd851e8": {
+        "adversary_name": "Ransack",
+        "adversary_description": "Discover host details and steal sensitive files",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "90c2efaa-8205-480d-8bb6-61d90dbaf81b",
+                    "None",
+                    "host.file.path"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "4e97e699-93d7-4040-b5a3-2e906a58199e",
+                        "host.file.path",
+                        "None"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "c0da588f-79f0-4263-8998-7496b1a40596",
+                    "None",
+                    "host.user.name"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "3b5db901-2cb8-4df7-8043-c4628a6a5d5a",
+                        "host.user.name",
+                        "None"
+                    ],
+                    [
+                        "3796a00b-b11d-4731-b4ca-275a07d83299",
+                        "host.user.name",
+                        "None"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "530e47c6-8592-42bf-91df-c59ffbd8541b",
+                    "None",
+                    "domain.smb.share"
+                ],
+                "possible_subsequent_abilities": []
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "2dece965-37a0-4f70-a391-0f30e3331aba",
+                    "None",
+                    "host.installed.av"
+                ],
+                "possible_subsequent_abilities": []
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "ce485320-41a4-42e8-a510-f5a8fe96a644",
+                    "None",
+                    "target.org.emailhost"
+                ],
+                "possible_subsequent_abilities": []
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "6469befa-748a-4b9c-a96d-f191fde47d89",
+                    "None",
+                    "host.dir.staged"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "a201bec2-a193-4b58-bf0e-57fa621da474",
+                        "host.dir.staged",
+                        "None"
+                    ],
+                    [
+                        "5c5b0392-1daa-45e1-967c-2f361ce78849",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ],
+                    [
+                        "300157e5-f4ad-4569-b533-9d1fa0e74d74",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ],
+                    [
+                        "30a8cf10-73dc-497c-8261-a64cc9e91505",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "90c2efaa-8205-480d-8bb6-61d90dbaf81b",
+                    "None",
+                    "host.file.path"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "4e97e699-93d7-4040-b5a3-2e906a58199e",
+                        "host.file.path",
+                        "None"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "300157e5-f4ad-4569-b533-9d1fa0e74d74",
+                    "host.dir.staged",
+                    "host.dir.compress"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "e7bf5dc7-62e4-48b2-acf8-abaf8734c19c",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "4a1120a5-971c-457f-bb07-60641b4723fd",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "0582dc26-e0cf-4645-88cf-f37a02279976",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "ea713bc4-63f0-491c-9a6f-0b01d560b87e",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "3ce95a28-25fc-4a7e-a0cd-0fdb190e2081",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "ba0deadb-97ac-4a4c-aa81-21912fc90980",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "d754878c-17dd-46dc-891c-a993f8a10336",
+                        "host.dir.compress",
+                        "None"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "01c96671-afd3-47d4-8d31-8c116cc0221a": {
+        "adversary_name": "Advanced Thief via DropBox",
+        "adversary_description": "Find, stage, and exfiltrate sensitive files over DropBox",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "10fad81e-3f68-47be-83b6-fbee7711c6a9",
+                    "None",
+                    "host.dir.staged"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "a201bec2-a193-4b58-bf0e-57fa621da474",
+                        "host.dir.staged",
+                        "None"
+                    ],
+                    [
+                        "5c5b0392-1daa-45e1-967c-2f361ce78849",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ],
+                    [
+                        "300157e5-f4ad-4569-b533-9d1fa0e74d74",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ],
+                    [
+                        "30a8cf10-73dc-497c-8261-a64cc9e91505",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "30a8cf10-73dc-497c-8261-a64cc9e91505",
+                    "host.dir.staged",
+                    "host.dir.compress"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "e7bf5dc7-62e4-48b2-acf8-abaf8734c19c",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "4a1120a5-971c-457f-bb07-60641b4723fd",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "0582dc26-e0cf-4645-88cf-f37a02279976",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "ea713bc4-63f0-491c-9a6f-0b01d560b87e",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "3ce95a28-25fc-4a7e-a0cd-0fdb190e2081",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "ba0deadb-97ac-4a4c-aa81-21912fc90980",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "d754878c-17dd-46dc-891c-a993f8a10336",
+                        "host.dir.compress",
+                        "None"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "e4324b88-8836-4803-b6b7-09b3c6cd4e94": {
+        "adversary_name": "Printer Queue",
+        "adversary_description": "Locate files that are queued for printing",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "c724545d-a4cc-492e-8075-2ab9a699c847": {
+        "adversary_name": "You Shall (Not) Bypass",
+        "adversary_description": "This adversary consists of several abilities to bypass UAC on an updated Windows 10 system",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "09ad625e-6cba-490f-afe3-5417e7edb9c6": {
+        "adversary_name": "Advanced Thief via GitHub Repo",
+        "adversary_description": "Find, stage, and exfiltrate sensitive files to GitHub Repository",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "10fad81e-3f68-47be-83b6-fbee7711c6a9",
+                    "None",
+                    "host.dir.staged"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "a201bec2-a193-4b58-bf0e-57fa621da474",
+                        "host.dir.staged",
+                        "None"
+                    ],
+                    [
+                        "5c5b0392-1daa-45e1-967c-2f361ce78849",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ],
+                    [
+                        "300157e5-f4ad-4569-b533-9d1fa0e74d74",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ],
+                    [
+                        "30a8cf10-73dc-497c-8261-a64cc9e91505",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "30a8cf10-73dc-497c-8261-a64cc9e91505",
+                    "host.dir.staged",
+                    "host.dir.compress"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "e7bf5dc7-62e4-48b2-acf8-abaf8734c19c",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "4a1120a5-971c-457f-bb07-60641b4723fd",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "0582dc26-e0cf-4645-88cf-f37a02279976",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "ea713bc4-63f0-491c-9a6f-0b01d560b87e",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "3ce95a28-25fc-4a7e-a0cd-0fdb190e2081",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "ba0deadb-97ac-4a4c-aa81-21912fc90980",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "d754878c-17dd-46dc-891c-a993f8a10336",
+                        "host.dir.compress",
+                        "None"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "725226e0-45b8-4432-84ee-144d3f37ff8d": {
+        "adversary_name": "Windows Worm #2\n",
+        "adversary_description": "Move laterally with WinRM and WinRM",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "85341c8c-4ecb-4579-8f53-43e3e91d7617",
+                    "None",
+                    "remote.host.ip"
+                ],
+                "possible_subsequent_abilities": []
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "fa4ed735-7006-4451-a578-b516f80e559f",
+                    "None",
+                    "remote.host.fqdn"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "921055f4-5970-4707-909e-62f594234d91",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "2afae782-6d0a-4fbd-a6b6-d1ce90090eac",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "95727b87-175c-4a69-8c7a-a5d82746a753",
+                        "remote.host.fqdn",
+                        "None"
+                    ],
+                    [
+                        "aa6ec4dd-db09-4925-b9b9-43adeb154686",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "65048ec1-f7ca-49d3-9410-10813e472b30",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "0f4c3c67-845e-49a0-927e-90ed33c044e0": {
+        "adversary_name": "Discovery",
+        "adversary_description": "A discovery adversary",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "c0da588f-79f0-4263-8998-7496b1a40596",
+                    "None",
+                    "host.user.name"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "3b5db901-2cb8-4df7-8043-c4628a6a5d5a",
+                        "host.user.name",
+                        "None"
+                    ],
+                    [
+                        "3796a00b-b11d-4731-b4ca-275a07d83299",
+                        "host.user.name",
+                        "None"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "530e47c6-8592-42bf-91df-c59ffbd8541b",
+                    "None",
+                    "domain.smb.share"
+                ],
+                "possible_subsequent_abilities": []
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "2dece965-37a0-4f70-a391-0f30e3331aba",
+                    "None",
+                    "host.installed.av"
+                ],
+                "possible_subsequent_abilities": []
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "ce485320-41a4-42e8-a510-f5a8fe96a644",
+                    "None",
+                    "target.org.emailhost"
+                ],
+                "possible_subsequent_abilities": []
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "0b5636cf-f019-4ec9-aa7c-6e4f55505374": {
+        "adversary_name": "Windows Worm #1\n",
+        "adversary_description": "Move laterally any way possible",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "85341c8c-4ecb-4579-8f53-43e3e91d7617",
+                    "None",
+                    "remote.host.ip"
+                ],
+                "possible_subsequent_abilities": []
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "fa4ed735-7006-4451-a578-b516f80e559f",
+                    "None",
+                    "remote.host.fqdn"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "921055f4-5970-4707-909e-62f594234d91",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "2afae782-6d0a-4fbd-a6b6-d1ce90090eac",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "95727b87-175c-4a69-8c7a-a5d82746a753",
+                        "remote.host.fqdn",
+                        "None"
+                    ],
+                    [
+                        "aa6ec4dd-db09-4925-b9b9-43adeb154686",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "65048ec1-f7ca-49d3-9410-10813e472b30",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "deeac480-5c2a-42b5-90bb-41675ee53c7e",
+                    "None",
+                    "remote.host.fqdn"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "921055f4-5970-4707-909e-62f594234d91",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "2afae782-6d0a-4fbd-a6b6-d1ce90090eac",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "95727b87-175c-4a69-8c7a-a5d82746a753",
+                        "remote.host.fqdn",
+                        "None"
+                    ],
+                    [
+                        "aa6ec4dd-db09-4925-b9b9-43adeb154686",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "65048ec1-f7ca-49d3-9410-10813e472b30",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "65048ec1-f7ca-49d3-9410-10813e472b30",
+                    "remote.host.fqdn",
+                    "remote.host.fqdn"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "921055f4-5970-4707-909e-62f594234d91",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "2afae782-6d0a-4fbd-a6b6-d1ce90090eac",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "95727b87-175c-4a69-8c7a-a5d82746a753",
+                        "remote.host.fqdn",
+                        "None"
+                    ],
+                    [
+                        "aa6ec4dd-db09-4925-b9b9-43adeb154686",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "4c28c132-d7d7-4a04-8908-d643b7cb1d58": {
+        "adversary_name": "Stowaway",
+        "adversary_description": "Inject sandcat into a process (NOTE - Requires MinGW to be installed on Caldera Server)",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "05cda6f6-2b1b-462e-bff1-845af94343f7",
+                    "None",
+                    "host.process.id"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "3c647015-ab0a-496a-8847-6ab173cd2b22",
+                        "host.process.id",
+                        "None"
+                    ],
+                    [
+                        "a398986f-31b0-436a-87e9-c8e82c028f3c",
+                        "host.process.id",
+                        "None"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "eddc8f03-f930-41e7-95ba-33fb87bfed74": {
+        "adversary_name": "Advanced Thief",
+        "adversary_description": "An adversary to steal sensitive files",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "10fad81e-3f68-47be-83b6-fbee7711c6a9",
+                    "None",
+                    "host.dir.staged"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "a201bec2-a193-4b58-bf0e-57fa621da474",
+                        "host.dir.staged",
+                        "None"
+                    ],
+                    [
+                        "5c5b0392-1daa-45e1-967c-2f361ce78849",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ],
+                    [
+                        "300157e5-f4ad-4569-b533-9d1fa0e74d74",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ],
+                    [
+                        "30a8cf10-73dc-497c-8261-a64cc9e91505",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "300157e5-f4ad-4569-b533-9d1fa0e74d74",
+                    "host.dir.staged",
+                    "host.dir.compress"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "e7bf5dc7-62e4-48b2-acf8-abaf8734c19c",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "4a1120a5-971c-457f-bb07-60641b4723fd",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "0582dc26-e0cf-4645-88cf-f37a02279976",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "ea713bc4-63f0-491c-9a6f-0b01d560b87e",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "3ce95a28-25fc-4a7e-a0cd-0fdb190e2081",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "ba0deadb-97ac-4a4c-aa81-21912fc90980",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "d754878c-17dd-46dc-891c-a993f8a10336",
+                        "host.dir.compress",
+                        "None"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "f98193a0-8b5b-4b5e-a5aa-e8c3adfcd4e6": {
+        "adversary_name": "Undercover",
+        "adversary_description": "Adversary to swap from built-in PowerShell to Core",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "5d3e170e-f1b8-49f9-9ee1-c51605552a08": {
+        "adversary_name": "Collection",
+        "adversary_description": "A collection adversary",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "90c2efaa-8205-480d-8bb6-61d90dbaf81b",
+                    "None",
+                    "host.file.path"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "4e97e699-93d7-4040-b5a3-2e906a58199e",
+                        "host.file.path",
+                        "None"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "6469befa-748a-4b9c-a96d-f191fde47d89",
+                    "None",
+                    "host.dir.staged"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "a201bec2-a193-4b58-bf0e-57fa621da474",
+                        "host.dir.staged",
+                        "None"
+                    ],
+                    [
+                        "5c5b0392-1daa-45e1-967c-2f361ce78849",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ],
+                    [
+                        "300157e5-f4ad-4569-b533-9d1fa0e74d74",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ],
+                    [
+                        "30a8cf10-73dc-497c-8261-a64cc9e91505",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ]
+                ]
+            }
+        ]
+    },
+    "1a98b8e6-18ce-4617-8cc5-e65a1a9d490e": {
+        "adversary_name": "Thief",
+        "adversary_description": "An adversary to steal sensitive files",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "6469befa-748a-4b9c-a96d-f191fde47d89",
+                    "None",
+                    "host.dir.staged"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "a201bec2-a193-4b58-bf0e-57fa621da474",
+                        "host.dir.staged",
+                        "None"
+                    ],
+                    [
+                        "5c5b0392-1daa-45e1-967c-2f361ce78849",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ],
+                    [
+                        "300157e5-f4ad-4569-b533-9d1fa0e74d74",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ],
+                    [
+                        "30a8cf10-73dc-497c-8261-a64cc9e91505",
+                        "host.dir.staged",
+                        "host.dir.compress"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "90c2efaa-8205-480d-8bb6-61d90dbaf81b",
+                    "None",
+                    "host.file.path"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "4e97e699-93d7-4040-b5a3-2e906a58199e",
+                        "host.file.path",
+                        "None"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "300157e5-f4ad-4569-b533-9d1fa0e74d74",
+                    "host.dir.staged",
+                    "host.dir.compress"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "e7bf5dc7-62e4-48b2-acf8-abaf8734c19c",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "4a1120a5-971c-457f-bb07-60641b4723fd",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "0582dc26-e0cf-4645-88cf-f37a02279976",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "ea713bc4-63f0-491c-9a6f-0b01d560b87e",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "3ce95a28-25fc-4a7e-a0cd-0fdb190e2081",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "ba0deadb-97ac-4a4c-aa81-21912fc90980",
+                        "host.dir.compress",
+                        "None"
+                    ],
+                    [
+                        "d754878c-17dd-46dc-891c-a993f8a10336",
+                        "host.dir.compress",
+                        "None"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    },
+    "ddbd1850-5fd7-41d5-a7a1-1b15dac49090": {
+        "adversary_name": "Windows Worm #3\n",
+        "adversary_description": "Move laterally with SMB and WinRM",
+        "adversary_abilities_in_order": [
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "85341c8c-4ecb-4579-8f53-43e3e91d7617",
+                    "None",
+                    "remote.host.ip"
+                ],
+                "possible_subsequent_abilities": []
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "fa4ed735-7006-4451-a578-b516f80e559f",
+                    "None",
+                    "remote.host.fqdn"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "921055f4-5970-4707-909e-62f594234d91",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "2afae782-6d0a-4fbd-a6b6-d1ce90090eac",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "95727b87-175c-4a69-8c7a-a5d82746a753",
+                        "remote.host.fqdn",
+                        "None"
+                    ],
+                    [
+                        "aa6ec4dd-db09-4925-b9b9-43adeb154686",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "65048ec1-f7ca-49d3-9410-10813e472b30",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "deeac480-5c2a-42b5-90bb-41675ee53c7e",
+                    "None",
+                    "remote.host.fqdn"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "921055f4-5970-4707-909e-62f594234d91",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "2afae782-6d0a-4fbd-a6b6-d1ce90090eac",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "95727b87-175c-4a69-8c7a-a5d82746a753",
+                        "remote.host.fqdn",
+                        "None"
+                    ],
+                    [
+                        "aa6ec4dd-db09-4925-b9b9-43adeb154686",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "65048ec1-f7ca-49d3-9410-10813e472b30",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": [
+                    "65048ec1-f7ca-49d3-9410-10813e472b30",
+                    "remote.host.fqdn",
+                    "remote.host.fqdn"
+                ],
+                "possible_subsequent_abilities": [
+                    [
+                        "921055f4-5970-4707-909e-62f594234d91",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "2afae782-6d0a-4fbd-a6b6-d1ce90090eac",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ],
+                    [
+                        "95727b87-175c-4a69-8c7a-a5d82746a753",
+                        "remote.host.fqdn",
+                        "None"
+                    ],
+                    [
+                        "aa6ec4dd-db09-4925-b9b9-43adeb154686",
+                        "remote.host.fqdn",
+                        "remote.host.fqdn"
+                    ]
+                ]
+            },
+            {
+                "id_dependence_fact_tuple -- (id, dependency, fact)": "None",
+                "possible_subsequent_abilities": "None"
+            }
+        ]
+    }
+}
