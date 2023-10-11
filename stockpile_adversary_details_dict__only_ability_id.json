@@ -1,0 +1,566 @@
+{
+    "564ae20d-778d-4965-93dc-b523be2e2ab4": {
+        "adversary_name": "Super Spy",
+        "adversary_description": "Monitor the active user and navigate through their digital belongings",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "316251ed-6a28-4013-812b-ddf5b5b007f8"
+            },
+            {
+                "ability_id": "b007fe0c-c6b0-4fda-915c-255bbc070de2"
+            },
+            {
+                "ability_id": "b007fc38-9eb7-4320-92b3-9a3ad3e6ec25"
+            },
+            {
+                "ability_id": "78524da1-f347-4fbb-9295-209f1f408330"
+            },
+            {
+                "ability_id": "6469befa-748a-4b9c-a96d-f191fde47d89"
+            },
+            {
+                "ability_id": "90c2efaa-8205-480d-8bb6-61d90dbaf81b"
+            },
+            {
+                "ability_id": "4e97e699-93d7-4040-b5a3-2e906a58199e"
+            },
+            {
+                "ability_id": "300157e5-f4ad-4569-b533-9d1fa0e74d74"
+            },
+            {
+                "ability_id": "ea713bc4-63f0-491c-9a6f-0b01d560b87e"
+            },
+            {
+                "ability_id": "90c2efaa-8205-480d-8bb6-61d90dbaf81b"
+            },
+            {
+                "ability_id": "2dece965-37a0-4f70-a391-0f30e3331aba"
+            },
+            {
+                "ability_id": "9a30740d-3aa8-4c23-8efa-d51215e8a5b9"
+            },
+            {
+                "ability_id": "a0676fe1-cd52-482e-8dde-349b73f9aa69"
+            },
+            {
+                "ability_id": "1b4fb81c-8090-426c-93ab-0a633e7a16a7"
+            },
+            {
+                "ability_id": "de52784d-4de6-4d4e-b79e-e7b68fe037fb"
+            }
+        ]
+    },
+    "dbd49a4a-ba2d-40d0-9348-2db24fc4b0b6": {
+        "adversary_name": "Service Creation Lateral Movement",
+        "adversary_description": "Lateral movement via SMB copy and execution via creation of Windows service \"sandsvc\"",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "deeac480-5c2a-42b5-90bb-41675ee53c7e"
+            },
+            {
+                "ability_id": "65048ec1-f7ca-49d3-9410-10813e472b30"
+            },
+            {
+                "ability_id": "95727b87-175c-4a69-8c7a-a5d82746a753"
+            }
+        ]
+    },
+    "d6ea4c1e-7959-4eb1-a292-b6fd2b06c73e": {
+        "adversary_name": "Enumerator",
+        "adversary_description": "Enumerate Processes in all the ways",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "94f21386-9547-43c4-99df-938ab05d45ce"
+            },
+            {
+                "ability_id": "8adf02e8-6e71-4244-886c-98c402857404"
+            },
+            {
+                "ability_id": "4d9b079c-9ede-4116-8b14-72ad3a5533af"
+            },
+            {
+                "ability_id": "7c42a30c-c8c7-44c5-80a8-862d364ac1e4"
+            },
+            {
+                "ability_id": "cc191baa-7472-4386-a2f4-42f203f1acfd"
+            }
+        ]
+    },
+    "e89a10d3-004f-4c15-b0eb-d1ba76a4b67f": {
+        "adversary_name": "Advanced Thief via GitHub Gist",
+        "adversary_description": "Exfil a compressed archive to a GitHub Gist (Base64 Encoded)",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "10fad81e-3f68-47be-83b6-fbee7711c6a9"
+            },
+            {
+                "ability_id": "30a8cf10-73dc-497c-8261-a64cc9e91505"
+            },
+            {
+                "ability_id": "0582dc26-e0cf-4645-88cf-f37a02279976"
+            }
+        ]
+    },
+    "50855e29-3b4e-4562-aa55-b3d7f93c26b8": {
+        "adversary_name": "Alice 2.0",
+        "adversary_description": "Adversary used for demoing restricted lateral movement",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "13379ae1-d20e-4162-91f8-320d78a35e7f"
+            },
+            {
+                "ability_id": "7049e3ec-b822-4fdf-a4ac-18190f9b66d1"
+            },
+            {
+                "ability_id": "14a21534-350f-4d83-9dd7-3c56b93a0c17"
+            },
+            {
+                "ability_id": "6d90e6fa-9324-4eb5-93be-9f737245bd7z"
+            },
+            {
+                "ability_id": "2afae782-6d0a-4fbd-a6b6-d1ce90090eac"
+            },
+            {
+                "ability_id": "921055f4-5970-4707-909e-62f594234d91"
+            },
+            {
+                "ability_id": "aa6ec4dd-db09-4925-b9b9-43adeb154686"
+            },
+            {
+                "ability_id": "65048ec1-f7ca-49d3-9410-10813e472b30"
+            },
+            {
+                "ability_id": "ece5dde3-d370-4c20-b213-a1f424aa8d03"
+            }
+        ]
+    },
+    "78e7504d-968f-477d-8806-4d6c04b94431": {
+        "adversary_name": "Worm",
+        "adversary_description": "Move laterally any way possible",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "02de522f-7e0a-4544-8afc-0c195f400f5f"
+            },
+            {
+                "ability_id": "422526ec-27e9-429a-995b-c686a29561a4"
+            },
+            {
+                "ability_id": "530e47c6-8592-42bf-91df-c59ffbd8541b"
+            },
+            {
+                "ability_id": "85341c8c-4ecb-4579-8f53-43e3e91d7617"
+            },
+            {
+                "ability_id": "baac2c6d-4652-4b7e-ab0a-f1bf246edd12"
+            },
+            {
+                "ability_id": "fdf8bf36-797f-4157-805b-fe7c1c6fc903"
+            },
+            {
+                "ability_id": "fa4ed735-7006-4451-a578-b516f80e559f"
+            },
+            {
+                "ability_id": "65048ec1-f7ca-49d3-9410-10813e472b30"
+            },
+            {
+                "ability_id": "4908fdc4-74fc-4d7c-8935-26d11ad26a8d"
+            },
+            {
+                "ability_id": "ece5dde3-d370-4c20-b213-a1f424aa8d03"
+            },
+            {
+                "ability_id": "41bb2b7a-75af-49fd-bd15-6c827df25921"
+            },
+            {
+                "ability_id": "10a9d979-e342-418a-a9b0-002c483e0fa6"
+            }
+        ]
+    },
+    "01d77744-2515-401a-a497-d9f7241aac3c": {
+        "adversary_name": "Check",
+        "adversary_description": "Profile to check proper platform configuration. Observe outputs to verify.",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "bd527b63-9f9e-46e0-9816-b8434d2b8989"
+            },
+            {
+                "ability_id": "6e1a53c0-7352-4899-be35-fa7f364d5722"
+            },
+            {
+                "ability_id": "52177cc1-b9ab-4411-ac21-2eadc4b5d3b8"
+            },
+            {
+                "ability_id": "335cea7b-bec0-48c6-adfb-6066070f5f68"
+            },
+            {
+                "ability_id": "e8017c46-acb8-400c-a4b5-b3362b5b5baa"
+            },
+            {
+                "ability_id": "9849d956-37ea-49f2-a8b5-f2ca080b315d"
+            },
+            {
+                "ability_id": "830bb6ed-9594-4817-b1a1-c298c0f9f425"
+            },
+            {
+                "ability_id": "b18e8767-b7ea-41a3-8e80-baf65a5ddef5"
+            }
+        ]
+    },
+    "0b73bf34-fc5b-48f7-9194-dce993b915b1": {
+        "adversary_name": "Nosy Neighbor",
+        "adversary_description": "Find preferred WIFI networks & disrupt the current connection",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "43b3754c-def4-4699-a673-1d85648fda6a"
+            },
+            {
+                "ability_id": "c0da588f-79f0-4263-8998-7496b1a40596"
+            },
+            {
+                "ability_id": "85341c8c-4ecb-4579-8f53-43e3e91d7617"
+            },
+            {
+                "ability_id": "5a39d7ed-45c9-4a79-b581-e5fb99e24f65"
+            },
+            {
+                "ability_id": "9a30740d-3aa8-4c23-8efa-d51215e8a5b9"
+            },
+            {
+                "ability_id": "a0676fe1-cd52-482e-8dde-349b73f9aa69"
+            },
+            {
+                "ability_id": "2fe2d5e6-7b06-4fc0-bf71-6966a1226731"
+            }
+        ]
+    },
+    "fbc41624-1052-490c-b5ec-4fd718e2501d": {
+        "adversary_name": "Advanced Thief via FTP",
+        "adversary_description": "Find, stage, and exfiltrate sensitive files over FTP",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "10fad81e-3f68-47be-83b6-fbee7711c6a9"
+            },
+            {
+                "ability_id": "30a8cf10-73dc-497c-8261-a64cc9e91505"
+            },
+            {
+                "ability_id": "d754878c-17dd-46dc-891c-a993f8a10336"
+            }
+        ]
+    },
+    "bcdbf6b9-14c5-495c-be84-37bce32c312b": {
+        "adversary_name": "Signed Binary Proxy Execution",
+        "adversary_description": "Perform Signed Binary Proxy Execution",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "0ef4cc7b-611c-4237-b20b-db36b6906554"
+            },
+            {
+                "ability_id": "a74bc239-a196-4f7e-8d5c-fe8c0266071c"
+            },
+            {
+                "ability_id": "e5bcefee-262d-4568-a261-e8a20855ec81"
+            }
+        ]
+    },
+    "de07f52d-9928-4071-9142-cb1d3bd851e8": {
+        "adversary_name": "Ransack",
+        "adversary_description": "Discover host details and steal sensitive files",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "90c2efaa-8205-480d-8bb6-61d90dbaf81b"
+            },
+            {
+                "ability_id": "c0da588f-79f0-4263-8998-7496b1a40596"
+            },
+            {
+                "ability_id": "c1cd6388-3ced-48c7-a511-0434c6ba8f48"
+            },
+            {
+                "ability_id": "feaced8f-f43f-452a-9500-a5219488abb8"
+            },
+            {
+                "ability_id": "b6f545ef-f802-4537-b59d-2cb19831c8ed"
+            },
+            {
+                "ability_id": "3b5db901-2cb8-4df7-8043-c4628a6a5d5a"
+            },
+            {
+                "ability_id": "530e47c6-8592-42bf-91df-c59ffbd8541b"
+            },
+            {
+                "ability_id": "26c8b8b5-7b5b-4de1-a128-7d37fb14f517"
+            },
+            {
+                "ability_id": "2dece965-37a0-4f70-a391-0f30e3331aba"
+            },
+            {
+                "ability_id": "5c4dd985-89e3-4590-9b57-71fed66ff4e2"
+            },
+            {
+                "ability_id": "8c06ebf8-bacf-486b-bd77-21ba8c5a5777"
+            },
+            {
+                "ability_id": "ce485320-41a4-42e8-a510-f5a8fe96a644"
+            },
+            {
+                "ability_id": "b007fc38-9eb7-4320-92b3-9a3ad3e6ec25"
+            },
+            {
+                "ability_id": "6469befa-748a-4b9c-a96d-f191fde47d89"
+            },
+            {
+                "ability_id": "90c2efaa-8205-480d-8bb6-61d90dbaf81b"
+            },
+            {
+                "ability_id": "4e97e699-93d7-4040-b5a3-2e906a58199e"
+            },
+            {
+                "ability_id": "300157e5-f4ad-4569-b533-9d1fa0e74d74"
+            },
+            {
+                "ability_id": "ea713bc4-63f0-491c-9a6f-0b01d560b87e"
+            }
+        ]
+    },
+    "01c96671-afd3-47d4-8d31-8c116cc0221a": {
+        "adversary_name": "Advanced Thief via DropBox",
+        "adversary_description": "Find, stage, and exfiltrate sensitive files over DropBox",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "10fad81e-3f68-47be-83b6-fbee7711c6a9"
+            },
+            {
+                "ability_id": "30a8cf10-73dc-497c-8261-a64cc9e91505"
+            },
+            {
+                "ability_id": "3ce95a28-25fc-4a7e-a0cd-0fdb190e2081"
+            }
+        ]
+    },
+    "e4324b88-8836-4803-b6b7-09b3c6cd4e94": {
+        "adversary_name": "Printer Queue",
+        "adversary_description": "Locate files that are queued for printing",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "6c91884e-11ec-422f-a6ed-e76774b0daac"
+            },
+            {
+                "ability_id": "a41c2324-8c63-4b15-b3c5-84f920d1f226"
+            }
+        ]
+    },
+    "c724545d-a4cc-492e-8075-2ab9a699c847": {
+        "adversary_name": "You Shall (Not) Bypass",
+        "adversary_description": "This adversary consists of several abilities to bypass UAC on an updated Windows 10 system",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "665432a4-42e7-4ee1-af19-a9a8c9455d0c"
+            },
+            {
+                "ability_id": "95ad5d69-563e-477b-802b-4855bfb3be09"
+            },
+            {
+                "ability_id": "e99cce5c-cb7e-4a6e-8a09-1609a221b90a"
+            },
+            {
+                "ability_id": "e3db134c-4aed-4c5a-9607-c50183c9ef9e"
+            }
+        ]
+    },
+    "09ad625e-6cba-490f-afe3-5417e7edb9c6": {
+        "adversary_name": "Advanced Thief via GitHub Repo",
+        "adversary_description": "Find, stage, and exfiltrate sensitive files to GitHub Repository",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "10fad81e-3f68-47be-83b6-fbee7711c6a9"
+            },
+            {
+                "ability_id": "30a8cf10-73dc-497c-8261-a64cc9e91505"
+            },
+            {
+                "ability_id": "4a1120a5-971c-457f-bb07-60641b4723fd"
+            }
+        ]
+    },
+    "725226e0-45b8-4432-84ee-144d3f37ff8d": {
+        "adversary_name": "Windows Worm #2\n",
+        "adversary_description": "Move laterally with WinRM and WinRM",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "85341c8c-4ecb-4579-8f53-43e3e91d7617"
+            },
+            {
+                "ability_id": "fa4ed735-7006-4451-a578-b516f80e559f"
+            },
+            {
+                "ability_id": "4908fdc4-74fc-4d7c-8935-26d11ad26a8d"
+            },
+            {
+                "ability_id": "41bb2b7a-75af-49fd-bd15-6c827df25921"
+            }
+        ]
+    },
+    "0f4c3c67-845e-49a0-927e-90ed33c044e0": {
+        "adversary_name": "Discovery",
+        "adversary_description": "A discovery adversary",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "c0da588f-79f0-4263-8998-7496b1a40596"
+            },
+            {
+                "ability_id": "c1cd6388-3ced-48c7-a511-0434c6ba8f48"
+            },
+            {
+                "ability_id": "feaced8f-f43f-452a-9500-a5219488abb8"
+            },
+            {
+                "ability_id": "b6f545ef-f802-4537-b59d-2cb19831c8ed"
+            },
+            {
+                "ability_id": "3b5db901-2cb8-4df7-8043-c4628a6a5d5a"
+            },
+            {
+                "ability_id": "530e47c6-8592-42bf-91df-c59ffbd8541b"
+            },
+            {
+                "ability_id": "26c8b8b5-7b5b-4de1-a128-7d37fb14f517"
+            },
+            {
+                "ability_id": "2dece965-37a0-4f70-a391-0f30e3331aba"
+            },
+            {
+                "ability_id": "5c4dd985-89e3-4590-9b57-71fed66ff4e2"
+            },
+            {
+                "ability_id": "8c06ebf8-bacf-486b-bd77-21ba8c5a5777"
+            },
+            {
+                "ability_id": "ce485320-41a4-42e8-a510-f5a8fe96a644"
+            },
+            {
+                "ability_id": "b007fc38-9eb7-4320-92b3-9a3ad3e6ec25"
+            }
+        ]
+    },
+    "0b5636cf-f019-4ec9-aa7c-6e4f55505374": {
+        "adversary_name": "Windows Worm #1\n",
+        "adversary_description": "Move laterally any way possible",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "85341c8c-4ecb-4579-8f53-43e3e91d7617"
+            },
+            {
+                "ability_id": "fa4ed735-7006-4451-a578-b516f80e559f"
+            },
+            {
+                "ability_id": "deeac480-5c2a-42b5-90bb-41675ee53c7e"
+            },
+            {
+                "ability_id": "65048ec1-f7ca-49d3-9410-10813e472b30"
+            },
+            {
+                "ability_id": "ece5dde3-d370-4c20-b213-a1f424aa8d03"
+            }
+        ]
+    },
+    "4c28c132-d7d7-4a04-8908-d643b7cb1d58": {
+        "adversary_name": "Stowaway",
+        "adversary_description": "Inject sandcat into a process (NOTE - Requires MinGW to be installed on Caldera Server)",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "05cda6f6-2b1b-462e-bff1-845af94343f7"
+            },
+            {
+                "ability_id": "a398986f-31b0-436a-87e9-c8e82c028f3c"
+            }
+        ]
+    },
+    "eddc8f03-f930-41e7-95ba-33fb87bfed74": {
+        "adversary_name": "Advanced Thief",
+        "adversary_description": "An adversary to steal sensitive files",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "10fad81e-3f68-47be-83b6-fbee7711c6a9"
+            },
+            {
+                "ability_id": "300157e5-f4ad-4569-b533-9d1fa0e74d74"
+            },
+            {
+                "ability_id": "ea713bc4-63f0-491c-9a6f-0b01d560b87e"
+            }
+        ]
+    },
+    "f98193a0-8b5b-4b5e-a5aa-e8c3adfcd4e6": {
+        "adversary_name": "Undercover",
+        "adversary_description": "Adversary to swap from built-in PowerShell to Core",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "60f63260-39bb-4136-87a0-b6c2dca799fc"
+            },
+            {
+                "ability_id": "134b49a3-3f93-41bd-85f4-563eadbb6055"
+            }
+        ]
+    },
+    "5d3e170e-f1b8-49f9-9ee1-c51605552a08": {
+        "adversary_name": "Collection",
+        "adversary_description": "A collection adversary",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "1f7ff232-ebf8-42bf-a3c4-657855794cfe"
+            },
+            {
+                "ability_id": "d69e8660-62c9-431e-87eb-8cf6bd4e35cf"
+            },
+            {
+                "ability_id": "90c2efaa-8205-480d-8bb6-61d90dbaf81b"
+            },
+            {
+                "ability_id": "6469befa-748a-4b9c-a96d-f191fde47d89"
+            }
+        ]
+    },
+    "1a98b8e6-18ce-4617-8cc5-e65a1a9d490e": {
+        "adversary_name": "Thief",
+        "adversary_description": "An adversary to steal sensitive files",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "6469befa-748a-4b9c-a96d-f191fde47d89"
+            },
+            {
+                "ability_id": "90c2efaa-8205-480d-8bb6-61d90dbaf81b"
+            },
+            {
+                "ability_id": "4e97e699-93d7-4040-b5a3-2e906a58199e"
+            },
+            {
+                "ability_id": "300157e5-f4ad-4569-b533-9d1fa0e74d74"
+            },
+            {
+                "ability_id": "ea713bc4-63f0-491c-9a6f-0b01d560b87e"
+            }
+        ]
+    },
+    "ddbd1850-5fd7-41d5-a7a1-1b15dac49090": {
+        "adversary_name": "Windows Worm #3\n",
+        "adversary_description": "Move laterally with SMB and WinRM",
+        "adversary_abilities_in_order": [
+            {
+                "ability_id": "85341c8c-4ecb-4579-8f53-43e3e91d7617"
+            },
+            {
+                "ability_id": "fa4ed735-7006-4451-a578-b516f80e559f"
+            },
+            {
+                "ability_id": "deeac480-5c2a-42b5-90bb-41675ee53c7e"
+            },
+            {
+                "ability_id": "65048ec1-f7ca-49d3-9410-10813e472b30"
+            },
+            {
+                "ability_id": "41bb2b7a-75af-49fd-bd15-6c827df25921"
+            }
+        ]
+    }
+}
