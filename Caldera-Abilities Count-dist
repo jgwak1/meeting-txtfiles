@@ -1,0 +1,32 @@
+Stockpile Abilities (#155)
+
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/stockpile/data/abilities/collection ------------------ #16
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/stockpile/data/abilities/command-and-control ------------------ #3
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/stockpile/data/abilities/credential-access ------------------ #10
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/stockpile/data/abilities/defense-evasion ------------------ #15
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/stockpile/data/abilities/discovery ------------------ #66
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/stockpile/data/abilities/execution ------------------ #9
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/stockpile/data/abilities/exfiltration ------------------ #13
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/stockpile/data/abilities/impact ------------------ #8
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/stockpile/data/abilities/lateral-movement ------------------ #8
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/stockpile/data/abilities/persistence ------------------ #1 
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/stockpile/data/abilities/privilege-escalation ------------------ #6
+
+
+Atomic Abilities (#943; Note that not all abilities supports Windows-Powershell commands. )
+
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/atomic/data/abilities/collection ------------------ #36	
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/atomic/data/abilities/command-and-control ------------------ #60
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/atomic/data/abilities/credential-access ------------------ #98
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/atomic/data/abilities/defense-evasion ------------------ # 264
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/atomic/data/abilities/discovery ------------------ # 177 
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/atomic/data/abilities/execution ------------------ # 51 
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/atomic/data/abilities/exfiltration ------------------ # 12
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/atomic/data/abilities/impact ------------------ # 23
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/atomic/data/abilities/initial-access ------------------ # 3
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/atomic/data/abilities/lateral-movement ------------------ # 13
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/atomic/data/abilities/multiple ------------------ # 175
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/atomic/data/abilities/persistence ------------------ # 28
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/atomic/data/abilities/privilege-escalation ------------------ # 2
+/data/d1/jgwak1/tabby/tools__Copied_from_home_zshu1_tools__run_on_panther/tools__Copied_from_home_zhsu1_tools/caldera/plugins/atomic/data/abilities/reconnaissance ------------------ # 1
+ 
