@@ -1,4 +1,4 @@
-
+#1
 ('665432a4-42e7-4ee1-af19-a9a8c9455d0c', 'None', 'None')
 ('e3db134c-4aed-4c5a-9607-c50183c9ef9e', 'None', 'None')
 ('c9f2c7ae-0092-4ea0-b9ae-92014eba7ce7', 'None', 'None')
@@ -11,3 +11,33 @@
 ('2afae782-6d0a-4fbd-a6b6-d1ce90090eac', 'remote.host.fqdn', 'remote.host.fqdn')
 ('aa6ec4dd-db09-4925-b9b9-43adeb154686', 'remote.host.fqdn', 'remote.host.fqdn')
 ('65048ec1-f7ca-49d3-9410-10813e472b30', 'remote.host.fqdn', 'remote.host.fqdn')
+
+
+#2
+('e99cce5c-cb7e-4a6e-8a09-1609a221b90a', 'None', 'None')
+('665432a4-42e7-4ee1-af19-a9a8c9455d0c', 'None', 'None')
+('35d92515122effdd73801c6ac3021da7', 'None', 'validate_me')
+('b2aa97cb4f7982dc3fee63ad02e465cc', 'None', 'validate_me')
+('deeac480-5c2a-42b5-90bb-41675ee53c7e', 'None', 'remote.host.fqdn')
+('2afae782-6d0a-4fbd-a6b6-d1ce90090eac', 'remote.host.fqdn', 'remote.host.fqdn')
+('e7bf5dc7-62e4-48b2-acf8-abaf8734c19c', 'host.dir.compress', 'None')
+('300157e5-f4ad-4569-b533-9d1fa0e74d74', 'host.dir.staged', 'host.dir.compress')
+('921055f4-5970-4707-909e-62f594234d91', 'remote.host.fqdn', 'remote.host.fqdn')
+('921055f4-5970-4707-909e-62f594234d91', 'remote.host.fqdn', 'remote.host.fqdn')
+('aa6ec4dd-db09-4925-b9b9-43adeb154686', 'remote.host.fqdn', 'remote.host.fqdn')
+('65048ec1-f7ca-49d3-9410-10813e472b30', 'remote.host.fqdn', 'remote.host.fqdn')
+
+#3
+('b7344901-0b02-4ead-baf6-e3f629ed545f', 'None', 'None')
+('e3db134c-4aed-4c5a-9607-c50183c9ef9e', 'None', 'None')
+('cc59bf575d64a7204faadbc261901a92', 'None', 'None')
+('974f31ce0e5a6a8d3b54c0e7448d38b5', 'None', 'validate_me')
+('1d46ffd997d1722c5b26b7b1db282454', 'None', 'validate_me')
+('b45cb08e24877077d98421393bce079a', 'None', 'validate_me')
+('300157e5-f4ad-4569-b533-9d1fa0e74d74', 'host.dir.staged', 'host.dir.compress')
+('0582dc26-e0cf-4645-88cf-f37a02279976', 'host.dir.compress', 'None')
+('6d90e6fa-9324-4eb5-93be-9f737245bd7z', 'None', 'remote.host.fqdn')
+('921055f4-5970-4707-909e-62f594234d91', 'remote.host.fqdn', 'remote.host.fqdn')
+('65048ec1-f7ca-49d3-9410-10813e472b30', 'remote.host.fqdn', 'remote.host.fqdn')
+('65048ec1-f7ca-49d3-9410-10813e472b30', 'remote.host.fqdn', 'remote.host.fqdn')
+
