@@ -1,43 +1,59 @@
-#1
-('665432a4-42e7-4ee1-af19-a9a8c9455d0c', 'None', 'None')
-('e3db134c-4aed-4c5a-9607-c50183c9ef9e', 'None', 'None')
-('c9f2c7ae-0092-4ea0-b9ae-92014eba7ce7', 'None', 'None')
-('2c7fc234e9a4702d4cd7f9167ba86dc9', 'None', 'validate_me')
-('8e3aa35f5727b48ec9666b444f9d1cdf', 'None', 'validate_me')
-('6d90e6fa-9324-4eb5-93be-9f737245bd7z', 'None', 'remote.host.fqdn')
-('300157e5-f4ad-4569-b533-9d1fa0e74d74', 'host.dir.staged', 'host.dir.compress')
-('ba0deadb-97ac-4a4c-aa81-21912fc90980', 'host.dir.compress', 'None')
-('2afae782-6d0a-4fbd-a6b6-d1ce90090eac', 'remote.host.fqdn', 'remote.host.fqdn')
-('2afae782-6d0a-4fbd-a6b6-d1ce90090eac', 'remote.host.fqdn', 'remote.host.fqdn')
-('aa6ec4dd-db09-4925-b9b9-43adeb154686', 'remote.host.fqdn', 'remote.host.fqdn')
-('65048ec1-f7ca-49d3-9410-10813e472b30', 'remote.host.fqdn', 'remote.host.fqdn')
+# Sample-1
+('665432a4-42e7-4ee1-af19-a9a8c9455d0c', 'None', 'None')  # [ privilege-escalation ]: "Set a registry key to allow UAC bypass"
+('e3db134c-4aed-4c5a-9607-c50183c9ef9e', 'None', 'None')  # [ privilege-escalation ]: "Bypass user account controls - medium"
+('c9f2c7ae-0092-4ea0-b9ae-92014eba7ce7', 'None', 'None')  # [ credential-access ]: "Injects cred dumper exe into an available process"
+('2c7fc234e9a4702d4cd7f9167ba86dc9', 'None', 'validate_me') # [ credential-access ]: "Test a single password against a list of users"
+('8e3aa35f5727b48ec9666b444f9d1cdf', 'None', 'validate_me') # [ discovery ]: "ADRecon extracts and combines information about an AD environement into a report. 
+                                                                              Upon execution, an Excel file with all of the data will be generated and its
+                                                                              path will be displayed."
+('6d90e6fa-9324-4eb5-93be-9f737245bd7z', 'None', 'remote.host.fqdn') # [ discovery ]: "Use PowerView to query the Active Directory server to determine remote admins"
+('300157e5-f4ad-4569-b533-9d1fa0e74d74', 'host.dir.staged', 'host.dir.compress') # [ exfiltration ]: "Compress a directory on the file system"
+('ba0deadb-97ac-4a4c-aa81-21912fc90980', 'host.dir.compress', 'None') # [ exfiltration ]: "Transfer the compressed archive from one S3 bucket to another S3 bucket via AWS CLI. 
+                                                                                           It is assumed that the proper policies and security rules are in place to
+                                                                                           allow reading from the source bucket and writing to the destination bucket."
+('2afae782-6d0a-4fbd-a6b6-d1ce90090eac', 'remote.host.fqdn', 'remote.host.fqdn') # [ discovery ]: "Use PowerView to query the Active Directory server to determine remote admins"
+('2afae782-6d0a-4fbd-a6b6-d1ce90090eac', 'remote.host.fqdn', 'remote.host.fqdn') # [ discovery ]: "Use PowerView to query the Active Directory server to determine remote admins"
+('aa6ec4dd-db09-4925-b9b9-43adeb154686', 'remote.host.fqdn', 'remote.host.fqdn') # [ lateral-movement ]: "Mount a windows share"
+('65048ec1-f7ca-49d3-9410-10813e472b30', 'remote.host.fqdn', 'remote.host.fqdn') # [ lateral-movement ]: "Copy 54ndc47 to remote host (SMB)"
 
-
-#2
-('e99cce5c-cb7e-4a6e-8a09-1609a221b90a', 'None', 'None')
-('665432a4-42e7-4ee1-af19-a9a8c9455d0c', 'None', 'None')
-('35d92515122effdd73801c6ac3021da7', 'None', 'validate_me')
-('b2aa97cb4f7982dc3fee63ad02e465cc', 'None', 'validate_me')
-('deeac480-5c2a-42b5-90bb-41675ee53c7e', 'None', 'remote.host.fqdn')
-('2afae782-6d0a-4fbd-a6b6-d1ce90090eac', 'remote.host.fqdn', 'remote.host.fqdn')
-('e7bf5dc7-62e4-48b2-acf8-abaf8734c19c', 'host.dir.compress', 'None')
-('300157e5-f4ad-4569-b533-9d1fa0e74d74', 'host.dir.staged', 'host.dir.compress')
-('921055f4-5970-4707-909e-62f594234d91', 'remote.host.fqdn', 'remote.host.fqdn')
-('921055f4-5970-4707-909e-62f594234d91', 'remote.host.fqdn', 'remote.host.fqdn')
-('aa6ec4dd-db09-4925-b9b9-43adeb154686', 'remote.host.fqdn', 'remote.host.fqdn')
-('65048ec1-f7ca-49d3-9410-10813e472b30', 'remote.host.fqdn', 'remote.host.fqdn')
-
-#3
-('e99cce5c-cb7e-4a6e-8a09-1609a221b90a', 'None', 'None')
-('e3db134c-4aed-4c5a-9607-c50183c9ef9e', 'None', 'None')
-('0310c8a2dcab1e2bdfadf004c1141da8', 'None', 'validate_me')
-('935e8026584b85192519c57d7080b048', 'None', 'validate_me')
-('e6b2a87d9100b4807c1e4d55eabeaf9c', 'None', 'None')
-('c6607391-d02c-44b5-9b13-d3492ca58599', 'None', 'None')
-('2f90d4de-2612-4468-9251-b220e3727452', 'None', 'host.dir.compress')
-('d754878c-17dd-46dc-891c-a993f8a10336', 'host.dir.compress', 'None')
-('aaeee9107989a507f526b0cef1cb274f', 'None', 'validate_me')
-('fa6e8607-e0b1-425d-8924-9b894da5a002', 'None', 'host.current.time')
-('65048ec1-f7ca-49d3-9410-10813e472b30', 'remote.host.fqdn', 'remote.host.fqdn')
-('65048ec1-f7ca-49d3-9410-10813e472b30', 'remote.host.fqdn', 'remote.host.fqdn')
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Sample-2
+('e99cce5c-cb7e-4a6e-8a09-1609a221b90a', 'None', 'None') # [privilege-escalation ]: "UIPI bypass with uiAccess application"
+('665432a4-42e7-4ee1-af19-a9a8c9455d0c', 'None', 'None') # [ privilege-escalation ]: "Set a registry key to allow UAC bypass"
+('35d92515122effdd73801c6ac3021da7', 'None', 'validate_me') # [ credential-access ]: "The memory of lsass.exe is often dumped for offline credential theft attacks. 
+                                                                                      This can be achieved with a built-in dll. Upon successful execution, 
+                                                                                      you should see the following file created $env:TEMP\\lsass-comsvcs.dmp."
+('b2aa97cb4f7982dc3fee63ad02e465cc', 'None', 'validate_me') # [ credential-access ]: "Bruteforce a single user's password from a wordlist"
+('deeac480-5c2a-42b5-90bb-41675ee53c7e', 'None', 'remote.host.fqdn') # [ discovery ]: "View the shares of a remote host"
+('2afae782-6d0a-4fbd-a6b6-d1ce90090eac', 'remote.host.fqdn', 'remote.host.fqdn') # [ discovery ]: "Use PowerView to query the Active Directory server to determine remote admins"
+('e7bf5dc7-62e4-48b2-acf8-abaf8734c19c', 'host.dir.compress', 'None') # [ exfiltration ]: "Exfiltrate the compressed archive to the provided S3 bucket using the AWS CLI. 
+                                                                                           It is assumed that the user credentials configured with AWS CLI 
+                                                                                           have the proper permissions to write to the target S3 bucket."
+('300157e5-f4ad-4569-b533-9d1fa0e74d74', 'host.dir.staged', 'host.dir.compress') # [ exfiltration ]: "Compress a directory on the file system"
+('921055f4-5970-4707-909e-62f594234d91', 'remote.host.fqdn', 'remote.host.fqdn') # [ discovery ]: "Ping a remote host to see if it is accessible"
+('921055f4-5970-4707-909e-62f594234d91', 'remote.host.fqdn', 'remote.host.fqdn') # [ discovery ]: "Ping a remote host to see if it is accessible"
+('aa6ec4dd-db09-4925-b9b9-43adeb154686', 'remote.host.fqdn', 'remote.host.fqdn') # [ lateral-movement ]: "Mount a windows share"
+('65048ec1-f7ca-49d3-9410-10813e472b30', 'remote.host.fqdn', 'remote.host.fqdn') # [ lateral-movement ]: "Copy 54ndc47 to remote host (SMB)"
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Sample-3
+('e99cce5c-cb7e-4a6e-8a09-1609a221b90a', 'None', 'None') # [privilege-escalation ]: "UIPI bypass with uiAccess application"
+('e3db134c-4aed-4c5a-9607-c50183c9ef9e', 'None', 'None') # [privilege-escalation ]: "Bypass user account controls - medium"
+('0310c8a2dcab1e2bdfadf004c1141da8', 'None', 'validate_me') # [ credential-access ]: "The memory of lsass.exe is often dumped for offline credential theft attacks. 
+                                                                                      This test leverages a pure powershell implementation that leverages the 
+                                                                                      MiniDumpWriteDump Win32 API call. Upon successful execution, 
+                                                                                      you should see the following file created $env:SYSTEMROOT\\System32\\lsass_*.dmp."
+('935e8026584b85192519c57d7080b048', 'None', 'validate_me') # [ credential-access ]: "This module will extract the credentials found within the 
+                                                                                      Windows credential manager and dump\nthem to $env:TEMP\\windows-credentials.txt"
+('e6b2a87d9100b4807c1e4d55eabeaf9c', 'None', 'None') # [ discovery ]: "Adfind tool can be used for reconnaissance in an Active directory environment. 
+                                                                       The example chosen illustrates adfind used to query the local password policy.
+                                                                       reference- http://www.joeware.net/freetools/tools/adfind/, 
+                                                                                  https://social.technet.microsoft.com/wiki/contents/articles/7535.adfind-command-examples.aspx"
+('c6607391-d02c-44b5-9b13-d3492ca58599', 'None', 'None') # [ discovery ]: "Identify system services"
+('2f90d4de-2612-4468-9251-b220e3727452', 'None', 'host.dir.compress') # [ exfiltration ]: "This ability will compress a given git repository."
+('d754878c-17dd-46dc-891c-a993f8a10336', 'host.dir.compress', 'None') # [ exfiltration ]: "This ability exfiltrates a compressed archive to an FTP server."
+('aaeee9107989a507f526b0cef1cb274f', 'None', 'validate_me') # [ discovery ]: "Utilizing PowerView, run Get-DomainController to identify the Domain Controller. 
+                                                                              Upon execution, information about the domain controller within the domain will be displayed."
+('fa6e8607-e0b1-425d-8924-9b894da5a002', 'None', 'host.current.time') # [ discovery ]: get current system time (ISO 8601)
+('65048ec1-f7ca-49d3-9410-10813e472b30', 'remote.host.fqdn', 'remote.host.fqdn') # [ lateral-movement ]: "Copy 54ndc47 to remote host (SMB)"
+('65048ec1-f7ca-49d3-9410-10813e472b30', 'remote.host.fqdn', 'remote.host.fqdn') # [ lateral-movement ]: "Copy 54ndc47 to remote host (SMB)"
 
