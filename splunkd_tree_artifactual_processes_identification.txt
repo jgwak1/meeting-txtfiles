@@ -5,7 +5,7 @@ ProcessID: <>
 ====================================================================================================================
 [Successfully Executed Single-Technique-Profiles (trials)]
 
-
+...................................................................................................................
 atomic__t1003_001__credential-access__os_credential_dumping-_lsass_memory__35d92515122effdd73801c6ac3021da7__trial_2
 
 splunkd (5124) #events 3449 -- first event IMAGELOAD @ 12:13:27.717
@@ -32,6 +32,32 @@ splunkd (8784) #events 3449 -- first event IMAGELOAD @ 13:09:23.845
 --- conhost (10364) -- #events 780 -- first event IMAGELOAD @ 13:09:24.829
 --- powershell.exe (10940) #events 11607 -- first event IMAGELOAD @ 13:09:29.484
 --- powershell.exe (10256) #events 5559 -- first event IMAGELOAD @ 13:11:17.740
+
+...................................................................................................................
+
+
+
+Confirmed that all operations resulted in successful execution of the single-technique 
+
+atomic__t1003__credential-access__os_credential_dumping__18f31c311ac208802e88ab8d5af8603e__trial_1
+> operation_4eaa1df6-e1b4-4fb4-966a-d5c285d6031e
+
+atomic__t1003__credential-access__os_credential_dumping__18f31c311ac208802e88ab8d5af8603e__trial_2
+> "operation_uuid": "3438b795-fed8-415b-b6c9-b5583e6d82e5"
+
+atomic__t1003__credential-access__os_credential_dumping__18f31c311ac208802e88ab8d5af8603e__trial_3
+> "operation_uuid": "14d5cf52-b049-4752-850d-1363ca423cbc"
+
+atomic__t1003__credential-access__os_credential_dumping__18f31c311ac208802e88ab8d5af8603e__trial_4
+> "operation_uuid": "52628523-a1a4-42b9-9db4-ee7e1319a675",
+
+atomic__t1003__credential-access__os_credential_dumping__18f31c311ac208802e88ab8d5af8603e__trial_5
+> "operation_uuid": "45c57166-78b9-44ae-8530-fdd61599451f",
+
+
+
+Can automate the checking using "operation_uuid"
+
 
 
 ====================================================================================================================
