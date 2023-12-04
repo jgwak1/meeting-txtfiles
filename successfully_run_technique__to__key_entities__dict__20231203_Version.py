@@ -15,7 +15,7 @@ sucessfully_run_technique__to__key_entities__dict = \
 "atomic__t1070_003__defense-evasion__indicator_removal_on_host-_clear_command_history__18d69a8fd988d6b63f5307ce857723c9__trial_1" # difficult
 :[], 
 
-"atomic__t1087_002__discovery__account_discovery-_domain_account__613dc87cebac339d20973268e0bb1c0b__trial_1"   # difficult 
+"atomic__t1087_002__discovery__account_discovery-_domain_account__613dc87cebac339d20973268e0bb1c0b__trial_1"   # Need to read a medium script
 :[],
 
 "atomic__t1070_004__defense-evasion__indicator_removal_on_host-_file_deletion__b0026f9a57639c049490a43d623d7695__trial_1" # done for now
