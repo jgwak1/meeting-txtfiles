@@ -2,6 +2,8 @@
 -->  caldera-techniuqe process and its descendent processes (below)  events-summary (sorted by timestamp) / #events: 343
 
 
+{"atomic__t1055_003__multiple__thread_execution_hijacking__6a64ea6e29cdb83d468a27d6f69960cb__trial_1": ["notepad.exe", "T1055.003\\bin\\InjectContext.exe", "InjectContext.exe"]}, // Found "notepad.exe" in log-entries
+
 [10176, 8936]
 ------------------------------------------------------------------
 < splunkd_and_descendent_pids_dict (for reference) -- single-technique process corresponds to the last spawned child of splunkd.exe >:
