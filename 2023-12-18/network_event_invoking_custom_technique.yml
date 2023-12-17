@@ -5,8 +5,8 @@
     windows:
       psh:
         cleanup: ''
-        command: 
+        command: ping ocelot.cs.binghamton.edu; Test-Connection ocelot.cs.binghamton.edu; Get-NetTCPConnection -LocalPort 135
   tactic: credential-access
   technique:
-    attack_id: JYFILEEVENTCUSTOM
-    name: 'File event invoking custom activity'
+    attack_id: JYNETWORKEVENTCUSTOM
+    name: 'Network event invoking custom activity'
