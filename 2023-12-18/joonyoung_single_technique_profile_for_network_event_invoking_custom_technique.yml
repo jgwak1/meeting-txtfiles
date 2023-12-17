@@ -1,5 +1,5 @@
 adversary_id: joonyoung_single_technique_profile_for_network_event_invoking_custom_technique.yml
-name: Single Technique Custom Adversary Profile (Invokubg network events)
+name: Single Technique Custom Adversary Profile (Invoking network events)
 description: added ability 'networkeventinvokingcustomtechnique.yml' to atomic plugin
 atomic_ordering:
 - networkeventinvokingcustomtechnique
