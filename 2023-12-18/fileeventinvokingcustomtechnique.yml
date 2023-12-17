@@ -1,4 +1,4 @@
-- description: File event invoking custom activity to investigate reason for only getting process events for caldera-technique process. References: https://www.tutorialspoint.com/powershell/powershell_files_create_files.htm , https://www.itprotoday.com/powershell/how-write-powershell-output-file
+- description: File event invoking custom activity to investigate reason for only getting process events for caldera-technique process. References https://www.tutorialspoint.com/powershell/powershell_files_create_files.htm , https://www.itprotoday.com/powershell/how-write-powershell-output-file
   id: joonyounggwakfileeventinvokingcustomtechnique
   name: Custom File event invoking technique
   platforms:
