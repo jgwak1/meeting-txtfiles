@@ -6,6 +6,7 @@
       psh:
         cleanup: ''
         command: ping ocelot.cs.binghamton.edu; Test-Connection ocelot.cs.binghamton.edu; Get-NetTCPConnection -LocalPort 135
+        payloads: []
   tactic: credential-access
   technique:
     attack_id: JYNETWORKEVENTCUSTOM
