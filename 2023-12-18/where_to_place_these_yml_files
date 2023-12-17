@@ -1,0 +1,6 @@
+caldera custom ability yml files : /home/priti/Desktop/caldera/plugins/atomic/data/abilities/credential-access
+                                   ^- b/c we assumed atomic plugin and credential-access tactic
+
+caldera custom adversary yml files : /home/priti/Desktop/caldera/data/adversaries 
+                                   ^- above directory is one of those which caldera script checks for available adversaries by default
+
