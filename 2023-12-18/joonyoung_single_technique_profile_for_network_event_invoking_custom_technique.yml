@@ -1,7 +1,7 @@
-adversary_id: joonyoung_no_command_single_technique_profile_for_artifactual_event_identification_trial_1
-name: Single Technique Custom Adversary Profile (No Command)
-description: added ability 'joonyounggwaknocommandabilityid.yml' to atomic plugin
+adversary_id: joonyoung_single_technique_profile_for_network_event_invoking_custom_technique.yml
+name: Single Technique Custom Adversary Profile (Invokubg network events)
+description: added ability 'networkeventinvokingcustomtechnique.yml' to atomic plugin
 atomic_ordering:
-- joonyounggwaknocommandabilityid
+- networkeventinvokingcustomtechnique
 objective: 495a9828-cab1-44dd-a0ca-66e58177d8cc
 tags: []
