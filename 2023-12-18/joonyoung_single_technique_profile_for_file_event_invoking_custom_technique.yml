@@ -1,7 +1,7 @@
 adversary_id: joonyoung_single_technique_profile_for_file_event_invoking_custom_technique
 name: Single Technique Custom Adversary Profile (Invokubg file events)
-description: added ability 'file_event_invoking_custom_technique.yml' to atomic plugin
+description: added ability 'fileeventinvokingcustomtechnique.yml' to atomic plugin
 atomic_ordering:
-- file_event_invoking_custom_technique
+- fileeventinvokingcustomtechnique
 objective: 495a9828-cab1-44dd-a0ca-66e58177d8cc
 tags: []
