@@ -1,4 +1,4 @@
-- description: Network event invoking custom activity to investigate reason for only getting process events for caldera-technique process. References: https://www.techtarget.com/searchnetworking/tip/PowerShell-commands-for-network-troubleshooting
+- description: Network event invoking custom activity to investigate reason for only getting process events for caldera-technique process. References https://www.techtarget.com/searchnetworking/tip/PowerShell-commands-for-network-troubleshooting
   id: joonyounggwaknetworkeventinvokingcustomtechnique
   name: Custom Network event invoking technique
   platforms:
