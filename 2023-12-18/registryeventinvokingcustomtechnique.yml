@@ -1,4 +1,4 @@
-- description: Registry event invoking custom activity to investigate reason for only getting process events for caldera-technique process. References: 
+- description: Registry event invoking custom activity to investigate reason for only getting process events for caldera-technique process. References 
   id: joonyounggwakregistryeventinvokingcustomtechnique
   name: Custom Registry event invoking technique
   platforms:
