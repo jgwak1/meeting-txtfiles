@@ -102,20 +102,27 @@ def main():
     except:
         raise RuntimeError("Exception while starting 'spawned_psh_process_logstash'", flush = True)
 
+    LOGSTASH_PORT = "5444" # important information that ensures listening
+    while True:
+       # JY @ 2023-12-18
+       logstash_listening_result = subprocess.run([psh, '-Command', 'Get-NetTCPConnection', '-State', 'Listen'], stdout = subprocess.PIPE)
+       decoded_logstash_listening_result = logstash_listening_result.stdout.decode('utf-8')
+       print(decoded_logstash_listening_result, flush = True)
+
+       if LOGSTASH_PORT in decoded_logstash_listening_result:
+          break
+
+    time.sleep(10) # just wait for 10 more seconds just in case
+
     #PW: for logstash wait for few sec till logstash will start listening
-    print("For logstash wait for few sec till logstash will start listening", flush = True)
-    time.sleep(30) 
+    #print("For logstash wait for few sec till logstash will start listening", flush = True)
+    #time.sleep(30)   # 30 seconds is not enough when things get slow
     
     # (2-2) Create & Start SilkService .........................................................................................
     
     create_silk_service_cmd = 'sc.exe create SilkService binPath="C:\\Users\\puma-4\\Downloads\\SilkETW_SilkService_v8\\v8\\SilkService\\SilkService.exe" start=demand'     
     try:
-        spawned_psh_process_silk_service_create = subprocess.Popen([psh, "-Command", 
-                                                                  create_silk_service_cmd], 
-                                                                  shell=False, text=True,
-                                                                  stdin=subprocess.PIPE,
-                                                                  stdout=subprocess.PIPE,
-                                                                  stderr=subprocess.PIPE)
+        spawned_psh_process_silk_service_create = subprocess.Popen([psh, "-Command", create_silk_service_cmd], shell=False, text=True,stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         print("spawned_psh_process_silk_service_create.pid",spawned_psh_process_silk_service_create.pid, flush = True)
     except:
         raise RuntimeError("Exception while starting 'spawned_psh_process_silk_service_create'", flush = True)
@@ -144,7 +151,7 @@ def main():
        # JY @ 2023-12-18
        start_service_result = subprocess.run([psh, '-Command', 'Start-Service', 'SilkService'], stdout = subprocess.PIPE)
        decoded_start_service_result = start_service_result.stdout.decode('utf-8')
-       print(decoded_start_service_resul, flush = True)
+       print(decoded_start_service_result, flush = True)
 
        get_service_result = subprocess.run([psh, '-Command', 'Get-Service', 'SilkService'], stdout = subprocess.PIPE)
        decoded_get_service_result = get_service_result.stdout.decode('utf-8').lower()
