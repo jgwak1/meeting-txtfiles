@@ -55,11 +55,12 @@ def main():
     time.sleep(5)
 
 
+    #os.system('w32tm /config /update') # JY @ 2023-11-09
+    #os.system('net stop w32time && net start w32time')
+
     # try to resync until it works ! doing 2 times does not work when too big
     while True:
 
-       os.system('w32tm /config /update') # JY @ 2023-11-09
-       os.system('net stop w32time && net start w32time')
        # JY @ 2023-12-17
        result = subprocess.run(['w32tm', '/resync', '/force'], stdout = subprocess.PIPE)
        decoded_result = result.stdout.decode('utf-8')
@@ -123,19 +124,39 @@ def main():
 
 
 
-    start_silk_service_cmd = f"Start-Service SilkService"
-    try:
-        spawned_psh_process_silk_service_start = subprocess.Popen([psh, "-Command", 
-                                                                  start_silk_service_cmd], 
-                                                                  shell=False, text=True,
-                                                                  stdin=subprocess.PIPE,
-                                                                  stdout=subprocess.PIPE,
-                                                                  stderr=subprocess.PIPE)
-        print("spawned_psh_process_silk_service_start.pid",spawned_psh_process_silk_service_start.pid, flush = True)
-    except:
-        raise RuntimeError("Exception while starting 'spawned_psh_process_silk_service_start'", flush = True)
-    time.sleep(15)
-    print("Started Silkservice, wait for 15 secs", flush = True)
+    #start_silk_service_cmd = f"Start-Service SilkService"
+    #try:
+    #    spawned_psh_process_silk_service_start = subprocess.Popen([psh, "-Command", 
+    #                                                              start_silk_service_cmd], 
+    #                                                              shell=False, text=True,
+    #                                                              stdin=subprocess.PIPE,
+    #                                                              stdout=subprocess.PIPE,
+    #                                                              stderr=subprocess.PIPE)
+    #    stdout, stderr = spawned_psh_process_silk_service_start.communicate()
+    #    print(f"stdout,stderr of spawned_psh_process_silk_service_start.communicate(): {stdout} {stderr}", flush = True)
+        #print("spawned_psh_process_silk_service_start.pid",spawned_psh_process_silk_service_start.pid, flush = True)
+    #except:
+    #    raise RuntimeError("Exception while starting 'spawned_psh_process_silk_service_start'", flush = True)
+    #time.sleep(15)
+    
+    while True:
+
+       # JY @ 2023-12-18
+       start_service_result = subprocess.run([psh, '-Command', 'Start-Service', 'SilkService'], stdout = subprocess.PIPE)
+       decoded_start_service_result = start_service_result.stdout.decode('utf-8')
+       print(decoded_start_service_resul, flush = True)
+
+       get_service_result = subprocess.run([psh, '-Command', 'Get-Service', 'SilkService'], stdout = subprocess.PIPE)
+       decoded_get_service_result = get_service_result.stdout.decode('utf-8').lower()
+       print(decoded_get_service_result, flush = True)
+
+       if "stopped" in decoded_get_service_result:
+          continue
+       if "running" in decoded_get_service_result:
+          break
+
+    print("Started Silkservice, wait for 5 secs", flush = True)
+    time.sleep(5)
 
     # (2-3) Start Caldera Agent (splunkd.exe) on the running Caldera-Server ...........................................
     #     
@@ -214,9 +235,9 @@ def main():
     spawned_psh_process_silk_service_stop.terminate()
     print(f"TERMINATED spawned_psh_process_silk_service_stop {spawned_psh_process_silk_service_stop.pid}")
     
-    time.sleep(3)
-    spawned_psh_process_silk_service_start.terminate()
-    print(f"TERMINATED spawned_psh_process_silk_service_start {spawned_psh_process_silk_service_start.pid}")
+    #time.sleep(3)
+    #spawned_psh_process_silk_service_start.terminate()
+    #print(f"TERMINATED spawned_psh_process_silk_service_start {spawned_psh_process_silk_service_start.pid}")
 
 
     time.sleep(3)
