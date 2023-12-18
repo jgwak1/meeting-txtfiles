@@ -55,10 +55,23 @@ def main():
     time.sleep(5)
 
 
-    os.system('w32tm /config /update') # JY @ 2023-11-09
-    os.system('net stop w32time && net start w32time')
-    os.system('w32tm /resync /force') # JY @ 2023-10-26: resync for compatiability with caldera-server time.
-    os.system('w32tm /resync /force') # try 2 times 
+    # try to resync until it works ! doing 2 times does not work when too big
+    while True:
+
+       os.system('w32tm /config /update') # JY @ 2023-11-09
+       os.system('net stop w32time && net start w32time')
+       # JY @ 2023-12-17
+       result = subprocess.run(['w32tm', '/resync', '/force'], stdout = subprocess.PIPE)
+       decoded_result = result.stdout.decode('utf-8')
+       print(decoded_result, flush = True)
+       if "The computer did not resync because the required time change was too big." in decoded_result:
+          continue
+       if "The command completed successfully." in decoded_result:
+          break
+
+
+    #os.system('w32tm /resync /force') # JY @ 2023-10-26: resync for compatiability with caldera-server time.
+    #os.system('w32tm /resync /force') # try 2 times 
     time.sleep(5)
     #-----------------------------------------------------------------------------------------------------------------------
     # 2. Start 
