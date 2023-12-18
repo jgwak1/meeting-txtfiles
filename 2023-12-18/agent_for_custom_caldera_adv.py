@@ -107,9 +107,10 @@ def main():
        # JY @ 2023-12-18
        logstash_listening_result = subprocess.run([psh, '-Command', 'Get-NetTCPConnection', '-State', 'Listen'], stdout = subprocess.PIPE)
        decoded_logstash_listening_result = logstash_listening_result.stdout.decode('utf-8')
-       print(decoded_logstash_listening_result, flush = True)
+       #print(decoded_logstash_listening_result, flush = True)
 
        if LOGSTASH_PORT in decoded_logstash_listening_result:
+          print(decoded_logstash_listening_result, flush = True)
           break
 
     time.sleep(10) # just wait for 10 more seconds just in case
@@ -122,7 +123,12 @@ def main():
     
     create_silk_service_cmd = 'sc.exe create SilkService binPath="C:\\Users\\puma-4\\Downloads\\SilkETW_SilkService_v8\\v8\\SilkService\\SilkService.exe" start=demand'     
     try:
-        spawned_psh_process_silk_service_create = subprocess.Popen([psh, "-Command", create_silk_service_cmd], shell=False, text=True,stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        spawned_psh_process_silk_service_create = subprocess.Popen([psh, "-Command", 
+                                                                  create_silk_service_cmd], 
+                                                                  shell=False, text=True,
+                                                                  stdin=subprocess.PIPE,
+                                                                  stdout=subprocess.PIPE,
+                                                                  stderr=subprocess.PIPE)
         print("spawned_psh_process_silk_service_create.pid",spawned_psh_process_silk_service_create.pid, flush = True)
     except:
         raise RuntimeError("Exception while starting 'spawned_psh_process_silk_service_create'", flush = True)
@@ -162,8 +168,8 @@ def main():
        if "running" in decoded_get_service_result:
           break
 
-    print("Started Silkservice, wait for 5 secs", flush = True)
-    time.sleep(5)
+    print("Started Silkservice, wait for 10 secs", flush = True)
+    time.sleep(10)
 
     # (2-3) Start Caldera Agent (splunkd.exe) on the running Caldera-Server ...........................................
     #     
