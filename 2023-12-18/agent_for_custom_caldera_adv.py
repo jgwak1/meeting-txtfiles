@@ -168,8 +168,8 @@ def main():
        if "running" in decoded_get_service_result:
           break
 
-    print("Started Silkservice, wait for 10 secs", flush = True)
-    time.sleep(10)
+    print("Started Silkservice, wait for 15 secs", flush = True)
+    time.sleep(15)
 
     # (2-3) Start Caldera Agent (splunkd.exe) on the running Caldera-Server ...........................................
     #     
