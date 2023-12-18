@@ -124,9 +124,21 @@ def main():
 
 
 
-    start_silk_service_cmd = f"Start-Service SilkService"
-
-    # try to resync until it works ! doing 2 times does not work when too big
+    #start_silk_service_cmd = f"Start-Service SilkService"
+    #try:
+    #    spawned_psh_process_silk_service_start = subprocess.Popen([psh, "-Command", 
+    #                                                              start_silk_service_cmd], 
+    #                                                              shell=False, text=True,
+    #                                                              stdin=subprocess.PIPE,
+    #                                                              stdout=subprocess.PIPE,
+    #                                                              stderr=subprocess.PIPE)
+    #    stdout, stderr = spawned_psh_process_silk_service_start.communicate()
+    #    print(f"stdout,stderr of spawned_psh_process_silk_service_start.communicate(): {stdout} {stderr}", flush = True)
+        #print("spawned_psh_process_silk_service_start.pid",spawned_psh_process_silk_service_start.pid, flush = True)
+    #except:
+    #    raise RuntimeError("Exception while starting 'spawned_psh_process_silk_service_start'", flush = True)
+    #time.sleep(15)
+    
     while True:
 
        # JY @ 2023-12-18
@@ -138,31 +150,13 @@ def main():
        decoded_get_service_result = get_service_result.stdout.decode('utf-8').lower()
        print(decoded_get_service_result, flush = True)
 
-
        if "stopped" in decoded_get_service_result:
           continue
        if "running" in decoded_get_service_result:
           break
 
-    #try:
-    #    spawned_psh_process_silk_service_start = subprocess.Popen([psh, "-Command", 
-    #                                                              start_silk_service_cmd], 
-    #                                                              shell=False, text=True,
-    #                                                              stdin=subprocess.PIPE,
-    #                                                              stdout=subprocess.PIPE,
-    #                                                              stderr=subprocess.PIPE)
-    #    stdout, stderr = spawned_psh_process_silk_service_start.communicate()
-    #    print(f"stdout,stderr of spawned_psh_process_silk_service_start.communicate(): {stdout} {stderr}", flush = True)
-    #    #print("spawned_psh_process_silk_service_start.pid",spawned_psh_process_silk_service_start.pid, flush = True)
-    #except:
-    #    raise RuntimeError("Exception while starting 'spawned_psh_process_silk_service_start'", flush = True)
-    
-
-
-
-
-time.sleep(15)
-    print("Started Silkservice, wait for 15 secs", flush = True)
+    print("Started Silkservice, wait for 5 secs", flush = True)
+    time.sleep(5)
 
     # (2-3) Start Caldera Agent (splunkd.exe) on the running Caldera-Server ...........................................
     #     
