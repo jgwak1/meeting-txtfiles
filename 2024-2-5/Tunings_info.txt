@@ -7,7 +7,7 @@ For Dataset-1 and Dataset-2 of "No-Trace + Updated F/R Node-UID rule",
 
 -- Optimizations
 	1. thread_level__N>1_grams_events__nodetype5bit  (1 gram) -- after allowing Ngram == 1 in pretrain__countvectorizer_on_training_set__before_graph_embedding_generation()
-	    -- panther 3 cores - dataset-1 -- tuning 
+	    -- panther 3 cores - dataset-1 -- DONE  
 	    -- panther 3 cores - dataset-2 -- tuning
 	2. thread_level__N>1_grams_events__nodetype5bit  (2 gram)
 	    -- panther 5 cores - dataset-1 -- tuning 
@@ -37,20 +37,10 @@ For Dataset-1 and Dataset-2 of "No-Trace + Updated F/R Node-UID rule",
 
         7. Edge-level N gram standard message passing (message passing with edge-level N grams and node type features)
 		
-	   -- TODO: This first requires generating simple-graphs
+	   -- SIMPLE-GRAPH SUBGRAPH GENERATION DONE -- This first requires generating simple-graphs
 	   ---  generating on /home/jgwak1/tabby/graph_embedding_improvement_JY_git/graph_embedding_improvement_efforts/Trial_4__Local_N_gram__standard_message_passing/Subgraphs__SimpleGraph/NON_TRACE_COMMAND_DATASET
 
-	   -- ? 5 cores - 2 hops 4,3,2,1grams - dataset-1
-	   -- ? 5 cores - 2 hops 4,3,2,1grams - dataset-2
+	   -- panther 4 cores - 2 hops 4,3,2,1grams - dataset-1 -- tuning
+	   -- panther 4 cores - 2 hops 4,3,2,1grams - dataset-2 -- tuning
 
-		
-
-
-
-        8. message passing with edge-level 2 grams and node type features (local N gram standard message passing)
-        9. concatenation of subgraph-level 2 gram EventName features and simple/standard message passing
-       10. variants of thread_level N>1 gram events
-           -- thread_level__N>1_grams_events__nodetype5bit__FRNPeventCount__FRNP_OutgoIncom_eventCount (N =2,4)
-           -- thread_level__N>1_grams_events__nodetype5bit__AvgNum_DiffThreads_perFRNP (N =2,4)
-	   ^-- TODO: Creating "thread_level__N>1_grams_events__nodetype5bit__FRNPeventCount__FRNP_OutgoIncom_eventCount__AvgNum_DiffThreads_perFRNP" is a valid way to save time.
 
