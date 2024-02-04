@@ -1,46 +1,83 @@
 For Dataset-1 and Dataset-2 of "No-Trace + Updated F/R Node-UID rule",
 
--- Baseline 
+-- Baseline (Priti is tuning baselines on Ocelot)
 	- baseline_1__simple_counting
         - baseline_3__flattened_graph_Ngram_events__node_type_counts (2 gram)
         - baseline_3__flattened_graph_Ngram_events__node_type_counts (4 gram)
 
 -- Optimizations
 	1. thread_level__N>1_grams_events__nodetype5bit  (1 gram) -- after allowing Ngram == 1 in pretrain__countvectorizer_on_training_set__before_graph_embedding_generation()
-	    -- panther 3 cores - dataset-1 -- DONE  
-	    -- panther 3 cores - dataset-2 -- tuning
+	    
+	    -- panther 3 cores - partial-dataset-1 -- **DONE**  
+	    -- panther 3 cores - partial-dataset-2 -- **DONE**
+	    ===================================================
+	    -- panther N cores - full-dataset-1 -- TODO
+	    -- panther N cores - full-dataset-2 -- TODO
+	
 	2. thread_level__N>1_grams_events__nodetype5bit  (2 gram)
-	    -- panther 5 cores - dataset-1 -- tuning 
-	    -- panther 5 cores - dataset-2 -- tuning 
+	    -- panther 5 cores - partial-dataset-1 -- **DONE** 
+	    -- panther 5 cores - partial-dataset-2 -- tuning 
+	    ===================================================
+	    -- panther N cores - full-dataset-1 -- TODO
+	    -- panther N cores - full-dataset-2 -- TODO
+	
 	3. thread_level__N>1_grams_events__nodetype5bit  (4 gram)
-	    -- panther 10 cores - dataset-1 -- tuning 
-	    -- panther 15 cores - dataset-2 -- tuning 
+	    -- panther 10 cores - partial-dataset-1 -- tuning 
+	    -- panther 15 cores - partial-dataset-2 -- tuning 
+	    ===================================================
+	    -- panther N cores - full-dataset-1 -- TODO
+	    -- panther N cores - full-dataset-2 -- TODO
 
 	4. simple/standard message passing -- with and without Adhoc?
 
-	   -- felis 5 cores - 1 hops - dataset-1 -- tuning
-           -- felis 5 cores - 1 hops - dataset-1 -- tuning
+	   -- felis 5 cores - 1 hops - partial-dataset-1 -- **DONE**
+           -- felis 5 cores - 1 hops - partial-dataset-2 -- tuning
 
-	   -- felis 5 cores - 2 hops - dataset-1 -- tuning
-	   -- felis 5 cores - 2 hops - dataset-2 -- tuning
+	   -- felis 5 cores - 2 hops - partial-dataset-1 -- **DONE**
+	   -- felis 5 cores - 2 hops - partial-dataset-2 -- tuning
  
-           -- felis 5 cores - 3 hops - dataset-1 -- tuning
-           -- felis 5 cores - 3 hops - dataset-2 -- tuning
+           -- felis 5 cores - 3 hops - partial-dataset-1 -- tuning
+           -- felis 5 cores - 3 hops - partial-dataset-2 -- tuning	
+  	   ========================================================
+	   -- felis N cores - 1 hops - full-dataset-1 -- TODO
+           -- felis N cores - 1 hops - full-dataset-2 -- TODO
+
+	   -- felis N cores - 2 hops - full-dataset-1 -- TODO
+	   -- felis N cores - 2 hops - full-dataset-2 -- TODO
+ 
+           -- felis N cores - 3 hops - full-dataset-1 -- TODO
+           -- felis N cores - 3 hops - full-dataset-2 -- TODO
 
 
         6. concatenation of 'subgraph-level 4 gram EventName features (Baseline-3)'
 			    'thread_level__N>1_grams_events__nodetype5bit'
  
- 	   -- felis 6 cores - global-4grams + thread-level 4gram' - dataset-1 -- tuning
-	   -- felis 7 cores - global-4grams + thread-level 4gram' - dataset-2 -- tuning
+ 	   -- felis 6 cores - global-4grams + thread-level 4gram' - partial-dataset-1 -- tuning
+	   -- felis 7 cores - global-4grams + thread-level 4gram' - partial-dataset-2 -- tuning
+  	   ========================================================
+ 	   -- felis N cores - global-4grams + thread-level 4gram' - full-dataset-1 -- tuning
+	   -- felis N cores - global-4grams + thread-level 4gram' - full-dataset-2 -- tuning
 
 
         7. Edge-level N gram standard message passing (message passing with edge-level N grams and node type features)
 		
-	   -- SIMPLE-GRAPH SUBGRAPH GENERATION DONE -- This first requires generating simple-graphs
+	   -- SIMPLE-GRAPH SUBGRAPH GENERATION **DONE** -- This first requires generating simple-graphs
 	   ---  generating on /home/jgwak1/tabby/graph_embedding_improvement_JY_git/graph_embedding_improvement_efforts/Trial_4__Local_N_gram__standard_message_passing/Subgraphs__SimpleGraph/NON_TRACE_COMMAND_DATASET
 
-	   -- panther 4 cores - 2 hops 4,3,2,1grams - dataset-1 -- tuning
-	   -- panther 4 cores - 2 hops 4,3,2,1grams - dataset-2 -- tuning
+	   -- panther 4 cores - 2 hops 4,3,2,1grams - partial-dataset-1 -- tuning
+	   -- panther 4 cores - 2 hops 4,3,2,1grams - partial-dataset-2 -- tuning
+
+  	   ========================================================		
+	   -- SIMPLE-GRAPH SUBGRAPH GENERATION   TODO -- This first requires generating simple-graphs
+	   -- panther N cores - 2 hops 4,3,2,1grams - full-dataset-1 -- TODO
+	   -- panther N cores - 2 hops 4,3,2,1grams - full-dataset-2 -- TODO
+
+
+        ------------------------------------------------------------------------------------------------------------------------------------
+        8. concatenation of subgraph-level 2 gram EventName features and simple/standard message passing
+        9. variants of thread_level N>1 gram events
+           -- thread_level__N>1_grams_events__nodetype5bit__FRNPeventCount__FRNP_OutgoIncom_eventCount (N =2,4)
+           -- thread_level__N>1_grams_events__nodetype5bit__AvgNum_DiffThreads_perFRNP (N =2,4)
+	   ^-- TODO: Creating "thread_level__N>1_grams_events__nodetype5bit__FRNPeventCount__FRNP_OutgoIncom_eventCount__AvgNum_DiffThreads_perFRNP" is a valid way to save time.
 
 
