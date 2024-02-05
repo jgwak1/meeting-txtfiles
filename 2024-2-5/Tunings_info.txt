@@ -52,8 +52,8 @@ For Dataset-1 and Dataset-2 of "No-Trace + Updated F/R Node-UID rule",
         6. concatenation of 'subgraph-level 4 gram EventName features (Baseline-3)'
 			    'thread_level__N>1_grams_events__nodetype5bit'
  
- 	   -- felis 6 cores - global-4grams + thread-level 4gram' - partial-dataset-1 -- Tuning
-	   -- felis 7 cores - global-4grams + thread-level 4gram' - partial-dataset-2 -- Tuning
+ 	   -- felis 6 cores - global-4grams + thread-level 4gram' - partial-dataset-1 -- Tuning (KILLED AS NOT PRIORITY)
+	   -- felis 7 cores - global-4grams + thread-level 4gram' - partial-dataset-2 -- Tuning (KILLED AS NOT PRIORITY)
   	   ========================================================
  	   -- felis N cores - global-4grams + thread-level 4gram' - full-dataset-1 -- TODO
 	   -- felis N cores - global-4grams + thread-level 4gram' - full-dataset-2 -- TODO
@@ -80,5 +80,4 @@ For Dataset-1 and Dataset-2 of "No-Trace + Updated F/R Node-UID rule",
            -- thread_level__N>1_grams_events__nodetype5bit__FRNPeventCount__FRNP_OutgoIncom_eventCount (N =2,4)
            -- thread_level__N>1_grams_events__nodetype5bit__AvgNum_DiffThreads_perFRNP (N =2,4)
 	   ^-- TODO: Creating "thread_level__N>1_grams_events__nodetype5bit__FRNPeventCount__FRNP_OutgoIncom_eventCount__AvgNum_DiffThreads_perFRNP" is a valid way to save time.
-
 
