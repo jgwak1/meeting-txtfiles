@@ -1,0 +1,11 @@
+Null Hypothesis (H0): There is no difference in Average-Validation-Accuracy/F1 scores between the optimization and baseline approaches.
+
+Test Statistic: Compute the observed mean difference in Average-Validation-Accuracy/F1 scores between the optimization and baseline approaches.
+
+Permutation: Randomly permute the labels (or differences) between the paired observations, creating a null distribution of mean differences.
+
+Repeat: Repeat the permutation process many times to build the null distribution.
+
+Compare Observed Statistic: Compare the observed mean difference to the distribution of permuted mean differences to calculate a p-value.
+
+Conclusion: If the observed mean difference is statistically significant compared to the null distribution, you may reject the null hypothesis and conclude that there is evidence for a difference in the Average-Validation-Accuracy/F1 scores between the two approaches.
