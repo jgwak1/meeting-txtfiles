@@ -1,0 +1,170 @@
+   "x": {
+      "technique_name": "x",
+      "tactic": "response",
+      "known implementations": [
+         {
+            "description": "GameBoard plugin guid detection placeholder ability",
+            "command": ";\n"
+         },
+         {
+            "description": "GameBoard plugin pid detection placeholder ability",
+            "command": ";\n"
+         },
+         {
+            "description": "Restore sensitive directories with their backups if they have been modified",
+            "command": "directory=\"#{directory.sensitive.path}\";\nmkdir -p $directory;\nrm -r ${directory}/*;\ntar -xzf /tmp/sensitive_file_backups/#{directory.sensitive.backup} -C $directory;\n"
+         },
+         {
+            "description": "Reroute suspicious IP addresses to localhost by editing hosts file",
+            "command": "if ! test -f hosts_backup; then cp /etc/hosts hosts_backup; fi;\necho \"127.0.0.1    #{remote.suspicious.url}\" >> /etc/hosts;\n"
+         },
+         {
+            "description": "Use hash of known suspicious file to find instances of said file, and delete instances",
+            "command": "Remove-Item -Path #{host.malicious.file} -Force;\n"
+         },
+         {
+            "description": "Collect all process creation events with the given parent process GUID",
+            "command": "$time_range = (Get-Date) - (New-TimeSpan -Seconds $(#{sysmon.time.range}/1000));\nGet-WinEvent -FilterHashTable @{ Logname='Microsoft-Windows-Sysmon/Operational'; StartTime=$time_range; Id=1 } | where -Property Message -Match \"\\bParentProcessGuid: {#{host.process.parentguid}}\" | Format-List;\n"
+         },
+         {
+            "description": "Removes newly added cron jobs",
+            "command": "crontab -u #{host.user.name} -l > temp_crontab;\nline_number=$(grep -n '#{host.new.cronjob}' temp_crontab | cut -d':' -f1);\nif [ $line_number ]; then\n  sed \"${line_number}d\" temp_crontab > new_crontab;\n  crontab -u #{host.user.name} new_crontab;\n  rm -f new_crontab;\nfi;\nrm -f temp_crontab new_crontab;\n"
+         },
+         {
+            "description": "Collect child processes from Sysmon logs",
+            "command": "$time_range = (Get-Date) - (New-TimeSpan -Seconds $(#{sysmon.time.range}/1000));\nGet-WinEvent -FilterHashTable @{ Logname='Microsoft-Windows-Sysmon/Operational'; StartTime=$time_range; Id=1} | where -Property Message -Match '(?m)^ParentProcessGuid: {#{host.process.guid}}' | Format-List;\n"
+         },
+         {
+            "description": "Collect system information from Sysmon event log given ProcessGUID. Ability timeout may need to be increased depending on Sysmon log size.",
+            "command": "$time_range = (Get-Date) - (New-TimeSpan -Seconds $(#{sysmon.time.range}/1000));\nGet-WinEvent -FilterHashTable @{ Logname='Microsoft-Windows-Sysmon/Operational'; StartTime=$time_range; } | select TimeCreated,Id,ProviderName,RecordId,ProcessId,MachineName,Message | where -Property Message -Match \"\\bProcessGuid: {#{host.process.guid}}\" | Format-List;\n"
+         },
+         {
+            "description": "Removes newly added scheduled tasks",
+            "command": "Unregister-ScheduledTask -TaskName #{host.new.schtask} -Confirm:$false\n"
+         },
+         {
+            "description": "Force kill any unauthorized processes",
+            "command": "kill -9 #{host.pid.unauthorized}\n"
+         },
+         {
+            "description": "Collect grandchild processes from Sysmon logs",
+            "command": "$time_range = (Get-Date) - (New-TimeSpan -Seconds $(#{sysmon.time.range}/1000));\nGet-WinEvent -FilterHashTable @{ Logname='Microsoft-Windows-Sysmon/Operational'; StartTime=$time_range; Id=1} | where -Property Message -Match '(?m)^ParentProcessId: #{host.process.childid}\\b' | Format-List;\n"
+         },
+         {
+            "description": "Collect process GUIDs by querying Sysmon for all events associated with the given PID",
+            "command": "$time_range = (Get-Date) - (New-TimeSpan -Seconds $(#{sysmon.time.range}/1000));\nGet-WinEvent -FilterHashTable @{ Logname='Microsoft-Windows-Sysmon/Operational'; StartTime=$time_range; Id=1} | where -Property Message -Match '(?m)^ProcessId: #{host.process.id}\\b' | Format-List;\n"
+         },
+         {
+            "description": "Restore backups of files if file has been modified",
+            "command": "cp -f /tmp/sensitive_file_backups/#{file.backup.name} #{file.sensitive.path}\n"
+         },
+         {
+            "description": "Create compressed backups of sensitive directories",
+            "command": "mkdir -p /tmp/sensitive_file_backups;\ndir_path=$(echo \"#{directory.sensitive.path}\" | sed 's/\\\\\\*/\\*/g');\ndirectories=$(find $dir_path -maxdepth 0 -type d 2>/dev/null);\noutput=\"\";\nfor directory in $directories;\n  do if [ -z \"$(ls -A $directory)\" ]; then\n    touch \"${directory}/.bak\";\n  fi;\n  randname=$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c 13);\n  tar -czf /tmp/sensitive_file_backups/${randname}.tar.gz -C $directory .;\n  output=\"${output}${directory}>${randname}.tar.gz\\n\";\ndone;\necho $output | sed '/^[[:space:]]*$/d'\n"
+         },
+         {
+            "description": "If bash profile doesn't exist, create it, and then hash each profile.",
+            "command": "mkdir -p /tmp/sensitive_file_backups;\nuser_profiles=\".bashrc .bash_profile .bash_login .profile\";\noutput=\"\";\nhome_dir=$(echo \"/home/*\" | sed 's/\\\\\\*/\\*/g');\ndirs=$(find $home_dir -maxdepth 0 -type d);\ndirs=\"${dirs} /root\";\nfiles=\"\";\nfor dir in $dirs;\n  do for prof in $user_profiles;\n    do files=\"${files}${dir}/${prof} \";\n  done;\ndone;\nfiles=\"${files} /etc/profile /etc/bash.bashrc\";\nfor file in $files;\n  do if [ ! -f $file ];\n    then touch $file;\n  fi;\n  hash=$(sha256sum $file | cut -d' ' -f1);\n  output=\"${output}${file}>${hash}\\n\";\ndone;\necho $output | sed '/^[[:space:]]*$/d'\n"
+         },
+         {
+            "description": "If bash profile doesn't exist, create it, and then backup each profile.",
+            "command": "mkdir -p /tmp/sensitive_file_backups;\nuser_profiles=\".bashrc .bash_profile .bash_login .profile\";\noutput=\"\";\nhome_dir=$(echo \"/home/*\" | sed 's/\\\\\\*/\\*/g');\ndirs=$(find $home_dir -maxdepth 0 -type d);\ndirs=\"${dirs} /root\";\nfiles=\"\";\nfor dir in $dirs;\n  do for prof in $user_profiles;\n    do files=\"${files}${dir}/${prof} \";\n  done;\ndone;\nfiles=\"${files} /etc/profile /etc/bash.bashrc\";\nfor file in $files;\n  do if [ ! -f $file ];\n    then touch $file;\n  fi;\n  randname=$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c 13);\n  cp $file /tmp/sensitive_file_backups/$randname;\n  output=\"${output}${file}>${randname}\\n\";\ndone;\necho $output | sed '/^[[:space:]]*$/d'\n"
+         },
+         {
+            "description": "This ability creates file hashes of Powershell profiles, creating the profiles themselves if they do not exist.",
+            "command": "$files = @(\"$Profile\", \"$PsHome\\Profile.ps1\", \"$PsHome\\Microsoft.Powershell_profile.ps1\");\n$output = @();\nForEach ($file in $files) {\n  if (-not (Test-Path $file)) {\n    New-Item -Path $file -ItemType File | Out-Null;\n  };\n  $output += $(Get-FileHash $file -EA silentlycontinue | foreach-object {$_.Path + '>' + $_.Hash});\n};\n$output\n"
+         },
+         {
+            "description": "This ability creates backups of Powershell profiles, creating the profiles themselves if they do not exist.",
+            "command": "$files = @(\"$Profile\", \"$PsHome\\Profile.ps1\", \"$PsHome\\Microsoft.Powershell_profile.ps1\");\nNew-Item -ItemType Directory -Force -Path C:\\Users\\Public\\sensitive_file_backups | Out-Null;\n$output = '';\nForEach ($file in $files) {\n  if (-not (Test-Path $file)) {\n    New-Item -Path $file -ItemType File | Out-Null;\n  };\n  $randname = -join (( 0x41..0x5A) + ( 0x61..0x7A) | Get-Random -Count 13 | % {[char]$_});\n  Copy-Item $file -Destination \"C:\\Users\\Public\\sensitive_file_backups\\$randname\";\n  $output = \"$($output)$($file)>$($randname)`n\"\n};\n$output\n"
+         },
+         {
+            "description": "Acquire hashes of sensitive files as a baseline to check if they are changed in the future",
+            "command": "output=\"\";\nfilepath=$(echo \"#{file.sensitive.path}\" | sed 's/\\\\\\*/\\*/g');\nfiles=$(find $filepath -maxdepth 0 -type f 2>/dev/null);\nfor file in $files;\n  do hash=$(sha256sum $file | cut -d' ' -f1);\n  output=\"${output}${file}>${hash}\\n\";\ndone;\necho $output | sed '/^[[:space:]]*$/d'\n"
+         },
+         {
+            "description": "Backup sensitive files to temp directory in case these files are maliciously modified",
+            "command": "mkdir -p /tmp/sensitive_file_backups;\nfilepath=$(echo \"#{file.sensitive.path}\" | sed 's/\\\\\\*/\\*/g');\nfiles=$(find $filepath -maxdepth 0 -type f 2>/dev/null);\noutput=\"\";\nfor file in $files;\n  do randname=$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c 13);\n  cp $file /tmp/sensitive_file_backups/$randname;\n  output=\"${output}${file}>${randname}\\n\";\ndone;\necho $output | sed '/^[[:space:]]*$/d'\n"
+         },
+         {
+            "description": "Acquire hashes of compressed sensitive directories as a baseline to check if they are changed in the future",
+            "command": "output=\"\";\ndir_path=$(echo \"#{directory.sensitive.path}\" | sed 's/\\\\\\*/\\*/g');\ndirectories=$(find $dir_path -maxdepth 0 -type d 2>/dev/null);\nfor directory in $directories;\n  do if [ -z \"$(ls -A $directory)\" ]; then\n    touch \"${directory}/.bak\";\n  fi;\n  tar -czf /tmp/dir_sens_comp -C $directory .;\n  hash=$(sha256sum /tmp/dir_sens_comp | cut -d' ' -f1);\n  output=\"${output}${directory}>${hash}\\n\";\n  rm -f /tmp/dir_sens_comp;\ndone;\necho $output | sed '/^[[:space:]]*$/d'\n"
+         },
+         {
+            "description": "Capture the cron jobs that exist at the start of the operation",
+            "command": "echo '' > /tmp/cron_jobs;\nfor user in $(getent passwd | cut -f1 -d:); do\n  $(crontab -u $user -l 2>/dev/null | grep -v '\\#' | while read -r job; do\n    echo \"${user}>${job}\" >> /tmp/cron_jobs;\n  done);\ndone;\ncat /tmp/cron_jobs | sort > /tmp/baseline_cronjobs_list.txt;\nrm /tmp/cron_jobs;\n"
+         },
+         {
+            "description": "Capture the scheduled tasks that exist at the start of the operation",
+            "command": "Get-ScheduledTask > C:\\Users\\Public\\baseline_schtasks_list.txt\n"
+         },
+         {
+            "description": "Search for Sysmon Event 1 records to discover children of known processes.",
+            "command": "process.parent.entity_id:\\{#{investigate.process.guid}\\} AND winlog.event_id:1 AND winlog.provider_name:\"Microsoft-Windows-Sysmon\"\n"
+         },
+         {
+            "description": "Search for Sysmon Event 1 records to discover parents of known processes.",
+            "command": "process.entity_id:\\{#{investigate.process.parent_guid}\\} AND winlog.event_id:1 AND winlog.provider_name:\"Microsoft-Windows-Sysmon\"\n"
+         },
+         {
+            "description": "Search for Sysmon Event 1 powershell records with \"ExecutionPolicy\" and \"Bypass\"",
+            "command": "process.name:powershell.exe AND process.args:*Bypass* AND process.args:*ExecutionPolicy*\n"
+         },
+         {
+            "description": "Checks to see if a new (unauthorized) scheduled task has been added",
+            "command": "Get-ScheduledTask > C:\\Users\\Public\\new_schtasks_list.txt;\n$new_schtasks =  $(Get-Content .\\new_schtasks_list.txt) | Where-Object {$_ -notIn $(Get-Content .\\baseline_schtasks_list.txt)} |foreach-object {(-split $_)[1]};\nRemove-Item -Path C:\\Users\\Public\\new_schtasks_list.txt -Force;\n$new_schtasks\n"
+         },
+         {
+            "description": "Get information from AV about suspicious files",
+            "command": "if (Test-Path C:\\Users\\Public\\malicious_files.txt -PathType Leaf) {\n  $hashes = Get-Content C:\\Users\\Public\\malicious_files.txt -Raw;\n  Remove-Item C:\\Users\\Public\\malicious_files.txt;\n  $hashes;\n}\n"
+         },
+         {
+            "description": "Search for processes which should not be on the host",
+            "command": "ps aux | grep -v grep | grep #{remote.port.unauthorized} | awk '{print $2}'\n"
+         },
+         {
+            "description": "Checks sensitive file hashes against previously stored hashes to determine if the file has been modified",
+            "command": "filepath=\"#{file.sensitive.path}\";\nif [ ! -f $filepath ] || [ \"$(sha256sum $filepath | cut -d' ' -f1)\" != \"#{file.sensitive.hash}\" ];\n  then echo $filepath;\nfi\n"
+         },
+         {
+            "description": "Finds suspicious URLs in received mail",
+            "command": "find /var/mail -type f -exec grep \"From.*@.*\\..*\" {} \\; | cut -d'@' -f2 | cut -d' ' -f1 | sort --uniq\n"
+         },
+         {
+            "description": "Checks sensitive directory hashes against previously stored hashes to determine if the directory has been modified",
+            "command": "directory=\"#{directory.sensitive.path}\";\nif [ -d $directory ];\n  then tar -czf /tmp/dir_sens_comp -C $directory .;\n  hash=$(sha256sum /tmp/dir_sens_comp | cut -d' ' -f1);\n  rm -f /tmp/dir_sens_comp;\n  if [ \"$hash\" != \"#{directory.sensitive.hash}\" ];\n    then echo $directory;\n  fi;\nelse echo $directory;\nfi;\n"
+         },
+         {
+            "description": "Checks to see if a new (unauthorized) cron job has been added",
+            "command": "set -f;\nfor user in $(getent passwd | cut -f1 -d:); do\n  $(crontab -u $user -l 2>/dev/null | grep -v '\\#' | while read -r job; do\n    echo \"${user}>${job}\" >> /tmp/cron_jobs;\n  done);\ndone;\ncat /tmp/cron_jobs | sort > /tmp/new_cronjobs_list.txt;\nnew_jobs=$(comm -13 /tmp/baseline_cronjobs_list.txt /tmp/new_cronjobs_list.txt);\nrm -f /tmp/cron_jobs;\nrm -f /tmp/new_cronjobs_list.txt;\nIFS=$(echo '\\n');\necho $new_jobs;\n"
+         },
+         {
+            "description": "Use hash of known suspicious file to find instances of said file on hosts",
+            "command": "$paths = (Get-ChildItem #{file.search.directory} -Recurse -EA:SilentlyContinue | Get-FileHash -EA:SilentlyContinue |\nWhere-Object hash -eq #{file.malicious.hash} | foreach { $_.Path });\n$paths;\n"
+         },
+         {
+            "description": "Certification ability to create a listening process on an unauthorized port",
+            "command": "nc -nlv 7011 &\n"
+         },
+         {
+            "description": "Create a pretend malicious file to be acted on",
+            "command": "echo 'Malicious file' > C:\\Users\\Public\\malicious;\n(Get-FileHash C:\\Users\\Public\\malicious).Hash > C:\\Users\\Public\\malicious_files.txt\n"
+         },
+         {
+            "description": "Certification ability to create a new cronjob or scheduled task",
+            "command": "crontab -l > new_crontab;\necho '0 * * * * /bin/echo bad_cronjob' >> new_crontab;\ncrontab new_crontab;\nrm -f new_crontab;\n"
+         },
+         {
+            "description": "Send an email with a pretend evil domain to be acted on",
+            "command": "mv ./phish_email.txt /var/mail/victim\n"
+         },
+         {
+            "description": "Add a line to the Bash or Powershell profile",
+            "command": "touch ~/.bashrc;\necho '#Find this change!' >> ~/.bashrc;\n"
+         },
+         {
+            "description": "Delete previously stored pretend malicious mail",
+            "command": "rm -f /var/mail/victim"
+         }
+      ]
+   },
