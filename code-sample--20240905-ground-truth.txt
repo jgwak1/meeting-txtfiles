@@ -1,0 +1,7 @@
+
+
+nltest /domain_trusts /all_trusts >> temp.txt  # T1482: Domain Trust Discovery (discovery)
+pkill xfreerdp # "T1021.001: Remote Services: Remote Desktop Protocol" (lateral movement)
+reg.exe add \"HKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\" /v blbdigital /t REG_SZ /d \"%userprofile%\\Ygyhlqt\\Bx5jfmo\\R43H.dll,Control_RunDLL\" # T1547.001: Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder (persistence)
+
+
