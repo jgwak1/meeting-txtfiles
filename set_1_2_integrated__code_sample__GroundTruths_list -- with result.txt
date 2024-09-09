@@ -137,3 +137,50 @@ Without-Domain-Knowledge  ( WITH 'Please list all' )
  - FN ( #NN )
 
  Accuracy, F-1
+
+
+
+
+
+
+
+ With-Domain-Knowledge  ( WITH 'Please list all' )
+ - TP ( #9 ) :  T1021.001: Remote Services: Remote Desktop Protocol (RDP)
+                T1570: Lateral Tool Transfer
+                T1016: System Network Configuration Discovery
+                T1082: System Information Discovery
+                T1087.002: Account Discovery: Domain Account
+                T1033: System Owner/User Discovery
+                T1136.001: Create Account: Local Account
+                T1543.003: Create or Modify System Process: Windows Service
+                T1547.001: Boot or Logon Autostart Execution: Registry Run Keys/Startup Folder
+
+Without-Domain-Knowledge  ( WITH 'Please list all' )
+
+ - TP ( #6 ) :  Scheduled Task/Job (T1053.005)
+                Registry Run Keys/Startup Folder (T1547.001)
+                Event Triggered Execution: Windows Management Instrumentation Event Subscription (T1546.003)
+                Abuse Elevation Control Mechanism: Bypass User Access Control (T1548.002) -- 봐줌
+                Remote Services: Remote Desktop Protocol (T1021.001)
+                Input Capture: Keylogging (T1056.001)
+
+
+
+INTERSECT (#2) : 
+   T1021.001: Remote Services: Remote Desktop Protocol (RDP), 
+   T1547.001: Boot or Logon Autostart Execution: Registry Run Keys/Startup Folder
+ 
+ONLY-IN-WITHOUT-DK (#4): 
+      Scheduled Task/Job (T1053.005),  
+      Event Triggered Execution: Windows Management Instrumentation Event Subscription (T1546.003) , 
+      Abuse Elevation Control Mechanism: Bypass User Access Control (T1548.002) ,
+      Input Capture: Keylogging (T1056.001)
+
+ONLY-IN-WITH-DK (#7): 
+   T1570: Lateral Tool Transfer, 
+   T1016: System Network Configuration Discovery, 
+   T1082: System Information Discovery,  
+   T1087.002: Account Discovery: Domain Account, 
+   T1033: System Owner/User Discovery, 
+   T1136.001: Create Account: Local Account,  
+   T1543.003: Create or Modify System Process: Windows Service
