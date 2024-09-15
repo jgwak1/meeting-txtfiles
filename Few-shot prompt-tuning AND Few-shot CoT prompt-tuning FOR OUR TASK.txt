@@ -1,45 +1,42 @@
 
 ### 'Few-shot prompt' template for our task ###
 
-Your task is to list all APT-technique(s) that you can recognize from a given code-sample, referring to, but not limitting yourself to the APT-techniques in the provided knowledge-base.
+Your task is to list all APT-technique(s) that you can recognize from a given code-sample, referring to, but not limiting yourself to, the APT-techniques in the provided knowledge-base.
 
-
-Here are a few examples of the code-sample, knowledge-base, and correct techniques to be recognized which exemplifies your task.
+Here are a few examples of code samples, the knowledge base, and the correct techniques to be recognized, which exemplify your task.
 
 """
 Example-1:
- Code-sample: ''' <code-sample> '''
- Knowledge-base: ''' < Knowledge (implementations, description) of several techniques. 
- 					   IMPORTANT: Implementations here should not overlap with those in code-sample (i.e., Code-sample should include 'unseen implementations' )> '''
- Answer: ''' < Ground-truth techniques along with corresponding 'pieces of code' > '''
+ Code-sample: ''' < example code-sample > '''
+ Knowledge-base: ''' < example knowledge-base: implementations and descriptions of several techniques. 
+ 					   IMPORTANT: The implementations here should not overlap with those in the code sample (i.e., the code sample should include 'unseen' implementations) > '''
+ Answer: ''' < Ground-truth techniques for the example code sample, along with the corresponding pieces of code > '''
 
-Example-2:
-		...
+Example-2: ...
 """
 
-Here is the actual code-sample you should perform your task. Now the knowledge-base is the uploaded "XX" file. 
+Here is the code sample on which you should perform your task. The knowledge base is the uploaded 'XX' file.
+
 < test code-sample >
 
 
-
-
+#####################################################################################################################################################3
 ### 'Few-shot CoT prompt' template  for our task ###
 
-Your task is to list all APT-technique(s) that you can recognize from a given code-sample, referring to, but not limitting yourself to the APT-techniques in the provided knowledge-base.
+Your task is to list all APT-technique(s) that you can recognize from a given code-sample, referring to, but not limiting yourself to, the APT-techniques in the provided knowledge-base.
 
-
-Here are a few examples of the code-sample, knowledge-base, and correct techniques to be recognized which exemplifies your task.
+Here are a few examples of code samples, the knowledge base, and the correct techniques to be recognized, which exemplify your task.
 
 """
 Example-1:
- Code-sample: ''' <code-sample> '''
- Knowledge-base: ''' <Knowledge (implementations, description) of several techniques. 
- 					  IMPORTANT: Implementations here should not overlap with those in code-sample (i.e., Code-sample should include 'unseen implementations' )> '''
- Answer: ''' < "Reasoning steps" (that involve analysis of code-segments, and reasonings to avoid commonly observed inaccurate predictions ) that lead to the correct predictions >
+ Code-sample: ''' < example code-sample>  '''
+ Knowledge-base: ''' < example knowledge-base: implementations and descriptions of several techniques. 
+ 					   IMPORTANT: The implementations here should not overlap with those in the code sample (i.e., the code sample should include 'unseen' implementations) > '''
+ Answer: ''' < Reasoning-steps (involving the analysis of code-segments and reasoning to avoid commonly observed inaccurate predictions) that lead to correct predictions > '''
 
-Example-2:
-		...
+Example-2: ...
 """
 
-Here is the actual code-sample you should perform your task. Now the knowledge-base is the uploaded "XX" file. 
+Here is the code sample on which you should perform your task. The knowledge base is the uploaded 'XX' file.
+
 < test code-sample >
