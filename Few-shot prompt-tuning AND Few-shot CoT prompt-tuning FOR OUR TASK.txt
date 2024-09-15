@@ -1,0 +1,45 @@
+
+### 'Few-shot prompt' template for our task ###
+
+Your task is to list all APT-technique(s) that you can recognize from a given code-sample, referring to, but not limitting yourself to the APT-techniques in the provided knowledge-base.
+
+
+Here are a few examples of the code-sample, knowledge-base, and correct techniques to be recognized which exemplifies your task.
+
+"""
+Example-1:
+ Code-sample: ''' <code-sample> '''
+ Knowledge-base: ''' < Knowledge (implementations, description) of several techniques. 
+ 					   IMPORTANT: Implementations here should not overlap with those in code-sample (i.e., Code-sample should include 'unseen implementations' )> '''
+ Answer: ''' < Ground-truth techniques along with corresponding 'pieces of code' > '''
+
+Example-2:
+		...
+"""
+
+Here is the actual code-sample you should perform your task. Now the knowledge-base is the uploaded "XX" file. 
+< test code-sample >
+
+
+
+
+### 'Few-shot CoT prompt' template  for our task ###
+
+Your task is to list all APT-technique(s) that you can recognize from a given code-sample, referring to, but not limitting yourself to the APT-techniques in the provided knowledge-base.
+
+
+Here are a few examples of the code-sample, knowledge-base, and correct techniques to be recognized which exemplifies your task.
+
+"""
+Example-1:
+ Code-sample: ''' <code-sample> '''
+ Knowledge-base: ''' <Knowledge (implementations, description) of several techniques. 
+ 					  IMPORTANT: Implementations here should not overlap with those in code-sample (i.e., Code-sample should include 'unseen implementations' )> '''
+ Answer: ''' < "Reasoning steps" (that involve analysis of code-segments, and reasonings to avoid commonly observed inaccurate predictions ) that lead to the correct predictions >
+
+Example-2:
+		...
+"""
+
+Here is the actual code-sample you should perform your task. Now the knowledge-base is the uploaded "XX" file. 
+< test code-sample >
