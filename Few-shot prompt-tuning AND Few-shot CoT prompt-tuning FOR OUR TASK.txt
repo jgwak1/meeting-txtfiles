@@ -3,21 +3,22 @@
 
 Your task is to list all APT-technique(s) that you can recognize from a given code-sample, referring to, but not limiting yourself to, the APT-techniques in the provided knowledge-base.
 
-Here are a few examples of code samples, the knowledge base, and the correct techniques to be recognized, which exemplify your task.
+Here are a few examples of code sample, knowledge base, and correct techniques to be recognized, which exemplify your task.
 
 """
 Example-1:
  Code-sample: ''' < example code-sample > '''
  Knowledge-base: ''' < example knowledge-base: implementations and descriptions of several techniques. 
- 					   IMPORTANT: The implementations here should not overlap with those in the code sample (i.e., the code sample should include 'unseen' implementations) > '''
- Answer: ''' < Ground-truth techniques for the example code sample, along with the corresponding pieces of code > '''
+ 					   IMPORTANT: The implementations here should not overlap with code in the example code-sample 
+ 					   (i.e., Avoid code-sample including 'seen' implementations) > '''
+ Answer: ''' < Ground-truth techniques of example code-sample, along with their corresponding code-segments > '''
 
 Example-2: ...
 """
 
-Here is the code sample on which you should perform your task. The knowledge base is the uploaded 'XX' file.
+Here is the code sample which you should perform your task. The knowledge base is the uploaded "XX" file.
 
-< test code-sample >
+''' < test code-sample > '''
 
 
 #####################################################################################################################################################3
@@ -25,18 +26,21 @@ Here is the code sample on which you should perform your task. The knowledge bas
 
 Your task is to list all APT-technique(s) that you can recognize from a given code-sample, referring to, but not limiting yourself to, the APT-techniques in the provided knowledge-base.
 
-Here are a few examples of code samples, the knowledge base, and the correct techniques to be recognized, which exemplify your task.
+Here are a few examples of code sample, knowledge base, and correct techniques to be recognized, which exemplify your task.
 
 """
 Example-1:
  Code-sample: ''' < example code-sample>  '''
  Knowledge-base: ''' < example knowledge-base: implementations and descriptions of several techniques. 
- 					   IMPORTANT: The implementations here should not overlap with those in the code sample (i.e., the code sample should include 'unseen' implementations) > '''
- Answer: ''' < Reasoning-steps (involving the analysis of code-segments and reasoning to avoid commonly observed inaccurate predictions) that lead to correct predictions > '''
+ 					   IMPORTANT: The implementations here should not overlap with code in the example code-sample 
+ 					   (i.e., Avoid code-sample including 'seen' implementations) > '''
+ Answer: ''' < Reasoning-steps that lead to correct predictions of ground-truth techniques 
+               (e.g., involving the analysis of code segments, which may or may not refer to the provided knowledge base).
+               These reasoning-steps may also be designed to avoid inaccurate predictions from few-shot (non-CoT) prompts  > '''
 
 Example-2: ...
 """
 
-Here is the code sample on which you should perform your task. The knowledge base is the uploaded 'XX' file.
+Here is the code sample which you should perform your task. The knowledge base is the uploaded "XX" file.
 
-< test code-sample >
+''' < test code-sample > '''
