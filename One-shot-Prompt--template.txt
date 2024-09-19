@@ -1,0 +1,31 @@
+Given a code sample, your task is to list all the APT techniques you can recognize. Please refer to, but do not limit yourself to, the APT techniques in the provided knowledge-base.
+
+Here is an example of a code-sample, a knowledge-base, and the ground-truth techniques to be recognized in the code sample, which illustrate your task.
+
+"""
+Example-1:
+ 
+- Code-sample: ''' 
+
+
+ '''
+
+
+- Knowledge-base: ''' 
+
+ '''
+
+
+- Answer: ''' 
+
+
+ '''
+"""
+
+Does the following code-sample use APT-techniques? If so, which APT technique(s) does it use?
+Please list all the techniques you can recognize. 
+Refer to, but do not limit yourself to, the APT techniques in the uploaded file 'Technique-knowledge-file--80.json'.
+
+'''
+
+'''
