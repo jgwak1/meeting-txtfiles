@@ -1,0 +1,816 @@
+    1  ssh pwakodi1@ocelot.cs.binghamton.edu
+    2  hostname -a
+    3  ipconfig
+    4  hostname -I
+    5  ip a
+    6  cd Desktop/
+    7  pwd
+    8  scp pwakodi1@ocelot.cs.binghamton.edu:/home/pwakodi1/tabby/Window_cloned_images_Priti/newwin10etw-clean-clone.qcow2 /home/etw0/Desktop/
+    9  clear
+   10  sudo apt update
+   11  sudo apt install tightvncserver
+   12  sudo apt install qemu
+   13  sudo apt install virt-manager
+   14  sudo apt install qemu-kvm
+   15  sudo virt-manager
+   16  cd Downloads/
+   17  mv PowerShell-main.zip /var/www/html/
+   18  sudo mv PowerShell-main.zip /var/www/html/
+   19  pwd
+   20  hostname -I
+   21  sudo apt update
+   22  sudo apt install apache2
+   23  cd /var/www/html/
+   24  ls
+   25  sudo rm index.html 
+   26  cd Downloads/
+   27  mv Utilities-master.zip PowerShell-Scripts-master.zip /var/www/html/
+   28  sudo mv Utilities-master.zip PowerShell-Scripts-master.zip /var/www/html/
+   29  cd /var/www/html/
+   30  ls
+   31  sudo nano /etc/gdm3/custom.conf
+   32  cd Downloads
+   33  ls
+   34  python3 client.py 
+   35  cd Desktop/
+   36  cd ..
+   37  cd Downloads/
+   38  python3 client.py 
+   39  cd Downloads/
+   40  sudo mv Terminal-Icons-main.txt nishang-master.txt /var/www/html/
+   41  sudo mv autosetup_win-master.zip powershell-scripts-master.zip Terminal-Icons-main.zip PSScripts-main.zip Sysadmin-Survival-Kit-Scripts-main.zip scripts-main.zip PowerShellScripting-master.zip /var/www/html/
+   42  cd Downloads/
+   43  python3 client.py 
+   44  cd Desktop/
+   45  cd ..
+   46  cd Downloads/
+   47  python3 client.py 
+   48  cd Downloads/
+   49  sudo mv PowerShell-collection-main.zip /var/www/html/
+   50  python3 client.py 
+   51  sudo mv Win-Debloat-Tools-main.zip /var/www/html/
+   52  cd /var/www/html/
+   53  ls
+   54  cd Downloads/
+   55  sudo mv WindowsPowerShell-main.zip /var/www/html/
+   56  cd /var/www/html/
+   57  ls
+   58  cd Desktop/
+   59  python3 client.py 
+   60  cd Downloads/
+   61  cd ..
+   62  cd Downloads/
+   63  python3 client.py 
+   64  cd Downloads/
+   65  sudo mv Rest.zip QuasarRAT.zip Quakbot.zip NW0rm.zip NetSupport.zip NetWalker.zip Metasploit.zip Guloader.zip Gozi.zip CoinMiner.zip Cobalt_Strike.zip BumbleBee.zip BitRAT.zip AsyncRAT.zip OFFSEC-PowerShell-main.zip PrivescCheck-master.zip PSBits-master.zip smallposh-main.zip RandomPS-Scripts-master.zip Powershellery-master.zip /var/www/html/
+   66  python3 client.py 
+   67  cd Downloads/
+   68  sudo mv PoshC2-master.zip /var/www/html/
+   69  cd ..
+   70  cd Desktop/
+   71  python3 client.py 
+   72  cd ..
+   73  cd Downloads/
+   74  python3 client.py 
+   75  cd Desktop/
+   76  sudo mv Invoke-Obfuscation-master.txt nishang-master.txt /var/www/html/
+   77  cd ..
+   78  cd Downloads/
+   79  sudo mv nishang-master.zip Invoke-Obfuscation-master.zip 
+   80  cd /var/www/html/
+   81  ls
+   82  cd
+   83  cd Downloads/
+   84  sudo mv nishang-master.zip Invoke-Obfuscation-master.zip /var/www/html/
+   85  ls
+   86  sudo mv nishang-master.zip Invoke-Obfuscation-master.zip /var/www/html/
+   87  cd /var/www/html/
+   88  ls
+   89  cd Downloads/
+   90  sudo mv PowerSploit-master.zip /var/www/html/
+   91  cd /var/www/html/
+   92  ls
+   93  cd Downloads/
+   94  sudo mv PT-ToolKit-f78567ce9b4701acfd6af21196b95eef44bbc9c5.zip /var/www/html/
+   95  ls
+   96  cd Desktop/
+   97  ls
+   98  clear
+   99  ls
+  100  sudo dpkg -i anydesk_6.3.0-1_amd64.deb 
+  101  sudo dpkg -i anydesk_6.3.0-1_amd64.deb
+  102  sudo apt-get install libgtkglext1
+  103  sudo dpkg -i anydesk_6.3.0-1_amd64.deb
+  104  ls
+  105  anydesk
+  106  clear
+  107  lsa-release
+  108  lsb-release
+  109  lsb_release
+  110  lsb_release -
+  111  sudo apt install ./rustdesk-1.2.3-x86_64.deb 
+  112  sudo dpkg -i ./rustdesk-1.2.3-x86_64.deb 
+  113  sudo apt uninstall rustdesk
+  114  sudo apt-get uninstall rustdesk
+  115  sudo apt-get remove rustdesk
+  116  sudo apt-get install -fy ./rustdesk-1.2.3-x86_64.deb
+  117  rustdesk
+  118  anydesk
+  119  ls -l
+  120  cd Downloads/
+  121  ls
+  122  sudo mv Empire-master.zip /var/www/html/
+  123  cd /var/www/html/
+  124  ls
+  125  cd
+  126  cd Downloads/
+  127  ls
+  128  vi client.py 
+  129  python3 client.py 
+  130  rundesk
+  131  rustdesk
+  132  cd ..
+  133  cd E
+  134  cd Desktop/
+  135  ls
+  136  sudo apt-get remove rustdesk
+  137  sudo apt-get install -fy ./rustdesk-1.2.0-x86_64.deb
+  138  tar -xvzf caldera.tar.gz 
+  139  cd caldera_from_P16_JYBig/
+  140  ls
+  141  cd etw
+  142  ls
+  143  python3 main_custom_adv_profile_JY_Big_machine.py 
+  144  cd..
+  145  cd ..
+  146  clera
+  147  l
+  148  clear
+  149  ls
+  150  tar -xvzf go1.21.6.src.tar.gz 
+  151  ls
+  152  go
+  153  sudo apt install golang-go
+  154  go
+  155  pip install aiohttp
+  156  pip install aiohttp_apispec
+  157  python3-pip install aiohttp_apispec
+  158  sudo apt install pip
+  159  python3-pip install aiohttp_apispec
+  160  pip install aiohttp_apispec
+  161  pip install marshmallow
+  162  pip install aiohttp
+  163  pip install aiohttp_jinja2
+  164  pip install aiohttp_security
+  165  pip install aiohttp_session
+  166  pip install marshmallow
+  167  pip install marshmallow_enum
+  168  pip install ldap3
+  169  pip install websockets
+  170  pip install markdown
+  171  pip install aioftp
+  172  pip install go
+  173  pip install asyncssh
+  174  go
+  175  sudo apt install go
+  176  sudo snap install go
+  177  pip install sphinx_rtd_theme
+  178  clear
+  179  sudo apt-get install lstp
+  180  sudo apt-get install lxml
+  181  pip install lxml
+  182  pip install docker
+  183  pip install Blowfish
+  184  pip install multidict
+  185  pip install aiohttp
+  186  netstat
+  187  sudo apt install net-tools
+  188  pip install aiohttp_apispec
+  189  go -version
+  190  go version
+  191  sudo rm -rf /usr/local/go
+  192  cd ..
+  193  sudo tar -C /usr/local/ -xzf go1.21.6.src.tar.gz 
+  194  echo $PATH | grep "/usr/local/go/bin"
+  195  go
+  196  go version
+  197  sudo apt-get uninstall rustdesk cd /home/etw0/Desktop/caldera ; /usr/bin/env /bin/python3 /home/etw0/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 53915 -- /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY_Big_machine.py 
+  198  pip install sphinx
+  199  pip install myst_parser
+  200  clear
+  201  go
+  202  go version
+  203  gopath-get
+  204  go gopath-get
+  205  which go
+  206  cd /usr/bin/go
+  207  ls
+  208  cd usr/bin
+  209  cd /usr/bin/
+  210  ls
+  211  go
+  212  ls
+  213  /usr/local/go version
+  214  /usr/local/go/bin/go version
+  215  mv /usr/local/go/bin/go .
+  216  sudo mv /usr/local/go/bin/go .
+  217  go
+  218  go version
+  219  sudo rm -rf /usr/local/go
+  220  go
+  221  sudo apt-get remove go
+  222  go
+  223  go update
+  224  sudo rm -rvf /usr/local/go
+  225  wget https://dl.google.com/go/go1.19.linux-amd64.tar.gz
+  226  sudo tar -xvf go1.14.linux-amd64.tar.gz
+  227  sudo tar -xvf go1.19.linux-amd64.tar.gz
+  228  sudo mv go /usr/local
+  229  go
+  230  go version
+  231  /usr/local/go
+  232  /usr/local/go/bin/
+  233  ls
+  234  /usr/local/go/bin/go
+  235  /usr/local/go/bin/go -version
+  236  /usr/local/go/bin/
+  237  cd /usr/local/go/
+  238  go -version
+  239  go version
+  240  /usr/local/go/bin/go version
+  241  vi ~/.profile
+  242  clear
+  243  pip install donut
+  244  pip install aiohttp
+  245  pip install aiohttp_security
+  246  pip install aiohttp.security
+  247  clear
+  248  pip install aiohttp_security
+  249  anydesk
+  250  pip uninstall aiohttp_security
+  251  pip install aiohttp_security
+  252  pip list
+  253  pip uninstall aioftp
+  254  pip install aioftp=0.20.1
+  255  pip install aioftp==0.20.1
+  256  pip uninstall aiohttp
+  257  pip install aiohttp==3.8.5
+  258  pip uninstall aiohttp-apispec
+  259  pip uninstall aiohttp-jinja2
+  260  pip uninstall aiohttp-security
+  261  pip uninstall aiohttp-session
+  262  pip uninstall aiohttp-signal
+  263  pip install aiohttp==3.8.5
+  264  pip install aiohttp-apispec==2.2.3
+  265  pip install aiohttp-jinja2==1.5.1
+  266  pip install aiohttp-security==0.4.0
+  267  pip install aiohttp-session==2.12.0
+  268  pip install aiosignal==1.3.1
+  269  pip list
+  270  virt-manager
+  271  hostname -I
+  272  hostname -I
+  273  hostname -I
+  274  cd /home/etw0/Desktop/caldera/etw/tmp/
+  275  ls
+  276  clear
+  277  hostname -I
+  278  virt-manager
+  279  ls
+  280  cd Desktop/
+  281  ls
+  282  git clone git@github.com:mandiant/SilkETW.git
+  283  sudo apt install git
+  284  clear
+  285  git clone git@github.com:mandiant/SilkETW.git
+  286  ssh-keygen -t ed25519 -C "jgwak1@binghamton.edu"
+  287  eval "$(ssh-agent -s)"
+  288  ssh-add ~/.ssh/id_ed25519
+  289  cat ~/.ssh/id_ed25519.pub
+  290  git clone git@github.com:mandiant/SilkETW.git
+  291  cd SilkService/
+  292  ls
+  293  dotnet build
+  294  sudo apt install dotnet-host
+  295  dotnet build
+  296  sudo apt install dotnet-sdk
+  297  sudo snap install dotnet-sdk
+  298  dotnet
+  299  dotnet SilkService.csproj 
+  300  ls
+  301  sudo apt remove dotnet* aspnetcore* netstandard*
+  302  sudo apt install dotnet-sdk-6.0
+  303  dotnet SilkService.csproj 
+  304  dotnet build 
+  305  sudo killall TeamViewer
+  306  ps
+  307  hps
+  308  htop
+  309  top
+  310  ps aux | grep TeamViewer
+  311  sudo kill -9 1559965
+  312  ps aux | grep TeamViewer
+  313  sudo kill -9 1588886
+  314  ps aux | grep TeamViewer
+  315  sudo kill -9 1588892
+  316  ps aux | grep Tea
+  317  sudo kill -9 1588292
+  318  ps aux | grep TeamViewer
+  319  sudo kill -9 1588275
+  320  cd Desktop/
+  321  cd ..
+  322  cd Downloads/
+  323  python3 client.py 
+  324  cd Downloads/
+  325  python3 client.py 
+  326  cd Downloads/
+  327  pwd
+  328  python3 Get_pid.py 
+  329  cd Downloads/
+  330  python3 client.py 
+  331  cd Downloads/
+  332  python3 client.py 
+  333  cd Downloads/
+  334  python3 client.py 
+  335  cd Downloads/
+  336  python3 Get_pid.py 
+  337  sudo apt-get update
+  338  clera
+  339  sudo apt-get update
+  340  virt-manager
+  341  htop
+  342  sudo apt install htop
+  343  htop
+  344  virt-manager
+  345  clear
+  346  htop
+  347  clear
+  348  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY_Big_machine.py
+  349  clera
+  350  clear
+  351  clear
+  352  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY_Big_machine.py
+  353  clear
+  354  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY_Big_machine.py
+  355  clear
+  356  htop
+  357  virt-manager
+  358  netstat -an | grep 9900
+  359  virt-manager
+  360  python3
+  361  pippppppppppppppp list
+  362  pip list
+  363  pip list > mini_machine_1_piplist.txt
+  364  sudo lsof -i:8888
+  365  cd /home/priti/Desktop/caldera/plugins/stockpile/data/abilities
+  366  cd /home/etw0/Desktop/caldera/plugins/stockpile/data/abilities
+  367  /usr/bin/python3
+  368  clear
+  369  cd /home/etw0/Desktop/caldera/etw
+  370  mkdir main_files
+  371  c;ear
+  372  clear
+  373  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY_Big_machine.py
+  374  clera
+  375  clear
+  376  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY_Big_machine.py
+  377  clear
+  378  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY_Big_machine.py
+  379  clear
+  380  ps -fA | grep python
+  381  htop
+  382  q cd /home/etw0/Desktop/caldera ; /usr/bin/env /usr/bin/python3 /home/etw0/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 43137 -- /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY_Big_machine.py 
+  383  clear
+  384  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY_Big_machine.py
+  385  clear
+  386  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY_Big_machine.py
+  387  ls /home/etw0/Desktop/caldera/etw/caldera/Single_Technique_Adversary_Profile__yml_files
+  388  ls /home/etw0/Desktop/caldera/etw/caldera/Single_Technique_Adversary_Profile__yml_files | wc -l
+  389  python3 /home/etw0/Desktop/caldera/etw/caldera/Single_Technique_Adversary_Profile_Generation.py
+  390  ls /home/etw0/Desktop/caldera/data/results -l
+  391  clear
+  392  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY_Big_machine.py
+  393  python3
+  394  clear
+  395  htop
+  396  clear
+  397  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY_Big_machine.py
+  398  cd /tmp/
+  399  ls
+  400  cd caldera
+  401  clear
+  402  virt-manager
+  403  du -h
+  404  df -h
+  405  virt-manager
+  406  pip install pandas
+  407  clear
+  408  ls /home/etw0/Desktop/caldera/etw/operation_reports_savedir/reports | wc -l
+  409  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY_Big_machine.py
+  410  clear
+  411  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY_Big_machine.py
+  412  htop
+  413  cd /home/etw0/Desktop/caldera/data/adversaries
+  414  cp -r /home/etw0/Desktop/caldera/etw/caldera/Single_Technique_Adversary_Profile__yml_files/* .
+  415  ls /home/etw0/Desktop/caldera/data/adversaries | wc -l
+  416  ls /home/etw0/Desktop/caldera/etw/caldera/Single_Technique_Adversary_Profile__yml_files | wc -l
+  417  screen -ls
+  418  sudo apt install screen
+  419  screen -ls
+  420  screen -R main_loop_execution_20240306
+  421  virt-manager
+  422  clear
+  423  /home/etw0/Desktop/caldera/
+  424  cd /home/etw0/Desktop/caldera/
+  425  echo $STY
+  426  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY_Big_machine.py
+  427  clear
+  428  htop
+  429  clear
+  430  htop
+  431  clear
+  432  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY_Big_machine.py
+  433  htop
+  434  clear
+  435  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py
+  436  htop
+  437  clear
+  438  cd etw
+  439  python3 main_custom_adv_profile_JY.py 
+  440  ls ~/home/etw0/Desktop/caldera/etw/operation_reports_savedir/reports | wc -l
+  441  ls /home/etw0/Desktop/caldera/etw/operation_reports_savedir
+  442  ls /home/etw0/Desktop/caldera/etw/operation_reports_savedir/reports/ | wc -l
+  443  screen -ls
+  444  clear
+  445  screen -ls
+  446  screen -R screen_for_loop
+  447  virt-manager
+  448  ls /home/etw0/Desktop/caldera/etw/operation_reports_savedir/reports | wc -l
+  449  clera
+  450  clear
+  451  htop
+  452  ls /home/etw0/Desktop/caldera/etw/operation_reports_savedir/reports | wc -l
+  453  htop
+  454  clear
+  455  screen -ls
+  456  screen -ls
+  457  screen -r screen_for_loop 
+  458  clear
+  459  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py
+  460  htop
+  461  aU0aU0aT0aU/aU/aU/aU/aV/aV/aV.aV.aV.aV.aV. W-#W-c
+  462  clear
+  463  htop
+  464  clear
+  465  /home/etw0/Desktop/caldera/etw
+  466  cd /home/etw0/Desktop/caldera/etw
+  467  echo $STY
+  468  clear
+  469  /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py
+  470  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py
+  471  htop
+  472  clear
+  473  htop
+  474  clear
+  475  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py
+  476  clear
+  477  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py
+  478  htop
+  479  clear
+  480  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py
+  481  sudo lsof -i:8022
+  482  kill -9 3316091
+  483  clear
+  484  htop
+  485  clear
+  486  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py
+  487  clear
+  488  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py
+  489  clear
+  490  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py
+  491  virt-manager
+  492  htop
+  493  ls /home/etw0/Desktop/caldera/plugins/stockpile/payloads > stockpile_plugin_payloads_list.txt
+  494  ls /home/etw0/Desktop/caldera/plugins/atomic/payloads > atomic_plugin_payloads_list.txt
+  495  screen -ls
+  496  sceen -R treatment_appleid_TTPs
+  497  screen -R treatment_appleid_TTPs
+  498  htop
+  499  clear
+  500  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py
+  501  clear
+  502  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py
+  503  htop
+  504  clear
+  505  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py
+  506  htop
+  507  clear
+  508  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py
+  509  htop
+  510  cd /home/etw0/Desktop/caldera/etw
+  511  python3 main_custom_adv_profile_JY.py 
+  512  clear
+  513  htop
+  514  python3 main_custom_adv_profile_JY.py 
+  515  clear
+  516  htop
+  517  python3 main_custom_adv_profile_JY.py 
+  518  htop
+  519  clear
+  520  python3 main_custom_adv_profile_JY.py 
+  521  htop
+  522  virt-manager
+  523  htop
+  524  clera
+  525  clear
+  526  htop
+  527  virt-manager
+  528  netstat -ltp
+  529  clear
+  530  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py
+  531  htop
+  532  clear
+  533  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py
+  534  clear
+  535  screen -ls
+  536  screen -R treatment_rerun
+  537  clear
+  538  python3 main_custom_adv_profile_JY.py 
+  539  cd etw
+  540  clear
+  541  python3 main_custom_adv_profile_JY.py 
+  542  clear
+  543  python3 main_custom_adv_profile_JY.py 
+  544  clear
+  545  python3 main_custom_adv_profile_JY.py 
+  546  ls /home/etw0/Desktop/caldera/plugins/atomic/payloads > atomic_plugin_payloads_list.txtclear
+  547  clear
+  548  python3 main_custom_adv_profile_JY.py 
+  549  clear
+  550  python3 main_custom_adv_profile_JY.py > main_exec_log_2024_03_12.txt
+  551  clear
+  552  htop
+  553  clear
+  554  python3 main_custom_adv_profile_JY.py &> main_exec_log_20240312.txtc
+  555  htop
+  556  clear
+  557  python3 main_custom_adv_profile_JY.py
+  558  htop
+  559  clear
+  560  python3 main_custom_adv_profile_JY.py
+  561  clear
+  562  htop
+  563  clear
+  564  scren -ls
+  565  screen -ls
+  566  screen -R treatmnet_payload
+  567  virt-manager
+  568  cd etw
+  569  ls
+  570  clera
+  571  clear
+  572  python3 main_custom_adv_profile_JY.py clear
+  573  clear
+  574  htop
+  575  clear
+  576  python3 main_custom_adv_profile_JY.py
+  577  c;ear
+  578  clear
+  579  python3 main_custom_adv_profile_JY.py
+  580  htop
+  581  clear
+  582  python3 main_custom_adv_profile_JY.py
+  583  htop
+  584  clear
+  585  python3 main_custom_adv_profile_JY.py
+  586  clear
+  587  python3 main_custom_adv_profile_JY.py
+  588  cd Desktop/
+  589  cp newwin10etw-clean-clone.qcow2 win10_for_caldera.qcow2
+  590  scp win10_for_caldera.qcow2 jgwak1@tabby.cs.binghamton.edu:SCP_repository/
+  591  scp win10_for_caldera.qcow2 jgwak1@tabby.cs.binghamton.edu:/tabby/ibm/SCP_repository/
+  592  python3 main_custom_adv_profile_JY.py &> EXEC_LOG_20240319.txt
+  593  htop
+  594  clear
+  595  cd /home/etw0/Desktop/caldera/etw/operation_reports_savedir
+  596  htop
+  597  clear
+  598  python3 main_custom_adv_profile_JY.py &> EXEC_LOG_20240319.txt
+  599  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py  &> EXEC_LOG_20240319.txt
+  600  python3 main_custom_adv_profile_JY.py &> EXEC_LOG_20240324.txt
+  601  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py &> EXEC_LOG_20240324.txt
+  602  cd Desktop/
+  603  ls
+  604  tar -czvf caldera_minimachine_1_20240325.tar.gz caldera/
+  605  scp caldera_minimachine_1_20240325.tar.gz jgwak1@panther.cs.binghamton.edu:/home/jgwak1/tabby/SUNYIBM_ExplainableAI_2nd_Year_JY
+  606  virsh dumpxml ~/Desktop/newwin10etw-clean-clone.qcow2 > newwin10etw-clean-clone.xml
+  607  cd Desktop/
+  608  ls
+  609  virsh dumpxml newwin10etw-clean-clone.qcow2 > newwin10etw.xml
+  610  virsh dumpxml newwin10etw-clean-clone > newwin10etw.xml
+  611  virsh dumpxml win10 > win10.xml
+  612  virt-manager
+  613  htop
+  614  clear
+  615  htop
+  616  ls
+  617  clear
+  618  cd etw
+  619  screen -ls
+  620  screen -R TTP_minimachine_1
+  621  htop
+  622  screen -ls
+  623  screen -R TTP_minimachine_1
+  624  ls /home/etw0/Desktop/caldera/etw/operation_reports_savedir
+  625  cd operation_reports_savedir/
+  626  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py &> EXEC_LOG_20240324.txt
+  627  clear
+  628  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py &> EXEC_LOG_20240324.txt
+  629  python3
+  630  clear
+  631  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py &> EXEC_LOG_20240324.txt
+  632  clear
+  633  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py &> EXEC_LOG_20240325.txt
+  634  screen -ls
+  635  screen -R synthetic_APT_attack
+  636  cd Desktop/
+  637  ls
+  638  tar -xvzf Synthetic_APT_Attack_Custom_Adv_Profile_yml_files__GeneralTacticOrder.tar.gz
+  639  tar -xvf Synthetic_APT_Attack_Custom_Adv_Profile_yml_files__GeneralTacticOrder.tar.gz
+  640  cd Synthetic_APT_Attack_Custom_Adv_Profile_yml_files__GeneralTacticOrder/clear
+  641  clear
+  642  htop
+  643  code
+  644  htop
+  645  virt-manager
+  646  htop
+  647  htop
+  648  htop cd /home/etw0/Desktop/caldera ; /usr/bin/env /usr/bin/python3 /home/etw0/.vscode/extensions/ms-python.python-2024.2.1/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 42011 -- /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py 
+  649  htop
+  650  tar -xvzf /home/etw0/Desktop/caldera/etw/Synthetic_APT_Attack__GeneralTacticOrder__Custom_Adv_Profile_yml_files.tar.gz
+  651  ls /home/etw0/Desktop/caldera/etw/caldera/Synthetic_APT_Attack__GeneralTacticOrder__Custom_Adv_Profile_yml_files | wc -l
+  652  clera
+  653  clear
+  654  htop
+  655  screen -ls
+  656  screen -r synthetic_APT_attack 
+  657  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py
+  658  cler
+  659  clear
+  660  htop
+  661  clera
+  662  clear
+  663  htop
+  664  clear
+  665  htop
+  666  clera
+  667  cler
+  668  clear
+  669  cd /home/etw0/Desktop/caldera/etw
+  670  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack_first15_20240410.txt
+  671  htop
+  672  clear
+  673  cler
+  674  clear
+  675  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack_first15_20240410.txt
+  676  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack_next30_20240412.txt
+  677  htop
+  678  clear
+  679  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack_Try_with_revised_adversary_profile_name_20240412.txt
+  680  clear
+  681  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__first40__20240412.txt
+  682  clear
+  683  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__first40__20240412.txt
+  684  clear
+  685  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__first40__20240412.txt
+  686  clear
+  687  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__first40__20240413.txt
+  688  screen -ls
+  689  screen -l
+  690  cd /home/etw0/Desktop/caldera/etw
+  691  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240414.txt
+  692  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240416.txt
+  693  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240420.txt
+  694  htop
+  695  clear
+  696  htop
+  697  clear
+  698  screen -XS $STY
+  699  echo $STY
+  700  scree n -X -S $STY
+  701  screen -X -S $STY
+  702  screen -X -S $STY kill
+  703  virt-manager
+  704  cd etw
+  705  screen -ls
+  706  screen -R syntheticAPT_attack
+  707  ps -fa
+  708  hop
+  709  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack_20240420.txt
+  710  htop
+  711  clear
+  712  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack_20240420.txt
+  713  htop
+  714  clear
+  715  ps -fa
+  716  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240420.txt
+  717  virt-manager
+  718  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240423.txt
+  719  cd etw
+  720  clear
+  721  screen -ls
+  722  screen -R syntheticAPTattack
+  723  clear
+  724  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240423.txt
+  725  clear
+  726  htop
+  727  clear
+  728  htop
+  729  clear
+  730  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240423.txt
+  731  cd etw
+  732  screen -ls
+  733  screen -R synthetic
+  734  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240425.txt
+  735  clear
+  736  htop
+  737  clear
+  738  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240427.txt
+  739  htop
+  740  cd etw
+  741  clear
+  742  screen -ls
+  743  screen -R synthetic
+  744  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240427.txt
+  745  htop
+  746  ls
+  747  cd ew
+  748  cd etw
+  749  clear
+  750  ls -l
+  751  clear
+  752  screen -R synthetic
+  753  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240428.txt
+  754  htop
+  755  virt-manager
+  756  cd etw
+  757  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240430.txt
+  758  cd etw
+  759  lws
+  760  ls
+  761  ls
+  762  clear
+  763  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240502.txt
+  764  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240504.txt
+  765  htop
+  766  screen -ls
+  767  screen -R syntheticAPT
+  768  echo $STY
+  769  cd etw
+  770  clear
+  771  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240507.txt
+  772  screen -R synthetic
+  773  cd etw
+  774  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240509.txt
+  775  cd etw
+  776  clear
+  777  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240514.txt
+  778  cd etw
+  779  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240516.txt
+  780  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240519.txt
+  781  cd etw
+  782  clear
+  783  python3 /home/etw0/Desktop/caldera/etw/main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240523.txt
+  784  sudo apt purge teamviewer
+  785  cd etw
+  786  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240527.txt
+  787  cd etw
+  788  clear
+  789  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240531.txt
+  790  htop
+  791  cd etw
+  792  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240602.txt
+  793  clear
+  794  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240605.txt
+  795  cd etw
+  796  clear
+  797  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240611.txt
+  798  cd etw
+  799  python3 main_custom_adv_profile_JY.py &> synthetic_apt_attack__20240615.txt
+  800  cd etw
+  801  python3 main_custom_adv_profile_JY.py &> malware_test_17_TTPs_Recollecting__20240618.txt
+  802  cd etw
+  803  python3 TO_RECOLLECT_for_JustInCase_between_Row141_to_Row184__Previously_collected_from_MiniMachine_3__20240619.txt
+  804  clear
+  805  python3 main_custom_adv_profile_JY.py &> TO_RECOLLECT_for_JustInCase_between_Row141_to_Row184__Previously_collected_from_MiniMachine_3.txt
+  806  bash
+  807  cat .bash_histroy
+  808  history
+  809  ls -l
+  810  histroy
+  811  history
+  812  clear
+  813  ls
+  814  cd Desktop/
+  815  ls
+  816  history > q22_labmachine-1_history_out.txt

@@ -1,0 +1,1274 @@
+ls
+python
+ls
+python3 .\driver.py
+python3
+python3 .\driver.py
+clear
+python3 .\driver.py
+ & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '64360' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\search_algorithms.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '53575' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\search_algorithms.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '53582' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\search_algorithms.py' 
+ls
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '53589' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\search_algorithms.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '55280' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\search_algorithms.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '59812' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\.vscode\launch.json' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '65184' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\.vscode\launch.json' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '64253' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\.vscode\launch.json' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '52889' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\.vscode\launch.json' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '62990' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\.vscode\launch.json' 
+python -m deubgpy ./driver.py
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '59881' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '55704' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\search_algorithms.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '61548' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\search_algorithms.py' 
+python
+ & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '60376' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\search_algorithms.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '63085' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '52929' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
+python .\driver.py
+python
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '57501' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
+python
+python .\driver.py
+python
+python .\driver.py
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '61548' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\search_algorithms.py' 
+e
+python .\driver.py
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '64800' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '59452' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
+python .\driver.py
+python
+python .\driver.py
+python
+python .\driver.py
+python3 .\driver.py
+ls
+cd .\hw1_codes\
+ls
+python .\driver.py
+ & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '50123' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '50138' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '50146' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '50155' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
+ & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '49889' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\hw1_codes\driver.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\hw1_codes'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '63669' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\hw1_codes\driver.py' 
+python
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\hw1_codes'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '63669' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\hw1_codes\driver.py' 
+ls
+python3 .\driver.py
+python3 .\driver.py > result
+ & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '60451' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\hw1_codes\driver.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\hw1_codes'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '52253' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\hw1_codes\driver.py' 
+python .\driver.py > result.txt
+python .\driver.py
+python .\driver.py > result.txt
+ls
+python
+python3
+python
+ & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '64399' '--' 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback\feedbacker.py' 
+ & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '62259' '--' 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '51315' '--' 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '49952' '--' 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback\feedbacker.py' 
+python3
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '49804' '--' 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '49810' '--' 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '64268' '--' 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '51282' '--' 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '59694' '--' 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback\feedbacker.py' 
+exit()
+ls
+l
+s
+ls
+python .\feedbacker.py
+ls
+python .\pacman.py
+python2 pacman.py
+python3 .\pacman.py
+python3 .\pacman.py -h
+python .\pacman.py
+py -2 pacman.py
+python3
+python
+python2
+python
+python3
+python2
+py -2
+py -3
+py -2
+python2
+ls
+py -2 pacman.py --layout testMaze --pacman GowestAgent
+python pacman.py --layout testMaze --pacman GoWestAgent
+py -2 pacman.py --layout testMaze --pacman GoWestAgent
+py -2 pacman.py --layout tinyMaze --pacman GoWestAgent
+ & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '56354' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search\pacman.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '55870' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search\.vscode\launch.json' 'runserver' '8000' '--noreload' '--nothreading' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '55953' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search\pacman.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '57220' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search\pacman.py' 
+py -2 pacman.py -h
+py -2 pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch
+py -2 .\pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch
+py -2 pacman.py -l tinyMaze -p SearchAgent -a fn=DepthFirstSearch
+py -2 pacman.py -l tinyMaze -p SearchAgent -a fn=depthFirstSearch
+ & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '59539' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search\.vscode\launch.json' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '51930' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search\pacman.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '54936' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search\.vscode\launch.json' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '54946' '--' '${workingFolder}/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '54962' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '54962' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch'  c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '54972' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '54887' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '54896' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '52076' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '59712' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '54896' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l'
+py -2 .\search.py
+py -2 pacman.py --layout tinyMaze --pacman SearchAgent -a fn=depthFirstSearch
+py -2 pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '55262' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '55854' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '64076' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '52437' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '59668' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+py -2 pacman.py --layout tinyMaze --pacman SearchAgent -a fn=depthFirstSearch
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '50613' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+py -2 pacman.py --layout tinyMaze --pacman SearchAgent -a fn=depthFirstSearch
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '54244' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '59569' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '51669' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '51677' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '51684' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '53202' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '53209' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '53215' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '53229' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'tinyMaze' '-p' 'SearchAgent' '-a' 'fn=depthFirstSearch' 
+python pacman.py -l mediumMaze -p SearchAgent
+py -2 pacman.py -l mediumMaze -p SearchAgent
+py -2 pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch
+py -2 pacman.py -l tinyMaze -p SearchAgent -a fn=depthFirstSearch
+py -2 pacman.py -l tinyMaze -p SearchAgent -a fn=breadthFirstSearch
+py -2 pacman.py -l tinyMaze -p SearchAgent -a fn=depthFirstSearch
+py -2 pacman.py -l tinyMaze -p SearchAgent -a fn=breadthFirstSearch
+py -2 pacman.py -l tinyMaze -p SearchAgent -a fn=depthFirstSearch
+py -2 .\autograder.py
+PS C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search>
+py -2 pacman.py -l mediumMaze -p SearchAgent -a fn=depthFirstSearch
+py -2 pacman.py -l bigMaze -p SearchAgent -a fn=depthFirstSearch
+py -2 pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
+py -2 pacman.py -l bigMaze -p SearchAgent -a fn=bfs
+py -2 pacman.py -l bigMaze -p SearchAgent -a fn=bfs --frameTime 0
+py -2 pacman.py -l mediumMaze -p SearchAgent -a fn=ucs
+ & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '62222' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'mediumMaze' '-p' 'SearchAgent' '-a' 'fn=ucs' 
+ & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '62222' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'mediumMaze' '-p' 'SearchAgent' '-a' 'fn=ucs' c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '58576' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'mediumMaze' '-p' 'SearchAgent' '-a' 'fn=ucs' 
+py -2 pacman.py -l mediumMaze -p SearchAgent -a fn=ucs
+py -2 .\autograder.py
+py -2 .\autograder.py > res
+py -2 pacman.py -l mediumMaze -p SearchAgent -a fn=dfs
+py -2 pacman.py -l mediumMaze -p SearchAgent -a fn=dfs --frame 0
+py -2 pacman.py -l tinyMaze -p SearchAgent -a fn=dfs --frame 0
+py -2 pacman.py -l bigMaze -p SearchAgent -a fn=dfs --frame 0
+py -2 pacman.py -l bigMaze -p SearchAgent -a fn=ucs --frame 0
+py -2 autograder > res
+py -2 autograder.py > res
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search'; & 'C:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '59039' '--' 'C:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P1\search/pacman.py' '-l' 'mediumMaze' '-p' 'SearchAgent' '-a' 'fn=ucs' 
+py -2 autograder.py > res
+py -2 autograder.py > res.txt
+py -2 autograder.py
+py -2 autograder.py > res.txt
+py -2 autograder.py > tosee.txt
+py -2 autograder.py > res.txt
+ls
+python .\qtable_agent.py
+python3 .\qtable_agent.py
+py -2 autograder.py
+ls
+mkdir gwakj-project1
+ls
+cp .\search.py .\gwakj-project1\
+ls
+mv .\gwakj-project1\ gwakj-search
+ls
+cp .\searchAgents.py .\gwakj-search\
+ls
+cd .\gwakj-search\
+ls
+cd ..
+py -2 .\autograder.py
+zip .\gwakj-search\
+gzip .\gwakj-search\
+python3
+python3 .\main.py
+ls
+python .\feedbacker.py
+ls
+unzip .\multiagent.zip
+tar -xf .\multiagent.zi
+tar -xf .\multiagent.zip
+ls
+python pacman.py -p ReflexAgent -l testClassic
+ls
+cd .\multiagent\
+python pacman.py -p ReflexAgent -l testClassic
+py -2 pacman.py -p ReflexAgent -l testClassic
+py -2 pacman.py -p ReflexAgent -l testClassic > res
+py -2 autograder.py -q q1
+py -2 pacman.py -p ReflexAgent -l testClassic > res
+py -2 autograder.py -q q1
+py -2 autograder.py -q q1 --frameTime 0
+py -2 autograder.py -q q1 --frameTim
+py -2 autograder.py -q q1 --frameTime
+py -2 autograder.py --frameTime 0 -q q1 --frameTime
+py -2 autograder.py --frameTime 0 -q q1
+py -2 autograder.py --frameTime
+py -2 pacman.py -p ReflexAgent -l testClassic --frameTime 0
+py -2 autograder.py -q q1
+python pacman.py -p ReflexAgent -l testClassic
+py -2 pacman.py -p ReflexAgent -l testClassic
+clear
+py -2 pacman.py -p ReflexAgent -l testClassic
+py -2 autograder.py
+py -2 autograder.py -q q1
+ls
+cd .\multiagent\
+ls
+cd .\multiagent\
+py -2 autograder.py -q q1
+ls
+cd .\multiagent\
+py -2 autograder.py -q q1
+('score:', 499.0)
+('currPos', (7, 5))
+('newPos', (7, 4))
+('newFood', <game.Grid instance at 0x0D266670>)
+('newGhostStates', [<game.AgentState instance at 0x0D2666C0>])
+('newGhostPositions', [(2.0, 5.0)])
+('newScaredTimes', [0])
+('score:', 499.0)
+('currPos', (7, 6))
+('newPos', (6, 6))
+('newFood', <game.Grid instance at 0x0D260670>)
+('newGhostStates', [<game.AgentState instance at 0x0D262940>])
+('newGhostPositions', [(3.0, 5.0)])
+('newScaredTimes', [0])
+('score:', 498.0)
+('currPos', (7, 6))
+('newPos', (7, 6))
+('newFood', <game.Grid instance at 0x0D268B20>)
+('newGhostStates', [<game.AgentState instance at 0x0D268B70>])
+('newGhostPositions', [(3.0, 5.0)])
+('newScaredTimes', [0])
+('score:', 498.0)
+('currPos', (7, 6))
+('newPos', (8, 6))
+('newFood', <game.Grid instance at 0x0D268CB0>)
+('newGhostStates', [<game.AgentState instance at 0x0D268D00>])
+('newGhostPositions', [(3.0, 5.0)])
+('newScaredTimes', [0])
+('score:', 498.0)
+('currPos', (7, 6))
+('newPos', (7, 7))
+('newFood', <game.Grid instance at 0x0D268E40>)
+('newGhostStates', [<game.AgentState instance at 0x0D268E90>])
+('newGhostPositions', [(3.0, 5.0)])
+('newScaredTimes', [0])
+('score:', 498.0)
+('currPos', (7, 6))
+('newPos', (7, 5))
+('newFood', <game.Grid instance at 0x0D268FD0>)
+('newGhostStates', [<game.AgentState instance at 0x0D26A058>])
+('newGhostPositions', [(3.0, 5.0)])
+('newScaredTimes', [0])
+('score:', 498.0)
+('currPos', (7, 5))
+('newPos', (6, 5))
+('newFood', <game.Grid instance at 0x0D260440>)
+('newGhostStates', [<game.AgentState instance at 0x0D2662D8>])
+('newGhostPositions', [(3.0, 4.0)])
+('newScaredTimes', [0])
+('score:', 497.0)
+('currPos', (7, 5))
+('newPos', (7, 5))
+('newFood', <game.Grid instance at 0x0D26C4B8>)
+('newGhostStates', [<game.AgentState instance at 0x0D26C508>])
+('newGhostPositions', [(3.0, 4.0)])
+('newScaredTimes', [0])
+('score:', 497.0)
+('currPos', (7, 5))
+('newPos', (8, 5))
+('newFood', <game.Grid instance at 0x0D26C648>)
+('newGhostStates', [<game.AgentState instance at 0x0D26C698>])
+('newGhostPositions', [(3.0, 4.0)])
+('newScaredTimes', [0])
+('score:', 497.0)
+('currPos', (7, 5))
+('newPos', (7, 6))
+('newFood', <game.Grid instance at 0x0D26C7D8>)
+('newGhostStates', [<game.AgentState instance at 0x0D26C828>])
+('newGhostPositions', [(3.0, 4.0)])
+('newScaredTimes', [0])
+py -2 autograder.py -q q1
+ls
+py -2 autograder.py -q q1
+py -2 autograder.py -q q2
+ls
+cd .\multiagent\
+ls
+py -2 autograder.py -q q1
+py -2 pacman.py -p MinimaxAgent -l minimaxClassic -a depth=4
+clear
+py -2 pacman.py -p MinimaxAgent -l minimaxClassic -a depth=4
+python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=4
+py -2 pacman.py -p MinimaxAgent -l minimaxClassic -a depth=4
+py -2 pacman.py -p MinimaxAgent -l trappedClassic -a depth=3
+py 2 pacman.py -p MinimaxAgent -l trappedClassic -a depth=3
+py -2 pacman.py -p MinimaxAgent -l trappedClassic -a depth=3
+py -2 autograder.py -q q2
+py -2 pacman.py -p MinimaxAgent -l trappedClassic -a depth=3
+clear
+py -2 pacman.py -p MinimaxAgent -l trappedClassic -a depth=3
+clear
+py -2 pacman.py -p MinimaxAgent -l trappedClassic -a depth=3
+py -2 pacman.py -p MinimaxAgent -l trappedClassic -a depth=3 > d
+py -2 autograder.py -q q2
+ & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1246542782\pythonFiles\lib\python\debugpy\launcher' '58368' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P2\multiagent\multiAgents.py' 
+py -2 pacman.py -p MinimaxAgent -l trappedClassic -a depth=3 > d
+ls
+py -2 autograder.py -q q2
+ls
+cd .\multiagent\
+ls
+py -2 autograder.py -q q2
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P2'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1246542782\pythonFiles\lib\python\debugpy\launcher' '63652' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P2\multiagent\multiAgents.py' 
+ls
+cd .\multiagent\
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P2'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1246542782\pythonFiles\lib\python\debugpy\launcher' '62246' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P2\multiagent\multiAgents.py' 
+py -2 pacman.py -p MinimaxAgent -l trappedClassic -a depth=3 > d
+cd .\multiagent\
+py -2 pacman.py -p MinimaxAgent -l trappedClassic -a depth=3 > d
+py -2 autograder.py -q q2
+py -2 pacman.py -p MinimaxAgent -l trappedClassic -a depth=3 &> res
+py -2 pacman.py -p MinimaxAgent -l trappedClassic -a depth=3 >& res
+py -2 pacman.py -p MinimaxAgent -l trappedClassic -a depth=3 >> res
+py -2 pacman.py -p MinimaxAgent -l trappedClassic -a depth=3 > res
+py -2 autograder.py -q q2
+py -2 autograder.py -q q2 > res
+py -2 autograder.py -q q2
+py -2 autograder.py -q q2 > res
+ls
+py -2 autograder.py -q q2
+py -2 autograder.py -q q2 > res
+py -2 autograder.py -q q2
+py -2 autograder.py -q q4
+py -2 autograder.py -q q2
+cd .\multiagent\
+py -2 autograder.py -q q2
+py -2 autograder.py -q q1
+py -2 autograder.py -q q2
+py -2 autograder.py -q q5
+clear
+py -2 autograder.py -q q5
+py -2 autograder.py -q q5 > daf
+py -2 autograder.py -q q4
+py -2 autograder.py -q q2
+py -2 autograder.py -q q1
+ls
+py -2 .\autograder.py
+cd ..
+ls
+zip gwakj-multiagent.zip .\multiagent\
+ls
+mkdir checkzip
+cd .\checkzip\
+cp ..\gwakj-multiagent.zip .
+ls
+unzip .\gwakj-multiagent.zip
+ls
+cd .\P3\
+ls
+unzip .\reinforcement.zip
+tar -xf .\reinforcement.zip
+l
+ls
+cd .\reinforcement\
+ls
+tar -xf '.\Coding Project 2 Download Oct 23, 2021 440 PM.zip'
+ls
+python .\feedbacker.py
+py -2 autograder.py
+py -2 .\autograder.py
+py -2 .\autograder.py -q q2
+py -2 .\grading.py -m
+py -2 .\gridworld.py -m
+py -2 .\gridworld.py -h
+py -2 .\gridworld.py -g MazeGrid
+d
+ls
+py -2 .\gridworld.py -g MazeGrid
+ & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '54103' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement\autograder.py' 
+ls
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '60413' '--' './autograder.py' '-q' 'q1' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '60413' '--' './autograder.py' '-q' 'q1'
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '53816' '--' './autograder.py' '-q' 'q1' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '60830' '--' './autograder.py' '-q' 'q1' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '63942' '--' './autograder.py' '-q' 'q1' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '63954' '--' './autograder.py' '-q' 'q1' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '51192' '--' './autograder.py' '-q' 'q2' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '51201' '--' './autograder.py' '-q' 'q2' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '51214' '--' './autograder.py' '-q' 'q2' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '51226' '--' './autograder.py' '-q' 'q2' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '64559' '--' './autograder.py' '-q' 'q1' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '64565' '--' './autograder.py' '-q' 'q1' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '64582' '--' './autograder.py' '-q' 'q1' 
+python gridworld.py -a value -i 100 -k 10
+py -2 gridworld.py -a value -i 100 -k 10
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '60019' '--' './gridworld.py' '-a' 'value' '-i' '100' '-k' '10' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '61032' '--' './gridworld.py' '-a' 'value' '-i' '100' '-k' '10' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '58052' '--' './gridworld.py' '-a' 'value' '-i' '100' '-k' '10' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '62593' '--' './gridworld.py' '-a' 'value' '-i' '100' '-k' '10' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '65035' '--' './gridworld.py' '-a' 'value' '-i' '5' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '49272' '--' './gridworld.py' '-a' 'value' '-i' '5' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '57889' '--' './gridworld.py' '-a' 'value' '-i' '5' 
+python autograder.py -q q1
+py -2 autograder.py -q q1
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '54224' '--' './gridworld.py' '-a' 'value' '-i' '5' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '55043' '--' './gridworld.py' '-a' 'value' '-i' '5' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '55050' '--' './gridworld.py' '-a' 'value' '-i' '5' 
+python autograder.py -q q1
+py -2 autograder.py -q q1
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '60789' '--' './gridworld.py' '-a' 'value' '-i' '5' 
+py -2 autograder.py -q q1
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '55696' '--' './gridworld.py' '-a' 'value' '-i' '5' 
+py -2 autograder.py -q q1
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '55704' '--' './gridworld.py' '-a' 'value' '-i' '5' 
+py -2 autograder.py -q q1
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '55034' '--' './gridworld.py' '-a' 'value' '-i' '5' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '55042' '--' './gridworld.py' '-a' 'value' '-i' '5' 
+py -2 autograder.py -q q1
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '53207' '--' './gridworld.py' '-a' 'value' '-i' '5' 
+py -2 autograder.py -q q1
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '60523' '--' './gridworld.py' '-a' 'value' '-i' '5' 
+py -2 autograder.py -q q1
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '59590' '--' './gridworld.py' '-a' 'value' '-i' '5' 
+py -2 autograder.py -q q1
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '51685' '--' './gridworld.py' '-a' 'value' '-i' '5' 
+py -2 autograder.py -q q1
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '53384' '--' './gridworld.py' '-a' 'value' '-i' '5' 
+py -2 autograder.py -q q1
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '53393' '--' './gridworld.py' '-a' 'value' '-i' '5' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '54379' '--' './gridworld.py' '-a' 'value' '-i' '5' 
+py -2 autograder.py -q q1
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '53296' '--' './gridworld.py' '-a' 'value' '-i' '5' 
+py -2 autograder.py -q q1
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '52047' '--' './autograder.py' '-q' 'q1' 
+py -2 autograder.py -q q1
+py -2 autograder.py -q q2
+py -2 autograder.py -q q3
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '52551' '--' './autograder.py' '-q' 'q4' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '52561' '--' './gridworld.py' '-a' 'q' '-k' '5' '-m' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '52566' '--' './gridworld.py' '-a' 'q' '-k' '5' '-m' 
+py -2 autograder.py -q q4
+py -2 autograder.py -q q3
+py -2 autograder.py -q q2
+py -2 autograder.py -q q1
+python .\autograder.py -q q1
+py -2 autograder.py -q q3
+py -2 autograder.py -q q4
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '56903' '--' './autograder.py' '-q' 'q4' 
+py -2 autograder.py -q q4
+ & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '55336' '--' './autograder.py' '-q' 'q4' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '55350' '--' './autograder.py' '-q' 'q4' 
+py -2 autograder.py -q q4
+py -2 autograder.py -q q5
+py -2 autograder.py -q q7
+\Intro_to_ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '57901' '--' './autograder.py' '-q' 'q7' 
+57655' '- c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '57660' '--' './autograder.py' '-q' 'q7' 
+py -2 autograder.py -q q7
+py -2 autograder.py -q q8
+65161279\p c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '57675' '--' './autograder.py' '-q' 'q8' 
+;s
+ls
+py -2 autograder.py -q q8
+65161279\p c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '57688' '--' './autograder.py' '-q' 'q8' 
+ls
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '57693' '--' './autograder.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '53668' '--' './autograder.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '52713' '--' './autograder.py' '-q' 'q8' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '52722' '--' './autograder.py' '-q' 'q8' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '52738' '--' './autograder.py' '-q' 'q8' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '52741' '--' './autograder.py' '-q' 'q8' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '52746' '--' './autograder.py' '-q' 'q8' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '59016' '--' './autograder.py' '-q' 'q8' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '59024' '--' './autograder.py' '-q' 'q8' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '59028' '--' './autograder.py' '-q' 'q8' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\Programming_Assignments\P3\reinforcement'; & 'c:\Python27\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.10.1365161279\pythonFiles\lib\python\debugpy\launcher' '59028' '--' './autograder.py' '-q' 'q8'feature_vector[feature]
+py -2 .\autograder.py
+py -2 autograder.py
+py -2 .\autograder.py
+ls
+cd ..
+ls
+mv .\reinforcement\ gwakj-reinforcement
+ks
+ls
+cd .\OneDrive\
+ls
+cd .\Desktop\
+ls
+cd .\Intro_to_AI\
+ls
+cd .\Programming_Assignments\
+ls
+cd .\P3\
+ls
+mkdir unzip_check
+cp .\gwakj-reinforcement.zip\ .\unzip_check\
+cd .\unzip_check\
+ls
+unzip .\gwakj-reinforcement.zip\
+ls
+python3 .\feedbacker.py
+ls
+python3 .\organize.py
+ & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.11.1422169775\pythonFiles\lib\python\debugpy\launcher' '60826' '--' 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\organize.py' 
+ & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.11.1422169775\pythonFiles\lib\python\debugpy\launcher' '60851' '--' 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\organize.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.11.1422169775\pythonFiles\lib\python\debugpy\launcher' '60992' '--' 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\organize.py' 
+python3 .\organize.py
+& C:/Users/jgwak/AppData/Local/Microsoft/WindowsApps/python3.9.exe
+python3 .\organize.py
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.11.1422169775\pythonFiles\lib\python\debugpy\launcher' '57515' '--' 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\organize.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.11.1422169775\pythonFiles\lib\python\debugpy\launcher' '57523' '--' 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\organize.py' 
+ls
+python3 .\organize.py
+ls
+clear
+ls
+python3 .\organize.py
+ls
+python3 .\cp4_test.py
+ls
+cd Desktop
+ls
+git clone git@github.com:Binghamton-University-CS/cs240-spring21-coding-assignments-grading-helper-script.git
+ls
+.\CS240_TA_FILES\
+ls
+cd .\CS240_TA_FILES\
+ls
+git clone git@github.com:Binghamton-University-CS/cs240-spring21-coding-assignments-grading-helper-script.git
+ls
+python3 .\newgrade.py
+python3 .\newgrade.py 0 53 2
+python3 .\newgrade.py 0 35 2
+python3 .\newgrade.py 15.2 14 2
+python3 .\newgrade.py 18.28 23.5 2
+python3 .\newgrade.py 23.1 42.5 2
+python3 .\newgrade.py 10.5 13.25 2
+python3 .\newgrade.py 0 58 2
+python3 .\newgrade.py 0 25.25 2
+python3 .\newgrade.py 12.75 32 2
+python3 .\newgrade.py 21.25 44 2
+python3 .\newgrade.py 4.88 14 2
+cd ..
+cd .\CP4_Grading\
+ls
+cd .\feedback_process\
+ls
+python3 .\feedbacker.py
+ & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.12.1559732655\pythonFiles\lib\python\debugpy\launcher' '65222' '--' 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\feedback_process\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\feedback_process'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.12.1559732655\pythonFiles\lib\python\debugpy\launcher' '65242' '--' 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\feedback_process\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\feedback_process'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.12.1559732655\pythonFiles\lib\python\debugpy\launcher' '65264' '--' 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\feedback_process\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\feedback_process'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.12.1559732655\pythonFiles\lib\python\debugpy\launcher' '65284' '--' 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\feedback_process\feedbacker.py' 
+python3 .\feedbacker.py
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\feedback_process'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.12.1559732655\pythonFiles\lib\python\debugpy\launcher' '65302' '--' 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\feedback_process\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\feedback_process'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.12.1559732655\pythonFiles\lib\python\debugpy\launcher' '65310' '--' 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\feedback_process\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\feedback_process'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.12.1559732655\pythonFiles\lib\python\debugpy\launcher' '65316' '--' 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\feedback_process\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\feedback_process'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.12.1559732655\pythonFiles\lib\python\debugpy\launcher' '65346' '--' 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\feedback_process\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\feedback_process'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.12.1559732655\pythonFiles\lib\python\debugpy\launcher' '65355' '--' 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\feedback_process\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\feedback_process'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.12.1559732655\pythonFiles\lib\python\debugpy\launcher' '56553' '--' 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\feedback_process\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\feedback_process'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.12.1559732655\pythonFiles\lib\python\debugpy\launcher' '56567' '--' 'c:\Users\jgwak\OneDrive\Desktop\CS240_TA_FILES\CP4_Grading\feedback_process\feedbacker.py' 
+git clone git@github.com:Power-system-modeling-for-RL/Power-system-modeling-for-RL-power_system_environment_PYTHON.git
+conda
+ls
+conda create -n test_Env python=3
+conda info --env
+conda deactivate test_Env
+conda info --env
+conda activate test_env
+pip install tensorboard
+pip install tensorflow
+tensorboard --logdir ./logs/
+ls
+./logs
+cd ./logs/
+ls
+tensordboard --logdir
+tensorboard --logdir
+ls
+mkdir /logs/
+ls
+cd '/logs'
+ls
+cd ..
+ls
+tensordboard --logdir
+tensordboard --logdir .\logs\
+tensordboard --logdir ./logs/
+tensorboard
+tensorboard --logdir ./logs/
+ls
+cwd
+ps
+pwd
+conda create -n test_env python=3
+conda activate test_env
+conda info --env
+conda env remove -name test_Env
+conda env remove -n test_Env
+conda activate test_env
+pip install tensorboard
+pip install tensorflow
+conda info --env
+conda create -n test_env python=3
+conda info --env
+conda activate test_env
+conda info --env
+conda activate test_env
+conda info --env
+ls
+Type
+python3 .\collect_etw_logs.py
+python3 .\CHANGELOG.md
+python3 .\collect_etw_logs
+python3 .\collect_etw_logs.py
+dir
+PermissionError: [WinError 5] 액세스가 거부되었습니다.
+clear
+python .\collect_etw_logs.py
+ & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2022.20.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '27666' '--' 'c:\Users\jgwak\OneDrive\Desktop\collet_etw_log\pywintrace-master\collect_etw_logs.py' 
+python3 .\collect_etw_logs.py
+logman -ets
+logman -ets NAME stop
+python3 .\collect_etw_logs.py
+python3 .\UTCTimeStamp_to_EasternTimeConvert.py
+Get-WinEvent -ListLog * | Format-List -Property LogName
+logman query providers
+Get-WinEvent -ListLog * 
+Get-WinEvent Microsoft-Windows-Kernel-*
+Get-WinEvent Microsoft-Windows-Kernel-Process
+Get-WinEvent Microsoft-Windows-Kernel-Registry
+Get-WinEvent -ProviderName Microsoft-Windows-Kernel-Registry
+Get-WinEvent -ListProvider "Microsoft-Windows-Kernel-Process" | Select-Object -Property Enabled
+Enable-WinEvent -ProviderName "Microsoft-Windows-Kernel-Process"
+Get-WinEvent -ListProvider "Microsoft-Windows-Kernel-Process" | Select-Object -Property Enabled
+Get-WinEvent -ListProvider "Microsoft-Windows-Kernel-Registry" | Select-Object -Property Enabled
+Get-WinEvent -ListProvider "Microsoft-Windows-Kernel-Network" | Select-Object -Property Enabled
+Get-WinEvent -ListProvider "Microsoft-Windows-Kernel-File" | Select-Object -Property Enabled
+Get-WinEvent -ListProvider "Microsoft-Windows-Kernel-File"
+Get-WinEvent -ListProvider "Microsoft-Windows-Kernel-Provider"
+Get-WinEvent -ListProvider "Microsoft-Windows-Kernel-Process"
+Get-WinEvent -ListProvider
+Get-WinEvent
+Get-WinEvent -ProviderName "Microsoft-Windows-Kernel-Process"
+Get-WinEvent -ProviderName "Microsoft-Windows-(Get-WinEvent -ListLog System).ProviderNames`
+Kernel-Process"
+(Get-WinEvent -ListLog System).ProviderNames`
+
+(Get-WinEvent -ListLog Application).ProviderNames
+Get-WinEvent -ListProvider *
+Get-WinEvent -ListProvider "Microsoft-Windows-Kernel_Process"
+Get-WinEvent -ListProvider "Microsoft-Windows-Kernel-Process"
+(Get-WinEvent -ListLog *).ProviderNames
+xperf
+Get-WinEvent -ListProvider Microsoft-Windows-Kernel-Process | Select-Object MessageFileName
+Get-WinEvent -ListProvider Microsoft-Windows-Kernel-Process 
+Get-WinEvent -ListProvider Microsoft-Windows-Kernel-Process | Select-Object Name
+Get-WinEvent -ListProvider Microsoft-Windows-Kernel-Process | Select-Object LogLinks
+Get-WinEvent -ListLogs
+Get-WinEvent -ListLog
+Get-WinEvent -ListLog *
+Get-WinEvent -ListProvider Microsoft-AppV-Client/Admin
+Get-WinEvent -ListProvider Microsoft-AppV-Client
+Get-WinEvent -ListProvider Microsoft-Windows-TCPIP
+$provider = Get-WinEvent -ListProvider Microsoft-Windows-Kernel-Process
+$provider.MessageFile
+$messageFileName = $provider.MessageFile
+$messageFileName
+$messageFileName = $provider.MessageFiledaf
+Get-WinEvent -ListProvider Microsoft-Windows-Kernel-Process
+Get-WinEvent -ListLog * | Select-Object LogName, RecordCount, IsClassicLog, messageFile, IsEnabled, LogMode, LogType | Format-Table -AutoSize
+Get-WinEvent -ListLog * | Select-Object LogName, RecordCount, IsClassicLog, IsEnabled, LogMode, LogType | Format-Table -AutoSize
+Get-WinEvent -ListLog Application | Select-Object LogName, RecordCount, messageFile
+Get-WinEvent -ListLog Application | Select-Object LogName, RecordCount, messageFildae
+Get-WinEvent -ListLog Application | Select-Object LogName, RecordCount, MessageFile
+Get-WinEvent -ListLog Application 
+Get-WinEvent -ListLog Application | Select-Object LogName, RecordCount, LogType
+Get-WinEvent -ListLog Application | Select-Object *
+Get-WinEvent -ListProvider Microsoft-Windows-Kernel-Process | Select-Object *
+Get-WinEvent -ListProvider Microsoft-Windows-Kernel-File | Select-Object *
+Get-WinEvent -ListProvider Microsoft-Windows-Kernel-Registry | Select-Object *
+Get-WinEvent -ListProvider Microsoft-Windows-Kernel-Network | Select-Object *
+Show-EventLog
+Get-EventLog -LogName Application
+Get-EventLog -LogName Microsoft-Windows-Kernel-File
+Get-EventLog -LogName 'Microsoft-Windows-Kernel-File'
+Get-EventLog -LogName 'Microsoft-Windows-Kernel-Process'
+Get-EventLog -LogName Microsoft-Windows-Kernel-Process
+xperf 
+Get-WinEvent -ListProvider Microsoft-Windows-Kernel-Process | Select-Object *
+New-EventLog -LogName JY_EventLog -MessageResourceFile C:\Windows\system32\Microsoft-Windows-System-Events.dll
+Get-SmbShare
+logman
+reg query HKCY
+reg query HKCU
+reg query
+cmd.exe
+exit
+logman
+ls
+rm 
+cmd
+delete
+powershell.exe -WindowStyle
+sleep 10
+Get-TraceSource
+type Get-TraceSource
+Get-TraceSource
+clear
+Get-Module
+Get-Commands
+Get-Command
+Get-Command | grep "Add-Member"
+Get-Command | Select-String "Add-Member"
+Get-Command | Select-String -Pattern "Add-Member"
+Get-Command | Select-String -Pattern "Add-Membedafr"
+Get-Command | Select-String -Pattern "Add-Member" | Select CommandType
+Get-Command | Select-String -Pattern "Add-Member" -Context 3.0
+Get-Command | Select-String -Pattern "Add-Member" -Context 1.0
+Get-Command | Select-String -Pattern "Add-Member" -Context 10,1
+Get-Command | Select-String -Pattern "Add-Member" -Context 0,1
+Get-Command | Select-String "Add-Member" -Context 0,1
+Get-Command
+Get-Command | Select-String "Add-Member" > GetCommand.txt
+Get-Command > GetCommand.txt
+ssh -vv
+ & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.11.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '14395' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP0_Grading\feedbacker.py' 
+pip install pandas
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP0_Grading'; & 'C:\Users\jgwak\anaconda3\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '14411' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP0_Grading\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP0_Grading'; & 'C:\Users\jgwak\anaconda3\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '14422' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP0_Grading\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP0_Grading'; & 'C:\Users\jgwak\anaconda3\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '14455' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP0_Grading\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP0_Grading'; & 'C:\Users\jgwak\anaconda3\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '14467' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP0_Grading\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP0_Grading'; & 'C:\Users\jgwak\anaconda3\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2023.16.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '14478' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP0_Grading\feedbacker.py' 
+ & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.11.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2023.18.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '53525' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP1_Grading\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP1_Grading'; & 'C:\Users\jgwak\anaconda3\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2023.18.0\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '53541' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP1_Grading\feedbacker.py' 
+Invoke-WebRequest -Uri "https://jhvghvhgv.hvhg/vghgvh.jph" -SkipCertificateCheck
+Invoke-WebRequest -Uri "https://jhvghvhgv.hvhg/vghgvh.jph" --SkipCertificateCheck
+Invoke-WebRequest -Uri  "https://jhvghvhgv.hvhg/vghgvh.jph" --SkipCertificateCheck
+Invoke-WebRequest -Uri 'https://jhvg0hvhgv.hvhg/vghgvh.jpg' --SkipCertificateCheck
+Invoke-WebRequest -Uri 'https://jhvg0hvhgv.hvhg/vghgvh.jpg' -SkipCertificateCheck
+Invoke-WebRequest -Uri 'https://jhvg0hvhgv.hvhg/vghgvh.jpg' -SkipCertificateCheck T
+Invoke-WebRequest -Uri 'https://jhvg0hvhgv.hvhg/vghgvh.jpg'
+Invoke-WebRequest -Uri 'https://jhvg0hvhgv.hvhgvghgvh.jpg' -SkipCertificateCheck T
+$PSVersionTable
+Invoke-WebRequest -Uri 'https://jhvg0hvhgv.hvhgvghgvh.jpg' -SkipCertificateCheck T
+Invoke-WebRequest -Uri 'https://jhvg0hvhgv.hvhgvghgvh.jpg' -SkipCertificateCheck 
+clear
+Invoke-WebRequest -Uri 'https://jhvg0hvhgv.hvhgvghgvh.jpg' -SkipCertificateCheck 
+Invoke-WebRequest -Uri 'https://jhvg0hvhgv.hvhgvghgvh.jpg' -SkipCertificateCheckTYPO
+""
+\
+.
+"dh"
+""
+tpye
+"a"
+"printnothing"
+echo
+echo "nothing"
+netsh
+clear
+netsh
+netsh interface
+HKCU
+cd HKCU:\\
+ls
+clear
+cd HKCU:\\SOFTWARE\\Microsfot\\Active Setup\\Installed Components
+cd HKCU:\\SOFTWARE\\Microsfot\\Active Setup
+cd HKCU:\\SOFTWARE\\Microsfot\\Active Setup\\
+cd HKCU:\SOFTWARE\Microsfot\Active Setup\
+cd HKCU:\SOFTWARE\Microsoft/Active Setup/
+cd HKCU/\SOFTWARE/Microsoft/Active Setup/
+cd HKCU:\SOFTWARE\Microsoft/Active Setup/clera
+clear
+cd HKCU:\SOFTWARE\
+cd HKCU:\SOFTWARE\Microsoft\Active Setup
+cd HKCU:\SOFTWARE\Microsoft\Active Setup\
+cd HKCU:\SOFTWARE\Microsoft\
+ls
+lsclear
+clear
+cd HKCU:\SOFTWARE\Microsoft\Active Setup
+cd 'HKCU:\SOFTWARE\Microsoft\Active Setup\'
+cd 'HKCU:\SOFTWARE\Microsoft\Active Setup\Installed Components\'
+ls
+$env
+ls
+cat $env
+clear
+POWERSHELL
+clear
+POWERSHELL?
+POWERSHELL man
+qqq
+clear
+POWERSHELL man
+clera
+POWERSHELL man
+GEt-Help POWERSHELL
+clear
+man Set-ItemProperty
+clear
+cd "HKLM:\Software\Microsfot\Windows NT\CurrentVersion\Winlogon"
+cd "HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon"
+clear
+ls
+cd "$env:appdata\\Mozilla\\Firefox\\Profiles\\*.default-release\\"
+ls
+get-childitem -path '$env:appdata\\Mozilla\\Firefox\\Profiles\\*.default-release\\'
+get-childitem -path $env:appdata\\Mozilla\\Firefox\\Profiles\\*.default-release\\
+PathToAtomicsFolder
+cat $env
+clear
+$env
+(Get-PSReadlineOption).HistorySavePath
+cd \\\\.\\C:
+cd "\\\\.\\C:"
+clear
+man New-Item
+man New-Item -online
+clear
+cd $env:TEMP
+$o= [activator]::CreateInstance([type]::GetTypeFromCLSID("9BA05972-F6A8-11CF-A442-00A0C90A8F39"));
+o
+$o
+clear
+$o= [activator]::CreateInstance([type]::GetTypeFromCLSID("9BA05972-F6A8-11CF-A442-00A0C90A8F39"));
+$o
+clear
+man set-itemproperty
+man set-itemproperty -online
+clear
+cd "HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce"
+ls
+cd ..
+ls
+clear
+Get-Process
+clear
+Get-Service
+clear
+Get-ChildIterm Env
+Get-ChildIterm Env:
+clera
+clear
+$env
+Get-Service > $env:TEMP\\jy
+ls
+cat jy
+clear
+ls
+ls -l
+get-content jy
+cd $env
+ls
+cd $env:TEMP
+ls
+get-content jy
+rm jy
+get-content jy
+clear
+[System.Security.Principal.WindowsIdentity]::GetCurrent(`
+)
+clear
+$PathToAtomicsFolder
+$PathToAtomicsFolder\\T1055.03
+$PathToAtomicsFolder\\T1055.03\\bin
+$PathToAtomicsFolder\\T1055.03\\bin\\InjectContext.exe
+Start-Process $PathToAtomicsFolder\\T1055.03\\bin\\InjectContext.exe
+clear
+Start-Job ?
+cclear
+clear
+man Start-Job
+man Start-Job -online
+clear
+man Get-CimInstance -online
+man Get-CimInstance
+clear
+man Get-CimInstance -Online
+Win32_PnpEntity
+(default)
+clear
+man Get-WmiObject -Online
+$profile
+Add-Content $profile -Value ""; Add-Content $profile -Value '"Start-Process calc.exe";`
+'
+clear
+Add-Content $profile -Value ""; Add-Content $profile -Value '"Start-Process calc.exe"; powershell -Command exit'
+clear
+powershell -Command exit;
+powershell -Command
+clear
+powershell
+Start-Proces powershell.exe -WindowStyle hidden
+Start-Proces powershell.exe -WindowStyle hidden calc.exe
+Start-Process powershell.exe -WindowStyle hidden calc.exe
+Start-Process powershell.exe -WindowStyle hidden
+$env:ComSpec
+cd ..
+$env:ComSpec
+Cert:\CurrentUser
+clear
+cd Cert:\CurrentUser
+netsh
+netsh advfirewall
+clear
+adsisearcher
+man Invoke-WebRequest -Online
+$Env:SystemRoot
+cscript
+Get-EtwTraceProvider
+man Invoke-WebRequest -Online
+(Get-PSReadlineOption).HistorySavePath
+man Get-Service -Online
+Get-Service
+python3 CP2 Download Dec 8, 2023 1234 PM
+clear
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP2_Grading\feedbacker.py
+man Get-Service -Online
+Get-Service
+man reg.exe
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP3_Grading\feedbacker.py
+ls
+cd C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP3_Grading\
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP3_Grading\feedbacker.py
+ls
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP3_Grading\feedbacker.py
+cd C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP4_Grading\
+ls
+python3 feedbacker.py
+ & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2023.22.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '26897' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP4_Grading\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP4_Grading'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2023.22.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '26916' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings\CP4_Grading\feedbacker.py' 
+New-Item -Path "C:\new_file.txt" -ItemType File
+New-Item -Path "C:\\new_file.txt" -ItemType File
+New-Item -Path "new_file.txt" -ItemType File
+clear
+New-Item -Path "joonyoung_custom_newfile.txt" -ItemType File
+ls
+clear
+"AA"| Out-File -FilePath "joonyoung_custom_newfile.txt"
+"I will be written to joonyoung_custom_newfile.txt" | Out-File -FilePath "joonyoung_custom_newfile.txt"
+cat "joonyoung_custom_newfile.txt"
+Get-Content "joonyoung_custom_newfile.txt"
+Remove-Item "joonyoung_custom_newfile.txt"
+New-Item -Path "joonyoung_custom_newfile.txt" -ItemType File; "I will be written to joonyoung_custom_newfile.txt" | Out-File -FilePath "joonyoung_custom_newfile.txt"; Get-Content "joonyoung_custom_newfile.txt"; Remove-Item "joonyoung_custom_newfile.txt"
+Get-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\Software\ExampleKey'
+Get-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\'
+New-Item -Path "joonyoung_custom_newfile.txt" -ItemType File; "I will be written to joonyoung_custom_newfile.txt" | Out-File -FilePath "joonyoung_custom_newfile.txt"; Get-Content "joonyoung_custom_newfile.txt"; Remove-Item "joonyoung_custom_newfile.txt"
+New-Item -Path 'Registry::HKEY_LOCAL_MACHINE\Software\JY_KEY'; Set-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\Software\JY_KEY' -Name 'JYPROPERTY' -Value 'JY'; Get-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\Software\JY_KEY'; Remove-Item -Path 'Registry::HKEY_LOCAL_MACHINE\Software\JY_KEY' -Recurse`
+
+clear
+New-Item -Path 'Registry::HKEY_LOCAL_MACHINE\Software\JY_KEY'; Set-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\Software\JY_KEY' -Name 'JYPROPERTY' -Value 'JY'; Get-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\Software\JY_KEY'; Remove-Item -Path 'Registry::HKEY_LOCAL_MACHINE\Software\JY_KEY' -Recurse`
+
+New-Item -Path 'Registry::HKEY_LOCAL_MACHINE\Software\JY_KEY'; Set-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\Software\JY_KEY' -Name 'JYPROPERTY' -Value 'JY'; Get-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\Software\JY_KEY'; Remove-Item -Path 'Registry::HKEY_LOCAL_MACHINE\Software\JY_KEY' -Recurse
+ping ocelot.cs.binghamton.edu
+Test-Connection ocelot.cs.binghamton.edu
+Get-NetTCPConnection -LocalPort 135
+ping 192.168.122.1
+ping 128.226.116.18
+python3
+ & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.0.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '32743' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP0_Grading\Keep_the_latest_submission.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP0_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.0.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '32754' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP0_Grading\Keep_the_latest_submission.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP0_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.0.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '51285' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP0_Grading\Keep_the_latest_submission.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP0_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.0.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '51296' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP0_Grading\Keep_the_latest_submission.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP0_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.0.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '51317' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP0_Grading\Keep_the_latest_submission.py' 
+ls -l
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP0_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.0.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '51377' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP0_Grading\Feedback_adder.py' 
+pi install importlib-metadata
+pip install importlib-metadata
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading\Keep_the_latest_submission.py
+clera
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading\Feedback_adder.py
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading\Keep_the_latest_submission.py
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading\Feedback_adder.py
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading\Keep_the_latest_submission.py
+ls > 
+ls > ax.txt
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading\Feedback_adder.py > feedback_adder_out.txt
+python3 
+clear
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading\get_student_github_id.py
+clear
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading\get_student_github_id.py
+ & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.0.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '32078' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading\get_student_github_id.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.0.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '17740' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading\get_student_github_id.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.0.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '17750' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading\get_student_github_id.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.0.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '17777' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading\get_student_github_id.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.0.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '17787' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading\get_student_github_id.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.0.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '17787' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading\get_student_github_id.py'  c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.0.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '27183' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading\get_student_github_id.py' 
+ls C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP0_Grading\CP0 Download Feb 6, 2024 617 PM
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP0_Grading\get_student_github_id.py
+msbuild
+cd .\ProgramFiles
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP0_Grading\get_student_github_id.py
+ & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.0.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '35883' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading\get_student_github_id.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.0.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '35896' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading\get_student_github_id.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.0.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '35910' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading\get_student_github_id.py' 
+clear
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP1_Grading\get_student_github_id.py
+msbuild
+clear
+sc.exe create SilkService binPath="C:\\Users\\jgwak\\OneDrive\\Desktop\\SilkETW__JY_custom_filter\\SilkETW__JY_custom_filter\\SilkService\\bin\\x86\\Debug\\SilkService.exe" start=demand
+which YaraSharp
+YaraSharp
+System.ValueTuple
+dotnet
+dotnet add package Microsoft.Diagnostics.Tracing.TraceEvent
+dotnet add package Microsoft.Diagnostics.Tracing.TraceEvent --version 3.1.8
+dotnet add package McMaster.Extensions.CommandLineUtils
+Get-Package -Filter Microsoft.Diagnostics.Tracing.TraceEvent -ListAvailable
+Get-Package Microsoft.Diagnostics.Tracing.TraceEvent -ListAvailable
+Get-Package Microsoft.Diagnostics.Tracing.TraceEvent
+Get-Package YaraSharp
+Get-Package Newtonsoft.Json
+Get-ChildItem -Recurse | Select-String "Microsoft.Diagnostics.Tracing.TraceEvent"
+Get-ChildItem -Recurse | Select-String "YaraSharp"
+ls
+ls
+dir
+cd C:\\Users\\jgwak\\OneDrive\\Desktop
+ls
+cd .\SilkETW__JY_custom_filter\SilkETW__JY_custom_filter\
+clear
+ls
+cd .\SilkETW\
+ls
+msbuild .\SilkETW.csproj
+msbuild .\SilkETW.sln
+cd ,,
+cd ..
+ls
+cd .\SilkService\
+clear
+ls
+msbuild .\SilkService.sln
+ls
+ls -l
+cd .\SilkETW\
+ls
+msbuild .\SilkETW.sln
+cd ..
+ls
+cd .\SilkService\
+ls
+msbuild .\SilkETW.sln
+msbuild .\SilkService.sln
+ls
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd .\jgwak\
+ls
+cd .\Deskto
+cd Desktop
+ls
+msbuild .\SilkService.sln
+ls
+dotnet
+dotnet --info
+dotnet add package McMaster.ExtensionsCommandLineUtils ver
+NuGet
+dotnet add package McMaster.Extensions.CommandLineUtils --version 2.3.2
+dotnet
+dotnet nuget
+clear
+dotnet
+dotnet search
+dotnet nuget list source
+clear
+dotnet
+dotnet -h
+dotnot --list-sdks
+dotnet --list-sdks
+dotnet add package
+dotnet --version
+cler
+clear
+nguet
+nuget
+nuget.exe
+clear
+nuget.exe
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+clear
+ls
+clear
+cd C:\Users\jgwak\OneDrive\Desktop\SilkETW__JY_custom_filter\SilkETW__JY_custom_filter\SilkService
+ls
+clear
+ls
+clear
+ls 
+msbuild .\SilkService.cs
+clear
+celar
+clera
+clear
+msbuild .\SilkService.cs
+msbuild .\SilkService.sln
+cd .\SilkService\
+msbuild .\SilkService.sln
+nuget
+winget install -e --id Microsoft.NuGet
+clera
+clear
+Install-Package NuGet.CommandLine
+dotnet add
+dotne
+dotnet
+dotnet add
+dotnet add dotnet add package McMaster.Extensions.CommandLineUtils --version 2.3.2
+dotnet add 
+dotnet add package McMaster.Extensions.CommandLineUtils --version 2.3.2
+nmap
+& python c:\Users\jgwak\.vscode\extensions\ms-python.python-2024.2.1\pythonFiles\printEnvVariablesToFile.py c:\Users\jgwak\.vscode\extensions\ms-python.python-2024.2.1\pythonFiles\deactivate\powershell\envVars.txt
+.\
+.\a
+ls
+.\CP0_Liu_gliu14.tar.gz
+nnmap
+nmap
+gwmi -list win32_shadowcopy
+\\Target\C$
+New-PSDrive
+$env:allusersprofile
+$env:ComSpec
+$env:TEMP
+$env:TEMP+\svchost.exe
+$env:TEMP+"\svchost.exe"
+(Get-PSReadlineOption).HistorySavePath
+net
+dir
+cmdkey.exe
+man net
+get-process
+cerCert
+cd Cert:\LocalMachine
+Windows.Security.Credentials
+new-object Windows.Security.Credentials
+new-object Windows.Security.Credentials.PasswordVault
+$env
+$env:COR_ENABLE_PROFILING
+cat $env
+cd $env
+$env
+split-path $env:PUBLIC
+$env:PUBLIC
+Cert:\CurrentUser\My
+gci Cert:\CurrentUser\My
+man netstat
+netstat?
+ipconfig
+whoami
+cat $env:APPDATA\vmtools.log
+cat $env:APPDATA\\vmtools.log
+cat $env:APPDATA
+cd $env:APPDATA
+cat vmtools
+clear
+wmic process
+wmic process get executablepath,name,processid,parentprocessid
+clear
+get-process
+clear
+tasklist /m
+powershell.exe -help
+gpresult.exe
+gpresult.exe /r
+[environment]
+[environment]::OSVersion
+[environment]::OSVersion.Version
+Get-Locaton
+Get-Location
+pwd
+net accounts
+Get-NetDomain
+Get-Date
+fl
+fl model
+?fl
+man fl
+clear
+get-wmiobject win32_computersystem
+/NAMESPACE:\\root\SecurityCenter2
+wmic /NAMESPACE:\\root\SecurityCenter2
+wmic /NAMESPACE:\\root\SecurityCenter2 PATH AntiVirusProduc
+wmic /NAMESPACE:\\root\SecurityCenter2 PATH AntiVirusProduct
+wmic /NAMESPACE:\\root\SecurityCenter2 PATH AntiVirusProduct GET /value
+AntiVirusProduct
+clear
+HKLM
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP3_Grading\Keep_the_latest_submission.py
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP3_Grading\Feedback_adder.py
+get-process
+gp
+gwmi -list win32_shadowcpy
+gwmi -list win32_shadowcopy
+gwmi -list win32_shadowcopy.Create('C:\\', 'ClientAccessible')
+(gwmi -list win32_shadowcopy).Create('C:\\', 'ClientAccessible')
+Get-Process
+clear
+$env:allusersprofile
+ping ocelot.cs.binghamton.edu
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP4_Grading\Keep_the_latest_submission.py
+clear
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP4_Grading\Feedback_adder.py
+ & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '60673' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP4_Grading\Feedback_adder.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP4_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '40454' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP4_Grading\Feedback_adder.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP4_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '64514' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP4_Grading\Feedback_adder.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP4_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.6.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '64523' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Spring2024\CP4_Grading\Feedback_adder.py' 
+Get-Information
+Get-Information.ps1
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading\Feedback_adder.py
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading\Keep_the_latest_submission.py
+ & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.10.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '50743' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading\Feedback_adder.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.10.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '9529' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading\Feedback_adder.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.10.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '9554' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading\Feedback_adder.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.10.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '38834' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading\Feedback_adder.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.10.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '38854' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading\Feedback_adder.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.10.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '53724' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading\Feedback_adder.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.10.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '53742' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading\Feedback_adder.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.10.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '53760' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading\Feedback_adder.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.10.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '9787' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading\Feedback_adder.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.10.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '9848' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading\Feedback_adder.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.10.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '9868' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading\Feedback_adder.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading'; & 'c:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.debugpy-2024.10.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '55419' '--' 'C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP0_Grading\Feedback_adder.py' 
+Get-History
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP1_Grading\Keep_the_latest_submission.py
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP1_Grading\Feedback_adder.py
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP1_Grading\Keep_the_latest_submission.py
+python3 C:\Users\jgwak\OneDrive\Desktop\CS310_Gradings__Fall2024\CP1_Grading\Feedback_adder.py
+Get-History
